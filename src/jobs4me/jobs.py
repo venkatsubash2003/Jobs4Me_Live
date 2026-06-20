@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any
 
 from .config import ALLOWED_ROLE_LABELS
@@ -69,6 +69,40 @@ SENIORITY_EXCLUSIONS = re.compile(
     re.I,
 )
 EARLY_CAREER_HINTS = re.compile(r"\b(junior|jr\.?|entry[-\s]?level|new\s+grad|graduate|early\s+career)\b", re.I)
+SECURITY_CLEARANCE = re.compile(
+    r"\b(security\s+clearance|active\s+clearance|secret\s+clearance|top\s+secret|ts/sci|sci\s+clearance|"
+    r"polygraph|public\s+trust|dod\s+clearance|clearable|u\.?s\.?\s+citizenship\s+required)\b",
+    re.I,
+)
+OPT_POSITIVE = re.compile(
+    r"\b(opt|cpt|stem\s+opt|h-?1b|visa\s+sponsorship|sponsorship\s+available|sponsor\s+visa|"
+    r"immigration\s+sponsorship)\b",
+    re.I,
+)
+OPT_NEGATIVE = re.compile(
+    r"\b(no\s+(?:visa\s+)?sponsorship|not\s+(?:provide|offer)\s+sponsorship|unable\s+to\s+sponsor|"
+    r"without\s+(?:current\s+or\s+future\s+)?sponsorship|must\s+be\s+(?:a\s+)?u\.?s\.?\s+citizen|"
+    r"u\.?s\.?\s+citizens?\s+only|green\s+card\s+holders?\s+only)\b",
+    re.I,
+)
+USA_LOCATION = re.compile(
+    r"\b(united\s+states|usa|u\.s\.a\.|u\.s\.|us-only|remote\s+-?\s+us|remote\s+-?\s+usa|"
+    r"alabama|alaska|arizona|arkansas|california|colorado|connecticut|delaware|florida|georgia|"
+    r"hawaii|idaho|illinois|indiana|iowa|kansas|kentucky|louisiana|maine|maryland|massachusetts|"
+    r"michigan|minnesota|mississippi|missouri|montana|nebraska|nevada|new\s+hampshire|new\s+jersey|"
+    r"new\s+mexico|new\s+york|north\s+carolina|north\s+dakota|ohio|oklahoma|oregon|pennsylvania|"
+    r"rhode\s+island|south\s+carolina|south\s+dakota|tennessee|texas|utah|vermont|virginia|"
+    r"washington|west\s+virginia|wisconsin|wyoming|"
+    r"\b(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|"
+    r"NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)\b)\b",
+    re.I,
+)
+NON_US_LOCATION = re.compile(
+    r"\b(canada|mexico|brazil|argentina|united\s+kingdom|uk|england|scotland|ireland|germany|france|"
+    r"spain|italy|netherlands|amsterdam|sweden|norway|denmark|finland|poland|portugal|romania|"
+    r"india|singapore|japan|china|australia|new\s+zealand|emea|apac|europe|latin\s+america)\b",
+    re.I,
+)
 
 EXPERIENCE_PATTERNS = (
     re.compile(r"\b(?P<min>\d+(?:\.\d+)?)\s*[-+]\s*(?P<max>\d+(?:\.\d+)?)\s*\+?\s*years?\b", re.I),
@@ -111,6 +145,40 @@ def score_job(job: Job, profile: ResumeProfile) -> int:
     return sum(1 for keyword in profile.keywords if keyword and keyword in haystack)
 
 
+def parse_job_datetime(value: str) -> datetime:
+    raw = (value or "").strip()
+    if not raw:
+        return datetime.min.replace(tzinfo=timezone.utc)
+    if raw.isdigit():
+        return datetime.fromtimestamp(int(raw), tz=timezone.utc)
+    normalized = raw.replace("Z", "+00:00")
+    try:
+        parsed = datetime.fromisoformat(normalized)
+    except ValueError:
+        return datetime.min.replace(tzinfo=timezone.utc)
+    if parsed.tzinfo is None:
+        return parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
+
+
+def is_usa_role(job: Job) -> bool:
+    location = job.location or ""
+    if NON_US_LOCATION.search(location) and not USA_LOCATION.search(location):
+        return False
+    return bool(USA_LOCATION.search(f"{location} {job.description}"))
+
+
+def is_opt_friendly(job: Job, h1b_sponsor: bool) -> bool:
+    text = f"{job.title} {job.location} {job.description}"
+    if OPT_NEGATIVE.search(text):
+        return False
+    return h1b_sponsor or bool(OPT_POSITIVE.search(text))
+
+
+def requires_security_clearance(job: Job) -> bool:
+    return bool(SECURITY_CLEARANCE.search(f"{job.title} {job.description}"))
+
+
 def filter_jobs(jobs: list[Job], profile: ResumeProfile, sponsors: set[str]) -> list[MatchedJob]:
     matched: list[MatchedJob] = []
     seen_urls: set[str] = set()
@@ -123,6 +191,12 @@ def filter_jobs(jobs: list[Job], profile: ResumeProfile, sponsors: set[str]) -> 
         if role not in ALLOWED_ROLE_LABELS:
             continue
 
+        if requires_security_clearance(job):
+            continue
+
+        if not is_usa_role(job):
+            continue
+
         years = experience_label(job.title, job.description)
         if years is None:
             continue
@@ -133,17 +207,21 @@ def filter_jobs(jobs: list[Job], profile: ResumeProfile, sponsors: set[str]) -> 
 
         from .sponsors import is_h1b_sponsor
 
+        h1b_sponsor = is_h1b_sponsor(job.company, sponsors)
+        if not is_opt_friendly(job, h1b_sponsor):
+            continue
+
         matched.append(
             MatchedJob(
                 job=job,
                 role=role,
                 years_required=years,
                 score=score,
-                h1b_sponsor=is_h1b_sponsor(job.company, sponsors),
+                h1b_sponsor=h1b_sponsor,
             )
         )
 
-    return sorted(matched, key=lambda item: (item.score, item.h1b_sponsor, item.job.published_at), reverse=True)
+    return sorted(matched, key=lambda item: parse_job_datetime(item.job.published_at), reverse=True)
 
 
 def parse_remoteok(payload: Any) -> list[Job]:

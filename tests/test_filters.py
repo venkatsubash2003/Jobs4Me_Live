@@ -1,4 +1,12 @@
-from jobs4me.jobs import Job, classify_role, experience_label, filter_jobs, max_years_required
+from jobs4me.jobs import (
+    Job,
+    classify_role,
+    experience_label,
+    filter_jobs,
+    is_usa_role,
+    max_years_required,
+    requires_security_clearance,
+)
 from jobs4me.resume import ResumeProfile
 from jobs4me.text import normalize_company
 
@@ -31,9 +39,42 @@ def test_filter_jobs_requires_resume_match_and_h1b_lookup():
             location="Remote",
             source="Test",
             published_at="2026-01-01",
-            description="Python and machine learning role. Requires 1 year of experience.",
+            description="Python and machine learning role in the United States. Requires 1 year of experience.",
         )
     ]
     matches = filter_jobs(jobs, profile, {normalize_company("Google")})
     assert len(matches) == 1
     assert matches[0].h1b_sponsor is True
+
+
+def test_usa_and_security_clearance_filters():
+    usa_job = Job(
+        title="Software Engineer",
+        company="Test",
+        url="https://example.com/usa",
+        location="Remote - United States",
+        source="Test",
+        published_at="2026-01-02",
+        description="Entry-level role. OPT and STEM OPT welcome.",
+    )
+    clearance_job = Job(
+        title="Software Engineer",
+        company="Test",
+        url="https://example.com/clearance",
+        location="Virginia, United States",
+        source="Test",
+        published_at="2026-01-01",
+        description="Requires active Secret security clearance.",
+    )
+    non_us_job = Job(
+        title="Software Engineer",
+        company="Test",
+        url="https://example.com/non-us",
+        location="Amsterdam, Netherlands",
+        source="Test",
+        published_at="2026-01-03",
+        description="Global company with offices in the United States.",
+    )
+    assert is_usa_role(usa_job) is True
+    assert is_usa_role(non_us_job) is False
+    assert requires_security_clearance(clearance_job) is True

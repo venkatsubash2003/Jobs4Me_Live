@@ -1,0 +1,50 @@
+# Company-specific ATS board identifiers. ATS platforms do not provide global
+# feeds, so add or remove companies here as your target list changes.
+#
+# Supported systems:
+# - greenhouse: token from boards.greenhouse.io/{token}
+# - lever: site from jobs.lever.co/{site}
+# - ashby: organization from jobs.ashbyhq.com/{organization}
+# - workday: host, tenant, and site from a Workday careers URL
+# - smartrecruiters: company slug from jobs.smartrecruiters.com/{company}
+# - workable: account from apply.workable.com/{account}
+# - pinpoint: host such as company.pinpointhq.com
+# - breezy: company subdomain from {company}.breezy.hr
+
+greenhouse:
+  - company: Databricks
+    token: databricks
+  - company: Figma
+    token: figma
+
+lever:
+  - company: Spotify
+    site: spotify
+
+ashby:
+  - company: Modal
+    organization: modal
+  - company: Harvey
+    organization: harvey
+
+workday:
+  - company: NVIDIA
+    host: nvidia.wd5.myworkdayjobs.com
+    tenant: nvidia
+    site: NVIDIAExternalCareerSite
+
+smartrecruiters:
+  - company: ServiceNow
+    company_id: ServiceNow
+
+workable:
+  - company: Automattic
+    account: automattic
+  - company: Typeform
+    account: typeform
+
+pinpoint: []
+
+breezy:
+  - company: Remote
+    company_id: remote

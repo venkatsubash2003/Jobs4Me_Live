@@ -12,7 +12,7 @@ def render_jobs_table(jobs: list[MatchedJob]) -> str:
     if not jobs:
         return (
             f"_Last updated: {utc_now_label()}_\n\n"
-            "No matching jobs found that met the role, resume, and <=2 years experience filters."
+            "No matching jobs found that met the role, resume, USA-only, OPT-friendly, no-clearance, and <=2 years filters."
         )
 
     lines = [
