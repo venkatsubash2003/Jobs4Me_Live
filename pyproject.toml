@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jobs4me-live"
+version = "0.1.0"
+description = "Resume-aware job finder that updates README.md on a schedule."
+requires-python = ">=3.11"
+dependencies = [
+  "pypdf==5.7.0",
+  "PyYAML==6.0.2",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

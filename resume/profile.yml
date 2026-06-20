@@ -1,0 +1,42 @@
+name: Venkat Sai Subash Panchakarla
+target_roles:
+  - AI Engineer
+  - Data Science Engineer
+  - Machine Learning Engineer
+  - Software Engineer
+keywords:
+  - artificial intelligence
+  - ai
+  - machine learning
+  - ml
+  - deep learning
+  - data science
+  - data scientist
+  - software engineering
+  - software engineer
+  - machine learning engineer
+  - ai engineer
+  - python
+  - sql
+  - tensorflow
+  - pytorch
+  - scikit-learn
+  - pandas
+  - numpy
+  - nlp
+  - computer vision
+  - generative ai
+  - llm
+  - flask
+  - fastapi
+  - react
+  - aws
+  - docker
+excluded_keywords:
+  - principal
+  - staff
+  - senior
+  - manager
+  - director
+  - vp
+  - architect
