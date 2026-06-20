@@ -52,7 +52,7 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 The GitHub Actions workflow in `.github/workflows/update-jobs.yml` runs every 6 hours and commits README updates when the generated table changes.
 
 <!-- JOBS:START -->
-_Last updated: 2026-06-20 13:55 UTC_
+_Last updated: 2026-06-20 19:21 UTC_
 
 No matching jobs found that met the role, resume, USA-only, OPT-friendly, no-clearance, and <=2 years filters.
 <!-- JOBS:END -->
