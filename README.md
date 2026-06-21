@@ -1,15 +1,14 @@
 # Jobs4Me Live
 
-Resume-aware job finder for early-career AI, data science, machine learning, and software engineering roles.
+Resume-aware job finder for early-career AI, machine learning, data science, analytics, and software engineering roles.
 
 The scheduled workflow fetches current postings, keeps only roles related to:
 
-- AI Engineer
-- Data Science Engineer
-- Machine Learning Engineer
-- Software Engineer
+- AI and machine learning
+- Data science, analytics, and data engineering
+- Software, platform, infrastructure, cloud, web, and mobile engineering
 
-It filters out postings that ask for more than 2 years of experience and annotates each company with an `H1B Sponsor` field based on prior sponsorship records loaded from `data/h1b_sponsors_seed.csv` and, optionally, an external CSV configured with `H1B_SPONSORS_CSV_URL`.
+It filters out postings that ask for more than 2 years of experience and annotates each company with an `H1B Sponsor` field based on prior sponsorship records loaded from `data/h1b_sponsors_seed.csv` and, optionally, an external CSV configured with `H1B_SPONSORS_CSV_URL`. The H-1B field is informational only and no longer filters jobs out.
 
 ## How it works
 
@@ -18,9 +17,9 @@ It filters out postings that ask for more than 2 years of experience and annotat
 3. Keeps only the allowed role families.
 4. Keeps only USA-region roles.
 5. Removes security-clearance jobs.
-6. Keeps OPT-friendly roles: explicit OPT/CPT/visa-sponsorship language or a prior H-1B sponsor match, while rejecting postings that say no sponsorship.
-7. Requires 0-2 years of experience or an early-career title such as junior, entry-level, new grad, or graduate.
-8. Scores each job against the resume keywords.
+6. Requires 0-2 years of experience or an early-career title such as junior, entry-level, new grad, or graduate.
+7. Scores each job against the resume keywords.
+8. Adds an informational H-1B sponsor field.
 9. Sorts newest postings first and rewrites the generated jobs table below.
 
 ## Run locally
@@ -52,7 +51,9 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 The GitHub Actions workflow in `.github/workflows/update-jobs.yml` runs every 6 hours and commits README updates when the generated table changes.
 
 <!-- JOBS:START -->
-_Last updated: 2026-06-20 03:10 UTC_
+_Last updated: 2026-06-21 14:41 UTC_
 
-No matching jobs found that met the role, resume, USA-only, OPT-friendly, no-clearance, and <=2 years filters.
+| Role | Job | Company | Location | Years | H1B Sponsor | Score | Source |
+| --- | --- | --- | --- | ---: | --- | ---: | --- |
+| Software Engineering | [Software Engineer, C++](https://boards.greenhouse.io/figma/jobs/5552530004?gh_jid=5552530004) | Figma | San Francisco, CA • New York, NY • United States | 2 | No | 6 | Greenhouse |
 <!-- JOBS:END -->

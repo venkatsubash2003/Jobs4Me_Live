@@ -32,34 +32,28 @@ class MatchedJob:
 
 ROLE_PATTERNS: tuple[tuple[str, tuple[re.Pattern[str], ...]], ...] = (
     (
-        "AI Engineer",
+        "AI / ML",
         (
-            re.compile(r"\b(ai|artificial intelligence)\s+engineer\b", re.I),
-            re.compile(r"\bengineer\b.*\b(ai|artificial intelligence|llm|generative ai)\b", re.I),
+            re.compile(r"\b(ai|artificial intelligence|machine\s+learning|ml|deep\s+learning|llm|generative\s+ai)\b", re.I),
+            re.compile(r"\b(applied\s+scientist|research\s+scientist|ai\s+scientist|ml\s+scientist)\b", re.I),
+            re.compile(r"\b(computer\s+vision|nlp|natural\s+language\s+processing|prompt\s+engineer)\b", re.I),
         ),
     ),
     (
-        "Data Science Engineer",
+        "Data Science / Analytics",
         (
-            re.compile(r"\bdata\s+science\s+engineer\b", re.I),
-            re.compile(r"\bdata\s+scientist\b", re.I),
-            re.compile(r"\bmachine\s+learning\s+data\s+engineer\b", re.I),
+            re.compile(r"\bdata\s+(science|scientist|engineer|analyst|analytics|modeling|platform)\b", re.I),
+            re.compile(r"\b(analytics\s+engineer|business\s+intelligence|bi\s+engineer|quantitative\s+analyst)\b", re.I),
+            re.compile(r"\b(etl|elt|data\s+pipeline|data\s+warehouse)\b", re.I),
         ),
     ),
     (
-        "Machine Learning Engineer",
-        (
-            re.compile(r"\bmachine\s+learning\s+engineer\b", re.I),
-            re.compile(r"\bml\s+engineer\b", re.I),
-        ),
-    ),
-    (
-        "Software Engineer",
+        "Software Engineering",
         (
             re.compile(r"\bsoftware\s+(development\s+)?engineer\b", re.I),
-            re.compile(r"\bbackend\s+engineer\b", re.I),
-            re.compile(r"\bfull[-\s]?stack\s+engineer\b", re.I),
-            re.compile(r"\bfrontend\s+engineer\b", re.I),
+            re.compile(r"\b(sde|backend|back[-\s]?end|frontend|front[-\s]?end|full[-\s]?stack|platform|infrastructure)\s+engineer\b", re.I),
+            re.compile(r"\b(devops|cloud|site\s+reliability|sre|systems)\s+engineer\b", re.I),
+            re.compile(r"\b(application|mobile|ios|android|web)\s+developer\b", re.I),
         ),
     ),
 )
@@ -72,17 +66,6 @@ EARLY_CAREER_HINTS = re.compile(r"\b(junior|jr\.?|entry[-\s]?level|new\s+grad|gr
 SECURITY_CLEARANCE = re.compile(
     r"\b(security\s+clearance|active\s+clearance|secret\s+clearance|top\s+secret|ts/sci|sci\s+clearance|"
     r"polygraph|public\s+trust|dod\s+clearance|clearable|u\.?s\.?\s+citizenship\s+required)\b",
-    re.I,
-)
-OPT_POSITIVE = re.compile(
-    r"\b(opt|cpt|stem\s+opt|h-?1b|visa\s+sponsorship|sponsorship\s+available|sponsor\s+visa|"
-    r"immigration\s+sponsorship)\b",
-    re.I,
-)
-OPT_NEGATIVE = re.compile(
-    r"\b(no\s+(?:visa\s+)?sponsorship|not\s+(?:provide|offer)\s+sponsorship|unable\s+to\s+sponsor|"
-    r"without\s+(?:current\s+or\s+future\s+)?sponsorship|must\s+be\s+(?:a\s+)?u\.?s\.?\s+citizen|"
-    r"u\.?s\.?\s+citizens?\s+only|green\s+card\s+holders?\s+only)\b",
     re.I,
 )
 USA_LOCATION = re.compile(
@@ -168,13 +151,6 @@ def is_usa_role(job: Job) -> bool:
     return bool(USA_LOCATION.search(f"{location} {job.description}"))
 
 
-def is_opt_friendly(job: Job, h1b_sponsor: bool) -> bool:
-    text = f"{job.title} {job.location} {job.description}"
-    if OPT_NEGATIVE.search(text):
-        return False
-    return h1b_sponsor or bool(OPT_POSITIVE.search(text))
-
-
 def requires_security_clearance(job: Job) -> bool:
     return bool(SECURITY_CLEARANCE.search(f"{job.title} {job.description}"))
 
@@ -208,8 +184,6 @@ def filter_jobs(jobs: list[Job], profile: ResumeProfile, sponsors: set[str]) -> 
         from .sponsors import is_h1b_sponsor
 
         h1b_sponsor = is_h1b_sponsor(job.company, sponsors)
-        if not is_opt_friendly(job, h1b_sponsor):
-            continue
 
         matched.append(
             MatchedJob(

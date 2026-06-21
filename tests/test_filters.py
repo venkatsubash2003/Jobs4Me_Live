@@ -8,11 +8,13 @@ from jobs4me.jobs import (
     requires_security_clearance,
 )
 from jobs4me.resume import ResumeProfile
-from jobs4me.text import normalize_company
 
 
 def test_role_filter_allows_only_target_roles():
-    assert classify_role("Machine Learning Engineer") == "Machine Learning Engineer"
+    assert classify_role("Machine Learning Engineer") == "AI / ML"
+    assert classify_role("Applied Scientist, New Grad") == "AI / ML"
+    assert classify_role("Data Analyst") == "Data Science / Analytics"
+    assert classify_role("Cloud Engineer") == "Software Engineering"
     assert classify_role("Senior Machine Learning Engineer") is None
     assert classify_role("Product Manager") is None
 
@@ -24,7 +26,7 @@ def test_years_required_rejects_over_two_years():
     assert experience_label("Data Scientist", "Python role") is None
 
 
-def test_filter_jobs_requires_resume_match_and_h1b_lookup():
+def test_filter_jobs_keeps_non_sponsor_when_other_filters_match():
     profile = ResumeProfile(
         name="Test",
         keywords=("python", "machine learning"),
@@ -42,9 +44,9 @@ def test_filter_jobs_requires_resume_match_and_h1b_lookup():
             description="Python and machine learning role in the United States. Requires 1 year of experience.",
         )
     ]
-    matches = filter_jobs(jobs, profile, {normalize_company("Google")})
+    matches = filter_jobs(jobs, profile, set())
     assert len(matches) == 1
-    assert matches[0].h1b_sponsor is True
+    assert matches[0].h1b_sponsor is False
 
 
 def test_usa_and_security_clearance_filters():

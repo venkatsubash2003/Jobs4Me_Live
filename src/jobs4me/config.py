@@ -10,10 +10,9 @@ SPONSOR_SEED_PATH = ROOT / "data" / "h1b_sponsors_seed.csv"
 ATS_BOARDS_PATH = ROOT / "data" / "ats_boards.yml"
 
 ALLOWED_ROLE_LABELS = (
-    "AI Engineer",
-    "Data Science Engineer",
-    "Machine Learning Engineer",
-    "Software Engineer",
+    "AI / ML",
+    "Data Science / Analytics",
+    "Software Engineering",
 )
 
 ATS_SYSTEMS = (
