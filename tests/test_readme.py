@@ -23,5 +23,5 @@ def test_render_jobs_table_includes_date_column():
             )
         ]
     )
-    assert "| Role | Job | Company | Location | Date | Years | H1B Sponsor | Score | Source |" in table
-    assert "| Software Engineering | [Software Engineer](https://example.com/job) | Example | United States | 2026-06-24 | 1 | No | 3 | Test |" in table
+    assert "| Date | Role | Job | Company | Location | Years | H1B Sponsor | Score | Source |" in table
+    assert "| 2026-06-24 | Software Engineering | [Software Engineer](https://example.com/job) | Example | United States | 1 | No | 3 | Test |" in table

@@ -25,19 +25,19 @@ def render_jobs_table(jobs: list[MatchedJob]) -> str:
     lines = [
         f"_Last updated: {utc_now_label()}_",
         "",
-        "| Role | Job | Company | Location | Date | Years | H1B Sponsor | Score | Source |",
+        "| Date | Role | Job | Company | Location | Years | H1B Sponsor | Score | Source |",
         "| --- | --- | --- | --- | --- | ---: | --- | ---: | --- |",
     ]
     for item in jobs:
         job = item.job
         lines.append(
-            "| {role} | [{title}]({url}) | {company} | {location} | {date} | {years} | {sponsor} | {score} | {source} |".format(
+            "| {date} | {role} | [{title}]({url}) | {company} | {location} | {years} | {sponsor} | {score} | {source} |".format(
+                date=render_job_date(job.published_at),
                 role=markdown_escape(item.role),
                 title=markdown_escape(job.title),
                 url=job.url,
                 company=markdown_escape(job.company),
                 location=markdown_escape(job.location),
-                date=render_job_date(job.published_at),
                 years=markdown_escape(item.years_required),
                 sponsor="Yes" if item.h1b_sponsor else "No",
                 score=item.score,

@@ -7,6 +7,7 @@ from jobs4me.jobs import (
     max_years_required,
     parse_job_datetime,
     requires_security_clearance,
+    score_job,
 )
 from jobs4me.resume import ResumeProfile
 
@@ -31,6 +32,25 @@ def test_years_required_rejects_over_two_years():
 def test_parse_job_datetime_handles_epoch_milliseconds():
     parsed = parse_job_datetime("1717200000000")
     assert parsed.year == 2024
+
+
+def test_score_job_is_normalized_to_100():
+    profile = ResumeProfile(
+        name="Test",
+        keywords=("python", "machine learning", "sql", "react"),
+        excluded_keywords=(),
+        raw_text="python machine learning sql react",
+    )
+    job = Job(
+        title="Machine Learning Engineer",
+        company="Example",
+        url="https://example.com/job",
+        location="United States",
+        source="Test",
+        published_at="2026-01-01",
+        description="Build Python systems.",
+    )
+    assert score_job(job, profile) == 50
 
 
 def test_filter_jobs_keeps_non_sponsor_when_other_filters_match():

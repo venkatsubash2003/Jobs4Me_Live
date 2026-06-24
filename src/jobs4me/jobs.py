@@ -127,7 +127,11 @@ def experience_label(title: str, description: str) -> str | None:
 
 def score_job(job: Job, profile: ResumeProfile) -> int:
     haystack = f"{job.title} {job.description}".lower()
-    return sum(1 for keyword in profile.keywords if keyword and keyword in haystack)
+    keywords = tuple(keyword for keyword in profile.keywords if keyword)
+    if not keywords:
+        return 0
+    matches = sum(1 for keyword in keywords if keyword in haystack)
+    return min(100, round((matches / len(keywords)) * 100))
 
 
 def parse_job_datetime(value: str) -> datetime:
