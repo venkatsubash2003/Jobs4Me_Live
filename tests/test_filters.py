@@ -5,6 +5,7 @@ from jobs4me.jobs import (
     filter_jobs,
     is_usa_role,
     max_years_required,
+    parse_job_datetime,
     requires_security_clearance,
 )
 from jobs4me.resume import ResumeProfile
@@ -23,7 +24,13 @@ def test_years_required_rejects_over_two_years():
     assert max_years_required("Requires 0-2 years of experience") == 2
     assert max_years_required("3+ years of experience") == 3
     assert experience_label("Junior Data Scientist", "Python role") == "0-2"
-    assert experience_label("Data Scientist", "Python role") is None
+    assert experience_label("Data Scientist", "Python role") == "Not specified"
+    assert experience_label("Data Scientist", "Requires 5+ years of experience") is None
+
+
+def test_parse_job_datetime_handles_epoch_milliseconds():
+    parsed = parse_job_datetime("1717200000000")
+    assert parsed.year == 2024
 
 
 def test_filter_jobs_keeps_non_sponsor_when_other_filters_match():

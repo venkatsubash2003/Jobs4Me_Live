@@ -89,8 +89,10 @@ NON_US_LOCATION = re.compile(
 
 EXPERIENCE_PATTERNS = (
     re.compile(r"\b(?P<min>\d+(?:\.\d+)?)\s*[-+]\s*(?P<max>\d+(?:\.\d+)?)\s*\+?\s*years?\b", re.I),
-    re.compile(r"\b(?P<num>\d+(?:\.\d+)?)\s*\+?\s*years?\s+(?:of\s+)?experience\b", re.I),
+    re.compile(r"\b(?P<num>\d+(?:\.\d+)?)\s*\+?\s*(?:years?|yrs?|yoe)\b", re.I),
+    re.compile(r"\b(?P<num>\d+(?:\.\d+)?)\s*\+?\s*years?\s+(?:of\s+)?(?:industry\s+|professional\s+|relevant\s+|software\s+|hands[- ]on\s+)?experience\b", re.I),
     re.compile(r"\bexperience\s*(?:of|:)?\s*(?P<num>\d+(?:\.\d+)?)\s*\+?\s*years?\b", re.I),
+    re.compile(r"\b(?:minimum|min\.?|at\s+least|at\s+min)[^\d]{0,20}(?P<num>\d+(?:\.\d+)?)\s*(?:years?|yrs?|yoe)\b", re.I),
 )
 
 
@@ -120,7 +122,7 @@ def experience_label(title: str, description: str) -> str | None:
         return f"{required_years:g}" if required_years <= 2 else None
     if EARLY_CAREER_HINTS.search(title or ""):
         return "0-2"
-    return None
+    return "Not specified"
 
 
 def score_job(job: Job, profile: ResumeProfile) -> int:
@@ -133,7 +135,10 @@ def parse_job_datetime(value: str) -> datetime:
     if not raw:
         return datetime.min.replace(tzinfo=timezone.utc)
     if raw.isdigit():
-        return datetime.fromtimestamp(int(raw), tz=timezone.utc)
+        timestamp = int(raw)
+        if timestamp > 10_000_000_000:
+            timestamp = timestamp / 1000
+        return datetime.fromtimestamp(timestamp, tz=timezone.utc)
     normalized = raw.replace("Z", "+00:00")
     try:
         parsed = datetime.fromisoformat(normalized)

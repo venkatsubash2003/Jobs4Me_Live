@@ -1,5 +1,6 @@
-# Company-specific ATS board identifiers. ATS platforms do not provide global
-# feeds, so add or remove companies here as your target list changes.
+# Company-specific ATS board identifiers. ATS platforms do not provide one
+# universal feed, so we keep a validated list of company boards and also use
+# Workable global search in code.
 #
 # Supported systems:
 # - greenhouse: token from boards.greenhouse.io/{token}
@@ -12,20 +13,160 @@
 # - breezy: company subdomain from {company}.breezy.hr
 
 greenhouse:
+  - company: Abnormal
+    token: abnormalsecurity
+  - company: Affirm
+    token: affirm
+  - company: Airbnb
+    token: airbnb
+  - company: Asana
+    token: asana
+  - company: Betterment
+    token: betterment
+  - company: Block
+    token: block
+  - company: Brex
+    token: brex
+  - company: ButcherBox
+    token: butcherbox
+  - company: Calendly
+    token: calendly
+  - company: Carta
+    token: carta
+  - company: Chime Financial
+    token: chime
+  - company: Cloudflare
+    token: cloudflare
+  - company: Cockroach Labs
+    token: cockroachlabs
+  - company: Coursera
+    token: coursera
+  - company: Cribl
+    token: cribl
   - company: Databricks
     token: databricks
+  - company: Datadog
+    token: datadog
+  - company: Discord
+    token: discord
+  - company: DoorDash
+    token: doordashusa
+  - company: DoubleVerify
+    token: doubleverify
+  - company: Dropbox
+    token: dropbox
+  - company: Duolingo
+    token: duolingo
+  - company: Elastic
+    token: elastic
+  - company: Faire
+    token: faire
   - company: Figma
     token: figma
+  - company: Flexport
+    token: flexport
+  - company: Gemini
+    token: gemini
+  - company: GitLab
+    token: gitlab
+  - company: Glean
+    token: gleanwork
+  - company: Grafana Labs
+    token: grafanalabs
+  - company: Gusto
+    token: gusto
+  - company: Instacart
+    token: instacart
+  - company: Komodo Health
+    token: komodohealth
+  - company: LaunchDarkly
+    token: launchdarkly
+  - company: Lyft
+    token: lyft
+  - company: Marqeta
+    token: marqeta
+  - company: Nextdoor
+    token: nextdoor
+  - company: Okta
+    token: okta
+  - company: Oscar Health
+    token: oscar
+  - company: PagerDuty
+    token: pagerduty
+  - company: Peloton
+    token: peloton
+  - company: Pinterest
+    token: pinterest
+  - company: Reddit
+    token: reddit
+  - company: Robinhood
+    token: robinhood
+  - company: Roblox
+    token: roblox
+  - company: Rubrik
+    token: rubrik
+  - company: Samsara
+    token: samsara
+  - company: SoFi
+    token: sofi
+  - company: Sweetgreen
+    token: sweetgreen
+  - company: Tatari
+    token: tatari
+  - company: Twilio
+    token: twilio
+  - company: Udemy
+    token: udemy
+  - company: Verkada
+    token: verkada
+  - company: Wiz
+    token: wizinc
+  - company: ZipRecruiter
+    token: ziprecruiter
 
 lever:
+  - company: Lyra Health
+    site: lyrahealth
   - company: Spotify
     site: spotify
+  - company: Veeva
+    site: veeva
 
 ashby:
-  - company: Modal
-    organization: modal
+  - company: Baseten
+    organization: baseten
+  - company: Browserbase
+    organization: browserbase
+  - company: Decagon
+    organization: decagon
+  - company: ElevenLabs
+    organization: elevenlabs
   - company: Harvey
     organization: harvey
+  - company: LangChain
+    organization: langchain
+  - company: Linear
+    organization: linear
+  - company: Modal
+    organization: modal
+  - company: Notion
+    organization: notion
+  - company: Perplexity
+    organization: perplexity
+  - company: Pinecone
+    organization: pinecone
+  - company: Ramp
+    organization: ramp
+  - company: Replit
+    organization: replit
+  - company: Sardine
+    organization: sardine
+  - company: Vanta
+    organization: Vanta
+  - company: Watershed
+    organization: watershed
+  - company: Zip
+    organization: zip
 
 workday:
   - company: NVIDIA
@@ -34,8 +175,12 @@ workday:
     site: NVIDIAExternalCareerSite
 
 smartrecruiters:
+  - company: Bosch
+    company_id: BoschGroup
   - company: ServiceNow
     company_id: ServiceNow
+  - company: Visa
+    company_id: Visa
 
 workable:
   - company: Automattic
