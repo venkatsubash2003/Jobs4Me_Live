@@ -1,11 +1,18 @@
 from __future__ import annotations
 
 from .config import README_PATH
-from .jobs import MatchedJob, utc_now_label
+from .jobs import MatchedJob, parse_job_datetime, utc_now_label
 from .text import markdown_escape
 
 START = "<!-- JOBS:START -->"
 END = "<!-- JOBS:END -->"
+
+
+def render_job_date(value: str) -> str:
+    parsed = parse_job_datetime(value)
+    if parsed.year <= 1:
+        return "Unknown"
+    return parsed.strftime("%Y-%m-%d")
 
 
 def render_jobs_table(jobs: list[MatchedJob]) -> str:
@@ -18,18 +25,19 @@ def render_jobs_table(jobs: list[MatchedJob]) -> str:
     lines = [
         f"_Last updated: {utc_now_label()}_",
         "",
-        "| Role | Job | Company | Location | Years | H1B Sponsor | Score | Source |",
-        "| --- | --- | --- | --- | ---: | --- | ---: | --- |",
+        "| Role | Job | Company | Location | Date | Years | H1B Sponsor | Score | Source |",
+        "| --- | --- | --- | --- | --- | ---: | --- | ---: | --- |",
     ]
     for item in jobs:
         job = item.job
         lines.append(
-            "| {role} | [{title}]({url}) | {company} | {location} | {years} | {sponsor} | {score} | {source} |".format(
+            "| {role} | [{title}]({url}) | {company} | {location} | {date} | {years} | {sponsor} | {score} | {source} |".format(
                 role=markdown_escape(item.role),
                 title=markdown_escape(job.title),
                 url=job.url,
                 company=markdown_escape(job.company),
                 location=markdown_escape(job.location),
+                date=render_job_date(job.published_at),
                 years=markdown_escape(item.years_required),
                 sponsor="Yes" if item.h1b_sponsor else "No",
                 score=item.score,
