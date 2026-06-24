@@ -15,6 +15,7 @@ from .jobs import Job
 from .text import normalize_space, strip_html
 
 Parser = Callable[[object, dict[str, Any]], list[Job]]
+HTTP_TIMEOUT = 20
 
 WORKDAY_SEARCH_TERMS = ("software engineer", "developer", "data scientist", "machine learning")
 WORKDAY_PAGES_PER_TERM = 6
@@ -30,7 +31,7 @@ WORKABLE_GLOBAL_TERMS = (
     "backend engineer",
     "frontend engineer",
 )
-WORKABLE_GLOBAL_PAGES = 12
+WORKABLE_GLOBAL_PAGES = 8
 TITLE_HINT = re.compile(
     r"engineer|developer|programmer|software|\bsde\b|\bswe\b|data |machine learning|"
     r"\bml\b|\bai\b|scientist|analyst|analytics|full stack|front.?end|back.?end|"
@@ -70,7 +71,7 @@ def _fetch_json(url: str, data: dict[str, Any] | None = None) -> object:
         },
         method="POST" if body else "GET",
     )
-    with urlopen(request, timeout=45) as response:
+    with urlopen(request, timeout=HTTP_TIMEOUT) as response:
         return json.loads(response.read().decode("utf-8", errors="replace"))
 
 

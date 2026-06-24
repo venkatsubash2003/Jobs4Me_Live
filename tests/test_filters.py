@@ -76,6 +76,50 @@ def test_filter_jobs_keeps_non_sponsor_when_other_filters_match():
     assert matches[0].h1b_sponsor is False
 
 
+def test_filter_jobs_prioritizes_alignment_then_h1b_then_date():
+    profile = ResumeProfile(
+        name="Test",
+        keywords=("python", "machine learning", "sql", "react"),
+        excluded_keywords=(),
+        raw_text="python machine learning sql react",
+    )
+    jobs = [
+        Job(
+            title="Machine Learning Engineer",
+            company="No Sponsor",
+            url="https://example.com/high",
+            location="United States",
+            source="Test",
+            published_at="2026-01-01",
+            description="Python machine learning SQL role. Requires 1 year of experience.",
+        ),
+        Job(
+            title="Machine Learning Engineer",
+            company="Google",
+            url="https://example.com/sponsor",
+            location="United States",
+            source="Test",
+            published_at="2026-01-03",
+            description="Python machine learning role. Requires 1 year of experience.",
+        ),
+        Job(
+            title="Machine Learning Engineer",
+            company="No Sponsor 2",
+            url="https://example.com/newer",
+            location="United States",
+            source="Test",
+            published_at="2026-01-04",
+            description="Python machine learning role. Requires 1 year of experience.",
+        ),
+    ]
+    matches = filter_jobs(jobs, profile, {"google"})
+    assert [match.job.url for match in matches] == [
+        "https://example.com/high",
+        "https://example.com/sponsor",
+        "https://example.com/newer",
+    ]
+
+
 def test_usa_and_security_clearance_filters():
     usa_job = Job(
         title="Software Engineer",
@@ -104,6 +148,16 @@ def test_usa_and_security_clearance_filters():
         published_at="2026-01-03",
         description="Global company with offices in the United States.",
     )
+    canada_job = Job(
+        title="Software Engineer",
+        company="Test",
+        url="https://example.com/canada",
+        location="Toronto, ON, CA",
+        source="Test",
+        published_at="2026-01-03",
+        description="Python role.",
+    )
     assert is_usa_role(usa_job) is True
     assert is_usa_role(non_us_job) is False
+    assert is_usa_role(canada_job) is False
     assert requires_security_clearance(clearance_job) is True

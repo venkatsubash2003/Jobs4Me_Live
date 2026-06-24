@@ -10,7 +10,7 @@ from .sponsors import load_h1b_sponsors
 
 
 def main() -> None:
-    max_jobs = int(os.getenv("MAX_JOBS", "30"))
+    max_jobs = int(os.getenv("MAX_JOBS", "60"))
     profile = load_resume_profile()
     sponsors = load_h1b_sponsors()
     jobs = fetch_jobs()

@@ -83,7 +83,9 @@ USA_LOCATION = re.compile(
 NON_US_LOCATION = re.compile(
     r"\b(canada|mexico|brazil|argentina|united\s+kingdom|uk|england|scotland|ireland|germany|france|"
     r"spain|italy|netherlands|amsterdam|sweden|norway|denmark|finland|poland|portugal|romania|"
-    r"india|singapore|japan|china|australia|new\s+zealand|emea|apac|europe|latin\s+america)\b",
+    r"india|singapore|japan|china|australia|new\s+zealand|emea|apac|europe|latin\s+america|"
+    r"south\s+korea|seoul|hong\s+kong|tel\s+aviv|israel|toronto|ontario|kitchener|waterloo|"
+    r"london|belgrade|serbia)\b",
     re.I,
 )
 
@@ -155,7 +157,7 @@ def parse_job_datetime(value: str) -> datetime:
 
 def is_usa_role(job: Job) -> bool:
     location = job.location or ""
-    if NON_US_LOCATION.search(location) and not USA_LOCATION.search(location):
+    if NON_US_LOCATION.search(location):
         return False
     return bool(USA_LOCATION.search(f"{location} {job.description}"))
 
@@ -204,7 +206,11 @@ def filter_jobs(jobs: list[Job], profile: ResumeProfile, sponsors: set[str]) -> 
             )
         )
 
-    return sorted(matched, key=lambda item: parse_job_datetime(item.job.published_at), reverse=True)
+    return sorted(
+        matched,
+        key=lambda item: (item.score, item.h1b_sponsor, parse_job_datetime(item.job.published_at)),
+        reverse=True,
+    )
 
 
 def parse_remoteok(payload: Any) -> list[Job]:

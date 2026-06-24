@@ -15,6 +15,10 @@ def render_job_date(value: str) -> str:
     return parsed.strftime("%Y-%m-%d")
 
 
+def render_h1b_sponsorship(sponsors: bool) -> str:
+    return "✅ Yes" if sponsors else "❌ No"
+
+
 def render_jobs_table(jobs: list[MatchedJob]) -> str:
     if not jobs:
         return (
@@ -25,23 +29,21 @@ def render_jobs_table(jobs: list[MatchedJob]) -> str:
     lines = [
         f"_Last updated: {utc_now_label()}_",
         "",
-        "| Date | Role | Job | Company | Location | Years | H1B Sponsor | Score | Source |",
-        "| --- | --- | --- | --- | --- | ---: | --- | ---: | --- |",
+        "| Date | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |",
+        "| --- | --- | --- | --- | ---: | --- | ---: | --- |",
     ]
     for item in jobs:
         job = item.job
         lines.append(
-            "| {date} | {role} | [{title}]({url}) | {company} | {location} | {years} | {sponsor} | {score} | {source} |".format(
+            "| {date} | {role} | {company} | {location} | {years} | {sponsor} | {alignment}% | [Apply]({url}) |".format(
                 date=render_job_date(job.published_at),
-                role=markdown_escape(item.role),
-                title=markdown_escape(job.title),
-                url=job.url,
+                role=markdown_escape(job.title),
                 company=markdown_escape(job.company),
                 location=markdown_escape(job.location),
                 years=markdown_escape(item.years_required),
-                sponsor="Yes" if item.h1b_sponsor else "No",
-                score=item.score,
-                source=markdown_escape(job.source),
+                sponsor=render_h1b_sponsorship(item.h1b_sponsor),
+                alignment=item.score,
+                url=job.url,
             )
         )
     return "\n".join(lines)
