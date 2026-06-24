@@ -51,12 +51,13 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 The GitHub Actions workflow in `.github/workflows/update-jobs.yml` runs every 6 hours (`0 */6 * * *`, UTC) and commits README updates when the generated table changes. GitHub Pages/README display is updated from those commits.
 
 <!-- JOBS:START -->
-_Last updated: 2026-06-24 12:48 UTC_
+_Last updated: 2026-06-24 14:25 UTC_
 
 | Role | Job | Company | Location | Date | Years | H1B Sponsor | Score | Source |
 | --- | --- | --- | --- | --- | ---: | --- | ---: | --- |
 | AI / ML | [Network Engineer (with Programming) - Data & AI Systems](https://jobs.workable.com/view/97B6bSoKgbRH74Pm2KWH75/remote-network-engineer-(with-programming)---data-%26-ai-systems-in-united-states-at-weekday-ai) | Weekday AI | United States | 2026-06-24 | Not specified | No | 2 | Workable Global |
 | Data Science / Analytics | [Data Science Experts](https://jobs.workable.com/view/uHAWJpuYHeu9GFHewRjN9T/remote-data-science-experts-in-united-states-at-weekday-ai) | Weekday AI | United States | 2026-06-24 | Not specified | No | 4 | Workable Global |
+| AI / ML | [AI Research Engineer – Agentic AI](https://jobs.smartrecruiters.com/BoschGroup/744000133692982) | Bosch | Sunnyvale, CA, United States | 2026-06-23 | Not specified | No | 1 | SmartRecruiters |
 | Software Engineering | [Software Engineer, Core Infrastructure - Moveworks](https://jobs.smartrecruiters.com/ServiceNow/744000133688694) | ServiceNow | Mountain View, CALIFORNIA, United States | 2026-06-23 | 2 | Yes | 6 | SmartRecruiters |
 | AI / ML | [AI Solutions Strategist](https://jobs.ashbyhq.com/ramp/cbdf2857-1675-4b68-8cb5-2f92a20faa75) | Ramp | New York, NY (HQ) | 2026-06-23 | Not specified | No | 3 | Ashby |
 | Software Engineering | [Software Engineer II, Backend (Infrastructure Platform)](https://job-boards.greenhouse.io/affirm/jobs/7764834003) | Affirm | Remote US | 2026-06-23 | 1.5 | No | 4 | Greenhouse |
@@ -84,5 +85,4 @@ _Last updated: 2026-06-24 12:48 UTC_
 | AI / ML | [Forward Deployment Engineer - Frontier AI Deployments](https://jobs.workable.com/view/qU1WALePUyLWeSM3SrU9zM/hybrid-forward-deployment-engineer---frontier-ai-deployments-in-mountain-view-at-accellor) | Accellor | Mountain View, California, United States | 2026-06-22 | Not specified | No | 5 | Workable Global |
 | AI / ML | [Forward Deployment Engineer - Frontier AI Deployments](https://jobs.workable.com/view/xa7cjZWy3KrLAighNZ43vN/hybrid-forward-deployment-engineer---frontier-ai-deployments-in-san-francisco-at-accellor) | Accellor | San Francisco, California, United States | 2026-06-22 | Not specified | No | 5 | Workable Global |
 | AI / ML | [AI Systems Engineer - Forward-Deployed Builder](https://jobs.workable.com/view/bYBM1XUdBbeG1c8KLjvPbh/remote-ai-systems-engineer---forward-deployed-builder-in-united-states-at-ai-acquisition) | AI Acquisition | United States | 2026-06-22 | Not specified | No | 1 | Workable Global |
-| Software Engineering | [Infrastructure/Backend Engineer](https://jobs.workable.com/view/srcxQ1aRFQm8rftXK4Qoe5/hybrid-infrastructure%2Fbackend-engineer-in-new-york-at-mlabs) | MLabs | New York, New York, United States | 2026-06-22 | Not specified | No | 1 | Workable Global |
 <!-- JOBS:END -->
