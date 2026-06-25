@@ -1,6 +1,6 @@
 <p align="center">
   <img alt="Update jobs" src="https://github.com/venkatsubash2003/Jobs4Me_Live/actions/workflows/update-jobs.yml/badge.svg">
-  <img alt="Refresh every 6 hours" src="https://img.shields.io/badge/refresh-every%206%20hours-111827">
+  <img alt="Refresh every 3 hours" src="https://img.shields.io/badge/refresh-every%203%20hours-111827">
   <img alt="USA only" src="https://img.shields.io/badge/region-USA%20only-2563eb">
   <img alt="Early career" src="https://img.shields.io/badge/experience-0--2%20years-16a34a">
   <img alt="No result cap" src="https://img.shields.io/badge/results-no%20cap-f97316">
@@ -36,7 +36,7 @@ This scraper pulls from ATS boards configured in `data/ats_boards.yml` plus the 
 
 ## Automation
 
-GitHub Actions runs `.github/workflows/update-jobs.yml` every 6 hours using the cron schedule `0 */6 * * *` in UTC. When fresh matches change the generated section below, the workflow commits the updated `README.md` back to this repository.
+GitHub Actions runs `.github/workflows/update-jobs.yml` every 3 hours using the cron schedule `0 */3 * * *` in UTC. When fresh matches change the generated section below, the workflow commits the updated `README.md` back to this repository.
 
 ## Run Locally
 
