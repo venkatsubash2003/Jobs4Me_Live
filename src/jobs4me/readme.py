@@ -60,7 +60,8 @@ def render_jobs_table(jobs: list[MatchedJob]) -> str:
     if not jobs:
         return (
             f"_Last updated: {utc_now_label()}_\n\n"
-            "No matching jobs found that met the role, resume, USA-only, no-clearance, and <=2 years filters."
+            "No matching jobs found that met the role, resume, USA-only, no-clearance, "
+            "posted-on/after June 19, 2026, and <=2 years filters."
         )
 
     total_sponsors = sum(1 for item in jobs if item.h1b_sponsor)

@@ -30,6 +30,8 @@ class MatchedJob:
     h1b_sponsor: bool
 
 
+MIN_JOB_DATE = datetime(2026, 6, 19, tzinfo=timezone.utc)
+
 ROLE_PATTERNS: tuple[tuple[str, tuple[re.Pattern[str], ...]], ...] = (
     (
         "AI / ML",
@@ -85,13 +87,13 @@ NON_US_LOCATION = re.compile(
     r"spain|italy|netherlands|amsterdam|belgium|switzerland|austria|czechia|greece|ukraine|"
     r"russia|turkey|luxembourg|sweden|norway|denmark|finland|poland|portugal|romania|bulgaria|"
     r"croatia|slovakia|slovenia|estonia|lithuania|latvia|"
-    r"india|vietnam|thailand|malaysia|philippines|indonesia|singapore|japan|china|taiwan|"
-    r"australia|new\s+zealand|united\s+arab\s+emirates|saudi\s+arabia|qatar|egypt|"
+    r"india|mumbai|vietnam|thailand|malaysia|philippines|indonesia|singapore|japan|china|taiwan|taipei|"
+    r"australia|melbourne|new\s+zealand|united\s+arab\s+emirates|uae|dubai|saudi\s+arabia|qatar|egypt|"
     r"south\s+africa|nigeria|kenya|sri\s+lanka|bangladesh|pakistan|nepal|emea|apac|europe|latin\s+america|"
-    r"south\s+korea|seoul|hong\s+kong|tel\s+aviv|israel|toronto|ontario|kitchener|waterloo|"
+    r"south\s+korea|seoul|hong\s+kong|tel\s+aviv|israel|chile|santiago|toronto|ontario|kitchener|waterloo|"
     r"montreal|montréal|qu[eé]bec|calgary|british\s+columbia|s[ãa]o\s+paulo|rio\s+de\s+janeiro|"
     r"kuala\s+lumpur|bangkok|dhaka|paris|new\s+delhi|jakarta|manila|berlin|hanoi|nha\s+trang|"
-    r"tokyo|prague|munich|dublin|london|belgrade|serbia|one-north)\b",
+    r"tokyo|prague|munich|dublin|london|belgrade|serbia|one-north|malm[oö]|wroc[łl]aw|\bpl\b|gurugram)\b",
     re.I,
 )
 
@@ -161,6 +163,10 @@ def parse_job_datetime(value: str) -> datetime:
     return parsed.astimezone(timezone.utc)
 
 
+def is_recent_enough(job: Job, minimum: datetime = MIN_JOB_DATE) -> bool:
+    return parse_job_datetime(job.published_at) >= minimum
+
+
 def is_usa_role(job: Job) -> bool:
     location = job.location or ""
     if NON_US_LOCATION.search(f"{job.title} {location}"):
@@ -179,6 +185,9 @@ def filter_jobs(jobs: list[Job], profile: ResumeProfile, sponsors: set[str]) -> 
         if job.url in seen_urls:
             continue
         seen_urls.add(job.url)
+
+        if not is_recent_enough(job):
+            continue
 
         role = classify_role(job.title)
         if role not in ALLOWED_ROLE_LABELS:

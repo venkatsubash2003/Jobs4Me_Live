@@ -3,6 +3,7 @@ from jobs4me.jobs import (
     classify_role,
     experience_label,
     filter_jobs,
+    is_recent_enough,
     is_usa_role,
     max_years_required,
     parse_job_datetime,
@@ -32,6 +33,39 @@ def test_years_required_rejects_over_two_years():
 def test_parse_job_datetime_handles_epoch_milliseconds():
     parsed = parse_job_datetime("1717200000000")
     assert parsed.year == 2024
+
+
+def test_recent_filter_keeps_only_jobs_on_or_after_repo_launch_date():
+    recent = Job(
+        title="Machine Learning Engineer",
+        company="Example",
+        url="https://example.com/recent",
+        location="United States",
+        source="Test",
+        published_at="2026-06-19T00:00:00Z",
+        description="Python role.",
+    )
+    older = Job(
+        title="Machine Learning Engineer",
+        company="Example",
+        url="https://example.com/older",
+        location="United States",
+        source="Test",
+        published_at="2026-06-18T23:59:59Z",
+        description="Python role.",
+    )
+    unknown = Job(
+        title="Machine Learning Engineer",
+        company="Example",
+        url="https://example.com/unknown",
+        location="United States",
+        source="Test",
+        published_at="",
+        description="Python role.",
+    )
+    assert is_recent_enough(recent) is True
+    assert is_recent_enough(older) is False
+    assert is_recent_enough(unknown) is False
 
 
 def test_score_job_is_normalized_to_100():
@@ -67,7 +101,7 @@ def test_filter_jobs_keeps_non_sponsor_when_other_filters_match():
             url="https://example.com/job",
             location="Remote",
             source="Test",
-            published_at="2026-01-01",
+            published_at="2026-06-20",
             description="Python and machine learning role in the United States. Requires 1 year of experience.",
         )
     ]
@@ -90,7 +124,7 @@ def test_filter_jobs_sorts_newest_then_h1b_then_alignment():
             url="https://example.com/high",
             location="United States",
             source="Test",
-            published_at="2026-01-01",
+            published_at="2026-06-20",
             description="Python machine learning SQL role. Requires 1 year of experience.",
         ),
         Job(
@@ -99,7 +133,7 @@ def test_filter_jobs_sorts_newest_then_h1b_then_alignment():
             url="https://example.com/sponsor",
             location="United States",
             source="Test",
-            published_at="2026-01-03",
+            published_at="2026-06-22",
             description="Python machine learning role. Requires 1 year of experience.",
         ),
         Job(
@@ -108,7 +142,7 @@ def test_filter_jobs_sorts_newest_then_h1b_then_alignment():
             url="https://example.com/newer",
             location="United States",
             source="Test",
-            published_at="2026-01-04",
+            published_at="2026-06-23",
             description="Python machine learning role. Requires 1 year of experience.",
         ),
     ]
@@ -201,3 +235,57 @@ def test_usa_and_security_clearance_filters():
     assert is_usa_role(montreal_job) is False
     assert is_usa_role(remote_canada_job) is False
     assert requires_security_clearance(clearance_job) is True
+
+
+def test_filter_jobs_drops_jobs_before_repo_launch_date():
+    profile = ResumeProfile(
+        name="Test",
+        keywords=("python", "machine learning"),
+        excluded_keywords=(),
+        raw_text="python machine learning",
+    )
+    jobs = [
+        Job(
+            title="Machine Learning Engineer",
+            company="Example",
+            url="https://example.com/recent",
+            location="United States",
+            source="Test",
+            published_at="2026-06-19",
+            description="Python machine learning role. Requires 1 year of experience.",
+        ),
+        Job(
+            title="Machine Learning Engineer",
+            company="Example",
+            url="https://example.com/older",
+            location="United States",
+            source="Test",
+            published_at="2026-06-18",
+            description="Python machine learning role. Requires 1 year of experience.",
+        ),
+        Job(
+            title="Machine Learning Engineer",
+            company="Example",
+            url="https://example.com/unknown",
+            location="United States",
+            source="Test",
+            published_at="",
+            description="Python machine learning role. Requires 1 year of experience.",
+        ),
+    ]
+    matches = filter_jobs(jobs, profile, set())
+    assert [match.job.url for match in matches] == ["https://example.com/recent"]
+
+
+def test_non_us_location_filter_blocks_recent_location_leaks():
+    for location in ("Malmö", "Santiago, Chile", "Wrocław, PL", "Dubai, UAE", "Remote-Taipei"):
+        job = Job(
+            title="Software Engineer",
+            company="Test",
+            url=f"https://example.com/{location}",
+            location=location,
+            source="Test",
+            published_at="2026-06-20",
+            description="Global software role supporting United States teams.",
+        )
+        assert is_usa_role(job) is False
