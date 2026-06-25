@@ -208,7 +208,7 @@ def filter_jobs(jobs: list[Job], profile: ResumeProfile, sponsors: set[str]) -> 
 
     return sorted(
         matched,
-        key=lambda item: (item.score, item.h1b_sponsor, parse_job_datetime(item.job.published_at)),
+        key=lambda item: (parse_job_datetime(item.job.published_at), item.h1b_sponsor, item.score),
         reverse=True,
     )
 
@@ -254,4 +254,4 @@ def parse_remotive(payload: Any) -> list[Job]:
 
 
 def utc_now_label() -> str:
-    return datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")

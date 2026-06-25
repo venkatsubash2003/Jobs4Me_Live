@@ -76,7 +76,7 @@ def test_filter_jobs_keeps_non_sponsor_when_other_filters_match():
     assert matches[0].h1b_sponsor is False
 
 
-def test_filter_jobs_prioritizes_alignment_then_h1b_then_date():
+def test_filter_jobs_sorts_newest_then_h1b_then_alignment():
     profile = ResumeProfile(
         name="Test",
         keywords=("python", "machine learning", "sql", "react"),
@@ -114,9 +114,9 @@ def test_filter_jobs_prioritizes_alignment_then_h1b_then_date():
     ]
     matches = filter_jobs(jobs, profile, {"google"})
     assert [match.job.url for match in matches] == [
-        "https://example.com/high",
-        "https://example.com/sponsor",
         "https://example.com/newer",
+        "https://example.com/sponsor",
+        "https://example.com/high",
     ]
 
 
