@@ -157,7 +157,47 @@ def test_usa_and_security_clearance_filters():
         published_at="2026-01-03",
         description="Python role.",
     )
+    thailand_job = Job(
+        title="Data Analyst",
+        company="Test",
+        url="https://example.com/thailand",
+        location="BangPa-in, PHRA NAKHON SI AYUTTHAYA, Thailand",
+        source="Test",
+        published_at="2026-01-03",
+        description="Global analytics role with partners in the United States.",
+    )
+    luxembourg_job = Job(
+        title="Analytics Engineer",
+        company="Test",
+        url="https://example.com/luxembourg",
+        location="Hybrid - Luxembourg",
+        source="Test",
+        published_at="2026-01-03",
+        description="Data role supporting United States teams.",
+    )
+    montreal_job = Job(
+        title="AI Deployment Strategist - Canada",
+        company="Test",
+        url="https://example.com/montreal",
+        location="Montreal",
+        source="Test",
+        published_at="2026-01-03",
+        description="AI role supporting United States teams.",
+    )
+    remote_canada_job = Job(
+        title="Software Engineer, LATAM & Canada",
+        company="Test",
+        url="https://example.com/remote-canada",
+        location="Remote",
+        source="Test",
+        published_at="2026-01-03",
+        description="Software role supporting United States teams.",
+    )
     assert is_usa_role(usa_job) is True
     assert is_usa_role(non_us_job) is False
     assert is_usa_role(canada_job) is False
+    assert is_usa_role(thailand_job) is False
+    assert is_usa_role(luxembourg_job) is False
+    assert is_usa_role(montreal_job) is False
+    assert is_usa_role(remote_canada_job) is False
     assert requires_security_clearance(clearance_job) is True

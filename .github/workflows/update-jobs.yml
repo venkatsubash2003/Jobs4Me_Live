@@ -8,9 +8,18 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-jobs
+  cancel-in-progress: true
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    timeout-minutes: 330
+    env:
+      FETCH_WORKERS: "24"
+      WORKDAY_FETCH_WORKERS: "2"
+      PYTHONUNBUFFERED: "1"
     steps:
       - name: Checkout
         uses: actions/checkout@v4

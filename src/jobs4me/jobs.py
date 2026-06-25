@@ -82,10 +82,16 @@ USA_LOCATION = re.compile(
 )
 NON_US_LOCATION = re.compile(
     r"\b(canada|mexico|brazil|argentina|united\s+kingdom|uk|england|scotland|ireland|germany|france|"
-    r"spain|italy|netherlands|amsterdam|sweden|norway|denmark|finland|poland|portugal|romania|"
-    r"india|singapore|japan|china|australia|new\s+zealand|emea|apac|europe|latin\s+america|"
+    r"spain|italy|netherlands|amsterdam|belgium|switzerland|austria|czechia|greece|ukraine|"
+    r"russia|turkey|luxembourg|sweden|norway|denmark|finland|poland|portugal|romania|bulgaria|"
+    r"croatia|slovakia|slovenia|estonia|lithuania|latvia|"
+    r"india|vietnam|thailand|malaysia|philippines|indonesia|singapore|japan|china|taiwan|"
+    r"australia|new\s+zealand|united\s+arab\s+emirates|saudi\s+arabia|qatar|egypt|"
+    r"south\s+africa|nigeria|kenya|sri\s+lanka|bangladesh|pakistan|nepal|emea|apac|europe|latin\s+america|"
     r"south\s+korea|seoul|hong\s+kong|tel\s+aviv|israel|toronto|ontario|kitchener|waterloo|"
-    r"london|belgrade|serbia)\b",
+    r"montreal|montréal|qu[eé]bec|calgary|british\s+columbia|s[ãa]o\s+paulo|rio\s+de\s+janeiro|"
+    r"kuala\s+lumpur|bangkok|dhaka|paris|new\s+delhi|jakarta|manila|berlin|hanoi|nha\s+trang|"
+    r"tokyo|prague|munich|dublin|london|belgrade|serbia|one-north)\b",
     re.I,
 )
 
@@ -157,7 +163,7 @@ def parse_job_datetime(value: str) -> datetime:
 
 def is_usa_role(job: Job) -> bool:
     location = job.location or ""
-    if NON_US_LOCATION.search(location):
+    if NON_US_LOCATION.search(f"{job.title} {location}"):
         return False
     return bool(USA_LOCATION.search(f"{location} {job.description}"))
 

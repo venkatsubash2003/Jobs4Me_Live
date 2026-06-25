@@ -8,6 +8,7 @@ PROFILE_PATH = ROOT / "resume" / "profile.yml"
 RESUME_PDF_PATH = ROOT / "resume" / "resume.pdf"
 SPONSOR_SEED_PATH = ROOT / "data" / "h1b_sponsors_seed.csv"
 ATS_BOARDS_PATH = ROOT / "data" / "ats_boards.yml"
+COMPANY_BOARDS_PATH = ROOT / "data" / "companies.json"
 
 ALLOWED_ROLE_LABELS = (
     "AI / ML",
@@ -24,4 +25,5 @@ ATS_SYSTEMS = (
     "workable",
     "pinpoint",
     "breezy",
+    "avature",
 )
