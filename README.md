@@ -58,7 +58,7 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-06-25 16:18 UTC_
+_Last updated: 2026-06-25 16:21 UTC_
 
 **Showing 60 roles across 9 posting dates.** H-1B sponsor matches: **4**.
 
