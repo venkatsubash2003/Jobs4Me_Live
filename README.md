@@ -1,9 +1,5 @@
 <p align="center">
   <img alt="Update jobs" src="https://github.com/venkatsubash2003/Jobs4Me_Live/actions/workflows/update-jobs.yml/badge.svg">
-  <img alt="Refresh every 3 hours" src="https://img.shields.io/badge/refresh-every%203%20hours-111827">
-  <img alt="USA only" src="https://img.shields.io/badge/region-USA%20only-2563eb">
-  <img alt="Early career" src="https://img.shields.io/badge/experience-0--2%20years-16a34a">
-  <img alt="No result cap" src="https://img.shields.io/badge/results-no%20cap-f97316">
 </p>
 
 <h1 align="center">Jobs4Me Live</h1>
@@ -11,6 +7,17 @@
 <p align="center">
   Resume-aware job radar for early-career AI, machine learning, data science, analytics, and software engineering roles in the United States.
 </p>
+
+<!-- METRICS:START -->
+<table align="center">
+  <tr>
+    <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics</td>
+    <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
+    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 25 minutes</td>
+    <td align="center"><strong>Experience</strong><br>0-2 years</td>
+  </tr>
+</table>
+<!-- METRICS:END -->
 
 ---
 

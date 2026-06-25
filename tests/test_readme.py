@@ -1,5 +1,50 @@
+from datetime import datetime, timezone
+
 from jobs4me.jobs import Job, MatchedJob
-from jobs4me.readme import render_jobs_table
+from jobs4me.readme import next_fetch_label, render_jobs_table, render_metrics, update_readme
+
+
+def test_next_fetch_label_counts_down_to_next_three_hour_slot():
+    assert next_fetch_label(datetime(2026, 6, 25, 18, 0, tzinfo=timezone.utc)) == "03 hours: 00 minutes"
+    assert next_fetch_label(datetime(2026, 6, 25, 18, 29, tzinfo=timezone.utc)) == "02 hours: 31 minutes"
+    assert next_fetch_label(datetime(2026, 6, 25, 23, 50, tzinfo=timezone.utc)) == "00 hours: 10 minutes"
+
+
+def test_render_metrics_shows_requested_readme_metrics():
+    metrics = render_metrics(datetime(2026, 6, 25, 18, 29, tzinfo=timezone.utc))
+    assert "Domains" in metrics
+    assert "Data Science, AI/ML, Data Analytics" in metrics
+    assert "🇺🇸 USA" in metrics
+    assert "Next job fetch in" in metrics
+    assert "02 hours: 31 minutes" in metrics
+    assert "0-2 years" in metrics
+
+
+def test_update_readme_refreshes_metrics_and_jobs_sections(tmp_path):
+    readme_path = tmp_path / "README.md"
+    readme_path.write_text(
+        "\n".join(
+            [
+                "# Test",
+                "<!-- METRICS:START -->",
+                "old metrics",
+                "<!-- METRICS:END -->",
+                "<!-- JOBS:START -->",
+                "old jobs",
+                "<!-- JOBS:END -->",
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    update_readme([], readme_path, now=datetime(2026, 6, 25, 18, 29, tzinfo=timezone.utc))
+
+    content = readme_path.read_text(encoding="utf-8")
+    assert "Data Science, AI/ML, Data Analytics" in content
+    assert "02 hours: 31 minutes" in content
+    assert "old metrics" not in content
+    assert "old jobs" not in content
+    assert "No matching jobs found" in content
 
 
 def test_render_jobs_table_groups_by_date_and_sorts_within_date():
