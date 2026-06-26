@@ -90,6 +90,7 @@ NON_US_LOCATION = re.compile(
     r"india|mumbai|vietnam|thailand|malaysia|philippines|indonesia|singapore|japan|china|taiwan|taipei|"
     r"australia|melbourne|new\s+zealand|united\s+arab\s+emirates|uae|dubai|saudi\s+arabia|qatar|egypt|"
     r"south\s+africa|nigeria|kenya|sri\s+lanka|bangladesh|pakistan|nepal|emea|apac|europe|latin\s+america|"
+    r"colombia|bogot[aá]|"
     r"south\s+korea|seoul|hong\s+kong|tel\s+aviv|israel|chile|santiago|toronto|ontario|kitchener|waterloo|"
     r"montreal|montréal|qu[eé]bec|calgary|british\s+columbia|s[ãa]o\s+paulo|rio\s+de\s+janeiro|"
     r"kuala\s+lumpur|bangkok|dhaka|paris|new\s+delhi|jakarta|manila|berlin|hanoi|nha\s+trang|"

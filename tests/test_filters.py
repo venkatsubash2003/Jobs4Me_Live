@@ -278,7 +278,7 @@ def test_filter_jobs_drops_jobs_before_repo_launch_date():
 
 
 def test_non_us_location_filter_blocks_recent_location_leaks():
-    for location in ("Malmö", "Santiago, Chile", "Wrocław, PL", "Dubai, UAE", "Remote-Taipei"):
+    for location in ("Malmö", "Santiago, Chile", "Wrocław, PL", "Dubai, UAE", "Remote-Taipei", "Bogota, Colombia"):
         job = Job(
             title="Software Engineer",
             company="Test",

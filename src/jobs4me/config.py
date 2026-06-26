@@ -4,6 +4,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 README_PATH = ROOT / "README.md"
+SITE_DIR = ROOT / "docs"
+SITE_INDEX_PATH = SITE_DIR / "index.html"
+SITE_DATA_PATH = SITE_DIR / "jobs.json"
 PROFILE_PATH = ROOT / "resume" / "profile.yml"
 RESUME_PDF_PATH = ROOT / "resume" / "resume.pdf"
 SPONSOR_SEED_PATH = ROOT / "data" / "h1b_sponsors_seed.csv"

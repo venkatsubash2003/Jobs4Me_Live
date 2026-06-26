@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Resume-aware job dashboard for early-career AI, ML, data, analytics, and software roles.">
+  <title>Jobs4Me Live</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f8fb;
+      --panel: #ffffff;
+      --ink: #1f2937;
+      --muted: #667085;
+      --line: #d8dee8;
+      --blue: #2563eb;
+      --green: #15803d;
+      --orange: #c2410c;
+      --red: #b42318;
+      --shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+
+    a { color: inherit; }
+
+    .shell {
+      width: min(1440px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 24px 0 40px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 20px;
+      align-items: end;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.75rem, 3vw, 2.6rem);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      margin: 8px 0 0;
+      color: var(--muted);
+      max-width: 760px;
+    }
+
+    .updated {
+      justify-self: end;
+      color: var(--muted);
+      font-size: 0.94rem;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .metric {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px 16px;
+      box-shadow: var(--shadow);
+      min-height: 92px;
+    }
+
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .metric strong {
+      display: block;
+      margin-top: 7px;
+      font-size: 1.05rem;
+      line-height: 1.28;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) 190px 160px 170px;
+      gap: 10px;
+      align-items: center;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      box-shadow: var(--shadow);
+      margin-bottom: 14px;
+    }
+
+    input,
+    select {
+      width: 100%;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 0 12px;
+      color: var(--ink);
+      background: #fff;
+      font: inherit;
+    }
+
+    input:focus,
+    select:focus {
+      outline: 2px solid rgba(37, 99, 235, 0.2);
+      border-color: var(--blue);
+    }
+
+    .summary {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .table-wrap {
+      overflow: auto;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    table {
+      width: 100%;
+      min-width: 1060px;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 11px 12px;
+      border-bottom: 1px solid #edf0f5;
+      text-align: left;
+      vertical-align: middle;
+      font-size: 0.93rem;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: #f4f6fa;
+      color: #475467;
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    tbody tr:hover { background: #f8fbff; }
+
+    .role {
+      font-weight: 700;
+      color: #111827;
+    }
+
+    .subtle {
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 58px;
+      min-height: 28px;
+      border-radius: 999px;
+      padding: 2px 10px;
+      font-weight: 700;
+      font-size: 0.82rem;
+    }
+
+    .yes {
+      color: var(--green);
+      background: #ecfdf3;
+      border: 1px solid #bbf7d0;
+    }
+
+    .no {
+      color: var(--red);
+      background: #fff1f3;
+      border: 1px solid #fecdd3;
+    }
+
+    .match {
+      color: var(--blue);
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .apply {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 34px;
+      border-radius: 8px;
+      background: var(--blue);
+      color: #fff;
+      padding: 0 13px;
+      font-weight: 800;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .empty {
+      padding: 32px 16px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    @media (max-width: 920px) {
+      .shell { width: min(100% - 20px, 760px); padding-top: 16px; }
+      header { grid-template-columns: 1fr; }
+      .updated { justify-self: start; text-align: left; white-space: normal; }
+      .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .toolbar { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 560px) {
+      .metrics,
+      .toolbar { grid-template-columns: 1fr; }
+      th,
+      td { padding: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div>
+        <h1>Jobs4Me Live</h1>
+        <p class="subtitle">Resume-aware job dashboard for early-career AI, ML, data, analytics, and software roles.</p>
+      </div>
+      <div class="updated">Updated <strong id="generatedAt"></strong><br>Next fetch in <strong id="nextFetch"></strong></div>
+    </header>
+
+    <section class="metrics" aria-label="Job board metrics">
+      <div class="metric"><span>Domains</span><strong id="domains"></strong></div>
+      <div class="metric"><span>Region</span><strong>🇺🇸 <span id="region"></span></strong></div>
+      <div class="metric"><span>Total Jobs</span><strong id="totalJobs"></strong></div>
+      <div class="metric"><span>Experience</span><strong id="experience"></strong></div>
+    </section>
+
+    <section class="toolbar" aria-label="Job filters">
+      <input id="search" type="search" placeholder="Search role, company, location, keyword">
+      <select id="dateFilter" aria-label="Date"></select>
+      <select id="sponsorFilter" aria-label="H-1B sponsorship">
+        <option value="all">All H-1B signals</option>
+        <option value="yes">Sponsors only</option>
+        <option value="no">Non-sponsors</option>
+      </select>
+      <select id="roleFilter" aria-label="Domain"></select>
+    </section>
+
+    <div class="summary">
+      <span id="resultCount"></span>
+      <span id="sponsorCount"></span>
+    </div>
+
+    <section class="table-wrap" aria-label="Matching jobs">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Role</th>
+            <th>Company</th>
+            <th>Location</th>
+            <th>YOE</th>
+            <th>H-1B</th>
+            <th>Match</th>
+            <th>Apply</th>
+          </tr>
+        </thead>
+        <tbody id="jobsBody"></tbody>
+      </table>
+      <div class="empty" id="emptyState" hidden>No jobs match the current filters.</div>
+    </section>
+  </main>
+
+  <script id="jobs-data" type="application/json">{"generated_at":"2026-06-26 02:38 UTC","next_fetch_in":"00 hours: 22 minutes","domains":"Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer","region":"USA","experience":"0-2 years","stats":{"total_jobs":141,"h1b_sponsors":4,"posting_dates":8,"latest_date":"2026-06-26"},"jobs":[{"date":"2026-06-26","role":"Machine Learning Engineer, Agentic Application","company":"ServiceNow","location":"Mountain View, CALIFORNIA, United States","yoe":"2","h1b_sponsor":true,"alignment":26,"apply_url":"https://jobs.smartrecruiters.com/ServiceNow/744000134357159","category":"AI / ML","source":"SmartRecruiters","published_at":"2026-06-26T00:46:29.123Z"},{"date":"2026-06-25","role":"Android Software Engineer - Applications","company":"Applied Intuition","location":"Sunnyvale","yoe":"1","h1b_sponsor":false,"alignment":19,"apply_url":"https://jobs.ashbyhq.com/applied/ffd8635d-43d5-4298-a29c-67eaa45c5a4a","category":"Software Engineering","source":"Ashby","published_at":"2026-06-25T23:04:23.590+00:00"},{"date":"2026-06-25","role":"Software Engineer – Infrastructure Tooling","company":"Applied Intuition","location":"Sunnyvale","yoe":"2","h1b_sponsor":false,"alignment":15,"apply_url":"https://jobs.ashbyhq.com/applied/c3543196-e23c-4f4b-b460-fca476ffead6","category":"Software Engineering","source":"Ashby","published_at":"2026-06-25T22:52:16.583+00:00"},{"date":"2026-06-25","role":"Software Engineer, Data Engineering","company":"Roblox","location":"San Mateo, CA, United States","yoe":"1","h1b_sponsor":false,"alignment":26,"apply_url":"https://careers.roblox.com/jobs/8025021?gh_jid=8025021","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-25T17:04:19-04:00"},{"date":"2026-06-25","role":"Revenue Data Analyst","company":"DoorDash","location":"United States - Remote","yoe":"Not specified","h1b_sponsor":false,"alignment":15,"apply_url":"https://job-boards.greenhouse.io/doordashusa/jobs/8024408","category":"Data Science / Analytics","source":"Greenhouse","published_at":"2026-06-25T15:21:20-04:00"},{"date":"2026-06-25","role":"Research Scientist","company":"Parallel Web Systems","location":"San Francisco or Palo Alto","yoe":"Not specified","h1b_sponsor":false,"alignment":4,"apply_url":"https://jobs.ashbyhq.com/parallel/5fac39a3-a44d-470b-94ed-15b2239d410f","category":"AI / ML","source":"Ashby","published_at":"2026-06-25T18:44:57.969+00:00"},{"date":"2026-06-25","role":"Data Scientist, Experimentation","company":"FanDuel","location":"New York City","yoe":"1","h1b_sponsor":false,"alignment":26,"apply_url":"https://www.fanduel.careers/open-positions?gh_jid=8028963","category":"Data Science / Analytics","source":"Greenhouse","published_at":"2026-06-25T14:20:05-04:00"},{"date":"2026-06-25","role":"Software Engineer, Growth - Rime Ai","company":"Unusual","location":"San Francisco, California","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://jobs.lever.co/unusual/0d58768b-9ca2-4af6-9b46-56534da5b3f1","category":"AI / ML","source":"Lever","published_at":"1782410401081"},{"date":"2026-06-25","role":"Associate Software Engineer – C++ (Computer Aided Manufacturing)","company":"Protolabs","location":"Brooklyn Park, MN","yoe":"Not specified","h1b_sponsor":false,"alignment":15,"apply_url":"https://jobs.lever.co/protolabs/9da2126b-76e7-4d10-aee7-ec97cbff5bec","category":"Software Engineering","source":"Lever","published_at":"1782409021807"},{"date":"2026-06-25","role":"Infrastructure Engineer","company":"SpaceX","location":"Redmond, WA","yoe":"1","h1b_sponsor":false,"alignment":11,"apply_url":"https://boards.greenhouse.io/spacex/jobs/8604308002?gh_jid=8604308002","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-25T13:33:45-04:00"},{"date":"2026-06-25","role":"Software Engineer II, Machine Learning (Feature Platform)","company":"Affirm","location":"Remote US","yoe":"1.5","h1b_sponsor":false,"alignment":26,"apply_url":"https://job-boards.greenhouse.io/affirm/jobs/7785600003","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-25T12:40:04-04:00"},{"date":"2026-06-25","role":"Research Scientist - Computational Neuroscience","company":"Astera","location":"Hybrid","yoe":"Not specified","h1b_sponsor":false,"alignment":19,"apply_url":"https://jobs.ashbyhq.com/astera/0a1a566e-c48d-4605-b78f-458c234df670","category":"AI / ML","source":"Ashby","published_at":"2026-06-25T16:33:50.579+00:00"},{"date":"2026-06-25","role":"Full Stack Engineer, Insights","company":"Benchling","location":"San Francisco, CA","yoe":"2","h1b_sponsor":false,"alignment":19,"apply_url":"https://jobs.ashbyhq.com/benchling/259613a6-686a-4756-82fd-e653d53e9904","category":"Software Engineering","source":"Ashby","published_at":"2026-06-25T16:15:20.381+00:00"},{"date":"2026-06-25","role":"Software Engineer - Moveworks","company":"ServiceNow","location":"Mountain View, CALIFORNIA, United States","yoe":"2","h1b_sponsor":true,"alignment":22,"apply_url":"https://jobs.smartrecruiters.com/ServiceNow/744000134304689","category":"Software Engineering","source":"SmartRecruiters","published_at":"2026-06-25T16:13:55.446Z"},{"date":"2026-06-25","role":"Co-Op, ML Scientist for Biology","company":"Lila Sciences","location":"San Francisco, CA USA","yoe":"Not specified","h1b_sponsor":false,"alignment":19,"apply_url":"https://job-boards.greenhouse.io/lilasciences/jobs/4294212009","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-25T11:14:31-04:00"},{"date":"2026-06-25","role":"Infrastructure Engineer","company":"Gauntlet","location":"New York","yoe":"1","h1b_sponsor":false,"alignment":15,"apply_url":"https://jobs.lever.co/gauntlet/56230d07-8402-4ed8-99d2-cc76391108fa","category":"Software Engineering","source":"Lever","published_at":"1782395440823"},{"date":"2026-06-25","role":"AI/ML Flex Solution Engineer","company":"Snowflake","location":"US-CA-Remote","yoe":"2","h1b_sponsor":true,"alignment":11,"apply_url":"https://jobs.ashbyhq.com/snowflake/7c0fa868-20c5-4727-9f22-a5ab4bfbc08b","category":"AI / ML","source":"Ashby","published_at":"2026-06-25T13:39:10.494+00:00"},{"date":"2026-06-25","role":"Paid Research Participant – AI Training Study (Columbus, OH)","company":"HumanSignal","location":"Columbus, OH","yoe":"Not specified","h1b_sponsor":false,"alignment":7,"apply_url":"https://job-boards.greenhouse.io/humansignal/jobs/6101368004","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-25T07:13:39-04:00"},{"date":"2026-06-25","role":"AI Product Engineer","company":"PostHog","location":"Remote","yoe":"Not specified","h1b_sponsor":false,"alignment":22,"apply_url":"https://jobs.ashbyhq.com/posthog/bd597451-e465-46f6-857f-befe28366f20","category":"AI / ML","source":"Ashby","published_at":"2026-06-25T08:26:31.947+00:00"},{"date":"2026-06-25","role":"Research Engineer / Research Scientist -Personal AGI, Proactivity","company":"OpenAI","location":"San Francisco","yoe":"Not specified","h1b_sponsor":false,"alignment":22,"apply_url":"https://jobs.ashbyhq.com/openai/e57d196b-4fa0-4463-bd33-d8189f0d3541","category":"AI / ML","source":"Ashby","published_at":"2026-06-25T05:25:53.586+00:00"},{"date":"2026-06-25","role":"Research Engineer/Research Scientist - Personal AGI, North Stars","company":"OpenAI","location":"San Francisco","yoe":"Not specified","h1b_sponsor":false,"alignment":19,"apply_url":"https://jobs.ashbyhq.com/openai/171ebca6-de53-4d6e-a312-30332f353957","category":"AI / ML","source":"Ashby","published_at":"2026-06-25T04:24:09.112+00:00"},{"date":"2026-06-25","role":"Embedded Software Engineer","company":"Icarus","location":"El Segundo","yoe":"1","h1b_sponsor":false,"alignment":7,"apply_url":"https://job-boards.greenhouse.io/icarus/jobs/5279638008","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-24T21:03:08-04:00"},{"date":"2026-06-25","role":"Business Intelligence & Data Analytics Intern (Undergraduate)","company":"Phamily","location":"New York, NY","yoe":"Not specified","h1b_sponsor":false,"alignment":4,"apply_url":"https://job-boards.greenhouse.io/jobsatphamily/jobs/5281446008","category":"Data Science / Analytics","source":"Greenhouse","published_at":"2026-06-24T21:00:54-04:00"},{"date":"2026-06-25","role":"Full Stack Developer (AWS / AI-Native)","company":"RR Digital","location":"Maitland, Florida, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":22,"apply_url":"https://jobs.workable.com/view/kuRgWNqPAaCNUSqWrTvxg8/remote-full-stack-developer-(aws-%2F-ai-native)-in-maitland-at-rr-digital","category":"AI / ML","source":"Workable Global","published_at":"2026-06-25"},{"date":"2026-06-25","role":"AI Engineer I","company":"Frontier Medicines","location":"South San Francisco, California, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://jobs.workable.com/view/t4nn6yTEUyur9CmKuJBZT1/ai-engineer-i-in-south-san-francisco-at-frontier-medicines","category":"AI / ML","source":"Workable Global","published_at":"2026-06-25"},{"date":"2026-06-25","role":"Data Analytics Intern","company":"Massachusetts Life Sciences Center","location":"Waltham, Massachusetts, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":7,"apply_url":"https://jobs.workable.com/view/mvWpDiUcZdFNPjmH6VdSxA/hybrid-data-analytics-intern-in-waltham-at-massachusetts-life-sciences-center","category":"Data Science / Analytics","source":"Workable Global","published_at":"2026-06-25"},{"date":"2026-06-24","role":"AI Engineer, Agentic Ad Creative (Multimodal)","company":"NewsBreak","location":"Mountain View, California, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://job-boards.greenhouse.io/newsbreak/jobs/4691989006","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-24T19:14:33-04:00"},{"date":"2026-06-24","role":"Software Engineer, ML Serving - Rime Ai","company":"Unusual","location":"San Francisco, California","yoe":"Not specified","h1b_sponsor":false,"alignment":22,"apply_url":"https://jobs.lever.co/unusual/ef80001d-bc4a-44e6-968c-d7270f80b618","category":"AI / ML","source":"Lever","published_at":"1782338901551"},{"date":"2026-06-24","role":"Machine Learning Engineer - Simulation Framework","company":"Zoox","location":"Foster City, CA","yoe":"Not specified","h1b_sponsor":false,"alignment":26,"apply_url":"https://jobs.lever.co/zoox/00694777-4083-426f-8382-3d0073c34787","category":"AI / ML","source":"Lever","published_at":"1782338625446"},{"date":"2026-06-24","role":"Machine Learning Intern- Immediate Start","company":"Phamily","location":"New York","yoe":"Not specified","h1b_sponsor":false,"alignment":41,"apply_url":"https://job-boards.greenhouse.io/jobsatphamily/jobs/5281239008","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-24T17:58:38-04:00"},{"date":"2026-06-24","role":"Founding Data Engineer","company":"Probably Genetic","location":"San Francisco","yoe":"Not specified","h1b_sponsor":false,"alignment":19,"apply_url":"https://jobs.ashbyhq.com/probablygenetic/23feff17-8951-4e55-b9a0-5a47ffb0f7bf","category":"Data Science / Analytics","source":"Ashby","published_at":"2026-06-24T21:37:18.527+00:00"},{"date":"2026-06-24","role":"AI Engineer, Ecosystem","company":"Brex","location":"San Francisco, California, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":7,"apply_url":"https://www.brex.com/careers/8606890002?gh_jid=8606890002","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-24T17:25:11-04:00"},{"date":"2026-06-24","role":"AI Engineer, Ecosystem","company":"Brex","location":"Seattle, Washington, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":7,"apply_url":"https://www.brex.com/careers/8606885002?gh_jid=8606885002","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-24T17:25:10-04:00"},{"date":"2026-06-24","role":"Software Engineer II","company":"Sony Interactive Entertainment","location":"United States, San Mateo, CA","yoe":"Not specified","h1b_sponsor":false,"alignment":15,"apply_url":"https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6101023004","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-24T17:03:34-04:00"},{"date":"2026-06-24","role":"AI Engineer, Product","company":"Brex","location":"San Francisco, California, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://www.brex.com/careers/8606845002?gh_jid=8606845002","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-24T17:03:04-04:00"},{"date":"2026-06-24","role":"Machine Learning Engineer, Agentic AI Systems - Moveworks","company":"ServiceNow","location":"Mountain View, CALIFORNIA, United States","yoe":"Not specified","h1b_sponsor":true,"alignment":37,"apply_url":"https://jobs.smartrecruiters.com/ServiceNow/744000134027173","category":"AI / ML","source":"SmartRecruiters","published_at":"2026-06-24T20:27:40.235Z"},{"date":"2026-06-24","role":"Software Engineer, Sensor Integration","company":"Mach9","location":"San Francisco","yoe":"Not specified","h1b_sponsor":false,"alignment":22,"apply_url":"https://jobs.ashbyhq.com/mach9/5449e5ee-fcd5-4243-851d-00b8230aadc9","category":"Software Engineering","source":"Ashby","published_at":"2026-06-24T20:05:57.146+00:00"},{"date":"2026-06-24","role":"Software Engineer (Apps & Firmware)","company":"Western Digital","location":"San Jose, CA, United States","yoe":"2","h1b_sponsor":false,"alignment":41,"apply_url":"https://jobs.smartrecruiters.com/WesternDigital/744000134025669","category":"Software Engineering","source":"SmartRecruiters","published_at":"2026-06-24T20:03:07.817Z"},{"date":"2026-06-24","role":"Software Engineer, Dev Velocity (all levels)","company":"Render","location":"Remote: United States","yoe":"Not specified","h1b_sponsor":false,"alignment":15,"apply_url":"https://jobs.ashbyhq.com/render/a3f88090-5e37-43a7-b392-04b02056db6d","category":"Software Engineering","source":"Ashby","published_at":"2026-06-24T19:52:38.941+00:00"},{"date":"2026-06-24","role":"Data Scientist Intern","company":"Nuro","location":"Mountain View, California (HQ)","yoe":"Not specified","h1b_sponsor":false,"alignment":22,"apply_url":"https://nuro.ai/careersitem?gh_jid=7594577","category":"Data Science / Analytics","source":"Greenhouse","published_at":"2026-06-24T15:35:41-04:00"},{"date":"2026-06-24","role":"Analytics Engineer","company":"Coinbase","location":"Remote - USA","yoe":"2","h1b_sponsor":false,"alignment":30,"apply_url":"https://www.coinbase.com/careers/positions/8020892?gh_jid=8020892","category":"Data Science / Analytics","source":"Greenhouse","published_at":"2026-06-24T15:29:56-04:00"},{"date":"2026-06-24","role":"Software Engineer, Storage","company":"DoorDash","location":"San Francisco, CA; Seattle, WA; New York, NY","yoe":"2","h1b_sponsor":false,"alignment":19,"apply_url":"https://job-boards.greenhouse.io/doordashusa/jobs/8024644","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-24T15:23:26-04:00"},{"date":"2026-06-24","role":"Software Engineer II, Backend","company":"Brex","location":"Seattle, Washington, United States","yoe":"2","h1b_sponsor":false,"alignment":22,"apply_url":"https://www.brex.com/careers/8606540002?gh_jid=8606540002","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-24T14:52:35-04:00"},{"date":"2026-06-24","role":"Software Engineer II, Backend","company":"Brex","location":"San Francisco, California, United States","yoe":"2","h1b_sponsor":false,"alignment":22,"apply_url":"https://www.brex.com/careers/8606538002?gh_jid=8606538002","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-24T14:51:55-04:00"},{"date":"2026-06-24","role":"Software Engineer II, Backend","company":"Brex","location":"New York, New York, United States","yoe":"2","h1b_sponsor":false,"alignment":22,"apply_url":"https://www.brex.com/careers/8606534002?gh_jid=8606534002","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-24T14:50:58-04:00"},{"date":"2026-06-24","role":"Software Engineer I","company":"Aledade","location":"Remote, United States","yoe":"1","h1b_sponsor":false,"alignment":37,"apply_url":"https://jobs.lever.co/aledade/1f5c4e2f-d8f7-4c55-aefb-d4bf300b1e6f","category":"Software Engineering","source":"Lever","published_at":"1782323180164"},{"date":"2026-06-24","role":"Research Scientist (post-training)","company":"Genmo","location":"San Francisco HQ","yoe":"Not specified","h1b_sponsor":false,"alignment":30,"apply_url":"https://jobs.ashbyhq.com/genmo/f09286ef-c08d-49c4-8635-c1d952440865","category":"AI / ML","source":"Ashby","published_at":"2026-06-24T17:18:39.901+00:00"},{"date":"2026-06-24","role":"Research Scientist (diffusion)","company":"Genmo","location":"San Francisco HQ","yoe":"Not specified","h1b_sponsor":false,"alignment":33,"apply_url":"https://jobs.ashbyhq.com/genmo/0f8462cc-c351-41b0-a794-3558c63646e2","category":"AI / ML","source":"Ashby","published_at":"2026-06-24T17:18:33.731+00:00"},{"date":"2026-06-24","role":"Data Engineer","company":"Axle","location":"Rockville, MD","yoe":"Not specified","h1b_sponsor":false,"alignment":30,"apply_url":"https://job-boards.greenhouse.io/axle/jobs/5172769007","category":"Data Science / Analytics","source":"Greenhouse","published_at":"2026-06-24T11:20:45-04:00"},{"date":"2026-06-24","role":"Applied AI Engineer, Fullstack","company":"Ramp","location":"New York, NY (HQ)","yoe":"Not specified","h1b_sponsor":false,"alignment":15,"apply_url":"https://jobs.ashbyhq.com/ramp/6a7e382f-240a-4952-b9e5-7fe2b3856bc9","category":"AI / ML","source":"Ashby","published_at":"2026-06-24T14:30:42.943+00:00"},{"date":"2026-06-24","role":"Applied ML/CS PhD Internship (6+ months)","company":"Cartesian","location":"Cambridge, MA","yoe":"Not specified","h1b_sponsor":false,"alignment":19,"apply_url":"https://job-boards.greenhouse.io/cartesiansystems/jobs/4295536009","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-24T09:54:07-04:00"},{"date":"2026-06-24","role":"Backend Engineer (EST timezone)","company":"PostHog","location":"Remote","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://jobs.ashbyhq.com/posthog/af00b414-fdb3-41b5-8843-828b4a0e373a","category":"Software Engineering","source":"Ashby","published_at":"2026-06-24T10:39:16.935+00:00"},{"date":"2026-06-24","role":"Software Development Engineer in Test [Geospatial]","company":"One Brief","location":"United States | Remote","yoe":"2","h1b_sponsor":false,"alignment":11,"apply_url":"https://jobs.ashbyhq.com/onebrief/8ee26b8a-97dd-4035-95e2-6ebe657fa59b","category":"Software Engineering","source":"Ashby","published_at":"2026-06-24T01:40:49.938+00:00"},{"date":"2026-06-24","role":"Software Development Engineer in Test","company":"One Brief","location":"United States | Remote","yoe":"2","h1b_sponsor":false,"alignment":15,"apply_url":"https://jobs.ashbyhq.com/onebrief/fbd0fd12-5aed-4428-9373-55ec2c5076f3","category":"Software Engineering","source":"Ashby","published_at":"2026-06-24T01:40:47.574+00:00"},{"date":"2026-06-24","role":"Associate Software Engineer","company":"OptiTrack","location":"Corvallis, Oregon, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":26,"apply_url":"https://apply.workable.com/j/8350BCB8F9","category":"Software Engineering","source":"Workable","published_at":"2026-06-24"},{"date":"2026-06-24","role":"Jr .Net Developer with AI","company":"qode.world","location":"South Carolina, South Carolina, United States","yoe":"0-2","h1b_sponsor":false,"alignment":15,"apply_url":"https://apply.workable.com/j/F2AB12392E","category":"AI / ML","source":"Workable","published_at":"2026-06-24"},{"date":"2026-06-24","role":"Data Science Experts","company":"Weekday AI","location":"United States","yoe":"Not specified","h1b_sponsor":false,"alignment":15,"apply_url":"https://jobs.workable.com/view/uHAWJpuYHeu9GFHewRjN9T/remote-data-science-experts-in-united-states-at-weekday-ai","category":"Data Science / Analytics","source":"Workable Global","published_at":"2026-06-24"},{"date":"2026-06-24","role":"Associate Software Engineer","company":"OptiTrack","location":"Corvallis, Oregon, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://jobs.workable.com/view/v9bPjPpxbu6w7ZW8rWPW6D/associate-software-engineer-in-corvallis-at-optitrack","category":"Software Engineering","source":"Workable Global","published_at":"2026-06-24"},{"date":"2026-06-24","role":"1675 - Software Engineer","company":"Sigma Defense","location":"Washington, District of Columbia, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":7,"apply_url":"https://jobs.workable.com/view/9BDAEdPgw1jHZ9qHNcs3CU/1675---software-engineer-in-washington-at-sigma-defense","category":"Software Engineering","source":"Workable Global","published_at":"2026-06-24"},{"date":"2026-06-24","role":"1698 - Data Scientist","company":"Sigma Defense","location":"San Diego, California, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":7,"apply_url":"https://jobs.workable.com/view/5TG657X6U2RNTsjjbehotc/1698---data-scientist-in-san-diego-at-sigma-defense","category":"Data Science / Analytics","source":"Workable Global","published_at":"2026-06-24"},{"date":"2026-06-24","role":"Network Engineer (with Programming) - Data & AI Systems","company":"Weekday AI","location":"United States","yoe":"Not specified","h1b_sponsor":false,"alignment":7,"apply_url":"https://jobs.workable.com/view/97B6bSoKgbRH74Pm2KWH75/remote-network-engineer-(with-programming)---data-%26-ai-systems-in-united-states-at-weekday-ai","category":"AI / ML","source":"Workable Global","published_at":"2026-06-24"},{"date":"2026-06-24","role":"1504 - Software Systems Engineer","company":"Sigma Defense","location":"United States","yoe":"Not specified","h1b_sponsor":false,"alignment":4,"apply_url":"https://jobs.workable.com/view/6KRa9XjyrAfMYRMrMN979U/remote-1504---software-systems-engineer-in-united-states-at-sigma-defense","category":"Software Engineering","source":"Workable Global","published_at":"2026-06-24"},{"date":"2026-06-23","role":"AI Adoption Engineer","company":"Cursor","location":"Remote","yoe":"Not specified","h1b_sponsor":false,"alignment":4,"apply_url":"https://jobs.ashbyhq.com/cursor/ecc15f50-5d5b-4f79-a14c-e424b0c1bec6","category":"AI / ML","source":"Ashby","published_at":"2026-06-23T23:31:39.981+00:00"},{"date":"2026-06-23","role":"Chief Transformation and AI Officer","company":"Penta Group","location":"Remote","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://jobs.lever.co/pentagrp/dbcf8bfe-80fa-410f-b3c1-1061c46f9abd","category":"AI / ML","source":"Lever","published_at":"1782255500287"},{"date":"2026-06-23","role":"Embedded Software Engineer, Satellite Antenna (Starlink)","company":"SpaceX","location":"Redmond, WA","yoe":"1","h1b_sponsor":false,"alignment":11,"apply_url":"https://boards.greenhouse.io/spacex/jobs/8603628002?gh_jid=8603628002","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-23T17:59:44-04:00"},{"date":"2026-06-23","role":"Junior DevOps Engineer","company":"Threatlocker","location":"Orlando, FL","yoe":"0-2","h1b_sponsor":false,"alignment":19,"apply_url":"https://job-boards.greenhouse.io/threatlocker/jobs/6100007004","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-23T17:09:50-04:00"},{"date":"2026-06-23","role":"AI Research Engineer – Agentic AI","company":"Bosch","location":"Sunnyvale, CA, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":4,"apply_url":"https://jobs.smartrecruiters.com/BoschGroup/744000133692982","category":"AI / ML","source":"SmartRecruiters","published_at":"2026-06-23T20:42:36.068Z"},{"date":"2026-06-23","role":"Founding Account Executive - Roboto AI","company":"Unusual","location":"Seattle, Washington","yoe":"Not specified","h1b_sponsor":false,"alignment":4,"apply_url":"https://jobs.lever.co/unusual/6db358ab-f0d5-4ff9-8585-c071e16ea37c","category":"AI / ML","source":"Lever","published_at":"1782247277519"},{"date":"2026-06-23","role":"NetSuite Application Developer","company":"Bandwidth","location":"Raleigh, NC","yoe":"Not specified","h1b_sponsor":false,"alignment":26,"apply_url":"https://job-boards.greenhouse.io/bandwidth/jobs/8011448","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-23T16:37:25-04:00"},{"date":"2026-06-23","role":"ML/RL Engineer, Behavior Planning","company":"Bot Auto","location":"Houston, TX or San Francisco Bay Area","yoe":"Not specified","h1b_sponsor":false,"alignment":19,"apply_url":"https://job-boards.greenhouse.io/botauto/jobs/5277558008","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-23T16:33:40-04:00"},{"date":"2026-06-23","role":"Reporting Data Scientist","company":"AECOM","location":"Sacramento, CA, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":4,"apply_url":"https://jobs.smartrecruiters.com/AECOM2/744000133687009","category":"Data Science / Analytics","source":"SmartRecruiters","published_at":"2026-06-23T19:53:15.210Z"},{"date":"2026-06-23","role":"AI Solutions Strategist","company":"Ramp","location":"New York, NY (HQ)","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://jobs.ashbyhq.com/ramp/cbdf2857-1675-4b68-8cb5-2f92a20faa75","category":"AI / ML","source":"Ashby","published_at":"2026-06-23T18:56:25.784+00:00"},{"date":"2026-06-23","role":"Application Software Engineer (C#/ Python), Data","company":"SpaceX","location":"Starbase, TX","yoe":"2","h1b_sponsor":false,"alignment":41,"apply_url":"https://boards.greenhouse.io/spacex/jobs/8604664002?gh_jid=8604664002","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-23T14:28:30-04:00"},{"date":"2026-06-23","role":"AI Deployment Engineer, Messenger Integrations","company":"OpenAI","location":"San Francisco","yoe":"Not specified","h1b_sponsor":false,"alignment":19,"apply_url":"https://jobs.ashbyhq.com/openai/f827e381-91a0-40b7-8ae9-b56540642a74","category":"AI / ML","source":"Ashby","published_at":"2026-06-23T18:05:54.420+00:00"},{"date":"2026-06-23","role":"Full Stack Engineer, Machine Learning Tooling","company":"Flock Safety","location":"Remote - USA","yoe":"Not specified","h1b_sponsor":false,"alignment":37,"apply_url":"https://jobs.ashbyhq.com/Flock%20Safety/edad75bb-6b93-46ff-b336-c45c96b93120","category":"AI / ML","source":"Ashby","published_at":"2026-06-23T18:03:20.698+00:00"},{"date":"2026-06-23","role":"Software Engineer - ML/Computer Vision (Battery Sorting)","company":"Redwood Materials","location":"San Francisco, California, United States","yoe":"2","h1b_sponsor":false,"alignment":30,"apply_url":"https://boards.greenhouse.io/redwoodmaterials/jobs/6099577004?gh_jid=6099577004","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-23T13:05:28-04:00"},{"date":"2026-06-23","role":"Software Engineer II, Backend (Infrastructure Platform)","company":"Affirm","location":"Remote US","yoe":"1.5","h1b_sponsor":false,"alignment":15,"apply_url":"https://job-boards.greenhouse.io/affirm/jobs/7764834003","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-23T11:42:12-04:00"},{"date":"2026-06-23","role":"Application Software Engineer, Manufacturing","company":"SpaceX","location":"Hawthorne, CA","yoe":"2","h1b_sponsor":false,"alignment":26,"apply_url":"https://boards.greenhouse.io/spacex/jobs/8603667002?gh_jid=8603667002","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-22T20:57:31-04:00"},{"date":"2026-06-23","role":"Software Engineer (ML Data & Annotation Pipelines)","company":"Diversified Services Network, Inc.","location":"Mossville, Illinois, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":26,"apply_url":"https://jobs.workable.com/view/mVoGDsvx434Fsv3Pc9WRqB/software-engineer-(ml-data-%26-annotation-pipelines)-in-mossville-at-diversified-services-network%2C-inc.","category":"AI / ML","source":"Workable Global","published_at":"2026-06-23"},{"date":"2026-06-23","role":"Software Engineer (Cloud, Cross-Platform & .NET Systems)","company":"Altom Transport","location":"Houston, Texas, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":22,"apply_url":"https://jobs.workable.com/view/pvPiwA6W3djGdKJE4oRiQK/software-engineer-(cloud%2C-cross-platform-%26-.net-systems)-in-houston-at-altom-transport","category":"Software Engineering","source":"Workable Global","published_at":"2026-06-23"},{"date":"2026-06-23","role":"Software Engineer (Cloud, Cross-Platform & .NET Systems)","company":"Altom Transport","location":"Chicago, Illinois, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":22,"apply_url":"https://jobs.workable.com/view/bPcGwmRzWViLboS3bj3Kih/software-engineer-(cloud%2C-cross-platform-%26-.net-systems)-in-chicago-at-altom-transport","category":"Software Engineering","source":"Workable Global","published_at":"2026-06-23"},{"date":"2026-06-23","role":"Business Analyst - Data & AI Practice","company":"Coretek Services","location":"United States","yoe":"Not specified","h1b_sponsor":false,"alignment":19,"apply_url":"https://jobs.workable.com/view/haz4PHpYb3Wkw14KXsQ8Mi/remote-business-analyst---data-%26-ai-practice-in-united-states-at-coretek-services","category":"AI / ML","source":"Workable Global","published_at":"2026-06-23"},{"date":"2026-06-23","role":"Junior Software Engineer (AI-Forward)","company":"Texas Sports Academy Main","location":"Austin, Texas, United States","yoe":"0-2","h1b_sponsor":false,"alignment":11,"apply_url":"https://jobs.workable.com/view/p9YoNg3zEXVYyMquLapXM7/junior-software-engineer-(ai-forward)-in-austin-at-texas-sports-academy-main","category":"AI / ML","source":"Workable Global","published_at":"2026-06-23"},{"date":"2026-06-23","role":"Software Engineer","company":"Allego","location":"Waltham, Massachusetts, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":7,"apply_url":"https://jobs.workable.com/view/5MDBPGz7TxiTVLSXAcqXmQ/hybrid-software-engineer-in-waltham-at-allego","category":"Software Engineering","source":"Workable Global","published_at":"2026-06-23"},{"date":"2026-06-23","role":"Data Engineer / Data Modeler","company":"Essnova Solutions, Inc.","location":"United States","yoe":"Not specified","h1b_sponsor":false,"alignment":7,"apply_url":"https://jobs.workable.com/view/hM1hzkw267qBLj8urGjz5c/remote-data-engineer-%2F-data-modeler-in-united-states-at-essnova-solutions%2C-inc.","category":"Data Science / Analytics","source":"Workable Global","published_at":"2026-06-23"},{"date":"2026-06-23","role":"Jr. AI Prompt Engineer","company":"Ignite IT","location":"Ashburn, Virginia, United States","yoe":"0-2","h1b_sponsor":false,"alignment":7,"apply_url":"https://jobs.workable.com/view/2tpEw5MgyfuWBmYZuPbD9d/remote-jr.-ai-prompt-engineer-in-ashburn-at-ignite-it","category":"AI / ML","source":"Workable Global","published_at":"2026-06-23"},{"date":"2026-06-23","role":"Intern (Economic Development Data Analyst)","company":"Steer","location":"Pittsburgh, Pennsylvania, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":4,"apply_url":"https://jobs.workable.com/view/4Dq2aKBjpeQXwfBQxANWNd/intern-(economic-development-data-analyst)-in-pittsburgh-at-steer","category":"Data Science / Analytics","source":"Workable Global","published_at":"2026-06-23"},{"date":"2026-06-22","role":"Data Science Intern","company":"Centerfield","location":"Los Angeles, California","yoe":"Not specified","h1b_sponsor":false,"alignment":44,"apply_url":"https://jobs.ashbyhq.com/centerfield/916dcf42-d69a-4f00-875a-f8fe630e0f33","category":"Data Science / Analytics","source":"Ashby","published_at":"2026-06-22T23:40:41.081+00:00"},{"date":"2026-06-22","role":"Software Engineer, C++ (Simulations)","company":"SpaceX","location":"Hawthorne, CA","yoe":"2","h1b_sponsor":false,"alignment":7,"apply_url":"https://boards.greenhouse.io/spacex/jobs/8603609002?gh_jid=8603609002","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-22T19:33:53-04:00"},{"date":"2026-06-22","role":"Software Engineer, Developer Productivity","company":"Rubrik","location":"Palo Alto, CA","yoe":"2","h1b_sponsor":false,"alignment":22,"apply_url":"https://www.rubrik.com/company/careers/departments/job.7922976?gh_jid=7922976","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-22T19:21:31-04:00"},{"date":"2026-06-22","role":"Software Development Engineer in Test II (SDET Contractor)","company":"Sony Interactive Entertainment","location":"United States, San Mateo, CA","yoe":"Not specified","h1b_sponsor":false,"alignment":7,"apply_url":"https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6099174004","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-22T18:45:17-04:00"},{"date":"2026-06-22","role":"Commissioning Platform Engineer","company":"Blueprint Technologies","location":"Atlanta, GA","yoe":"2","h1b_sponsor":false,"alignment":7,"apply_url":"https://job-boards.greenhouse.io/bpcs/jobs/8022473","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-22T18:25:39-04:00"},{"date":"2026-06-22","role":"Applied AI Research & Engineering Intern","company":"AirCapture","location":"Berkeley, CA","yoe":"Not specified","h1b_sponsor":false,"alignment":19,"apply_url":"https://job-boards.greenhouse.io/aircapture/jobs/4687916006","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-22T18:10:53-04:00"},{"date":"2026-06-22","role":"Software Development Engineer in Test II (SDET Contractor)","company":"Sony Interactive Entertainment","location":"United States, Los Angeles, CA","yoe":"Not specified","h1b_sponsor":false,"alignment":7,"apply_url":"https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6020548004","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-22T18:07:11-04:00"},{"date":"2026-06-22","role":"Computer Vision Engineering Intern - Fall 2026","company":"Intuitive Surgical","location":"Sunnyvale, CA, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":22,"apply_url":"https://jobs.smartrecruiters.com/Intuitive/744000133458290","category":"AI / ML","source":"SmartRecruiters","published_at":"2026-06-22T21:41:38.327Z"},{"date":"2026-06-22","role":"Clinical Data Analyst II","company":"Penumbra Inc","location":"Your Remote US Home Office","yoe":"2","h1b_sponsor":false,"alignment":15,"apply_url":"https://jobs.lever.co/penumbrainc/f3263041-be26-4e97-9bb6-abf558cac6e7","category":"Data Science / Analytics","source":"Lever","published_at":"1782164011932"},{"date":"2026-06-22","role":"Recruitment Intern - AI & Automation","company":"Eulerity","location":"New York, NY","yoe":"Not specified","h1b_sponsor":false,"alignment":4,"apply_url":"https://job-boards.greenhouse.io/eulerity/jobs/4691149006","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-22T17:28:37-04:00"},{"date":"2026-06-22","role":"Deployment Associate, AI Solutions","company":"Brellium","location":"New York City","yoe":"2","h1b_sponsor":false,"alignment":7,"apply_url":"https://jobs.ashbyhq.com/brellium/65f55c9f-4614-4b41-a64b-0cdb6a55792e","category":"AI / ML","source":"Ashby","published_at":"2026-06-22T20:39:50.179+00:00"},{"date":"2026-06-22","role":"Technical Recruiter, AI/ML","company":"Waymo","location":"Mountain View, California, USA","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://careers.withwaymo.com/jobs?gh_jid=8010005","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-22T16:17:25-04:00"},{"date":"2026-06-22","role":"Data Analyst, ACO Operations - Part time, Contract","company":"Pearl Health","location":"Seattle, New York City, Boston, or Remote","yoe":"Not specified","h1b_sponsor":false,"alignment":4,"apply_url":"https://jobs.ashbyhq.com/pearlhealth/77c51f6c-ba07-4566-a247-f4f06ae16d6f","category":"Data Science / Analytics","source":"Ashby","published_at":"2026-06-22T19:42:27.440+00:00"},{"date":"2026-06-22","role":"Backend Engineer","company":"PostHog","location":"Remote","yoe":"Not specified","h1b_sponsor":false,"alignment":15,"apply_url":"https://jobs.ashbyhq.com/posthog/1803b1de-d33b-4542-8e38-b6c4954cb789","category":"Software Engineering","source":"Ashby","published_at":"2026-06-22T19:33:05.134+00:00"},{"date":"2026-06-22","role":"Software Engineer (Contract)","company":"Civis Analytics","location":"Chicago, IL; Washington, DC; Remote","yoe":"2","h1b_sponsor":false,"alignment":44,"apply_url":"https://job-boards.greenhouse.io/civisanalytics/jobs/8021887","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-22T15:05:09-04:00"},{"date":"2026-06-22","role":"Software Engineer - Medical Applications & Algorithms","company":"HeartFlow","location":"San Francisco, California, United States","yoe":"2","h1b_sponsor":false,"alignment":26,"apply_url":"https://job-boards.greenhouse.io/heartflowinc/jobs/6098696004","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-22T14:38:55-04:00"},{"date":"2026-06-22","role":"Software Engineer, Engineering Systems","company":"Apex","location":"Los Angeles","yoe":"2","h1b_sponsor":false,"alignment":19,"apply_url":"https://jobs.ashbyhq.com/apex-technology-inc/b14b559f-f540-4762-b327-af9a9f12e364","category":"Software Engineering","source":"Ashby","published_at":"2026-06-22T18:19:19.727+00:00"},{"date":"2026-06-22","role":"AI Operator - Research Programs","company":"Distyl","location":"San Francisco","yoe":"Not specified","h1b_sponsor":false,"alignment":7,"apply_url":"https://jobs.ashbyhq.com/distyl/f726c016-a0b4-404a-9b83-8615cf141689","category":"AI / ML","source":"Ashby","published_at":"2026-06-22T16:51:08.888+00:00"},{"date":"2026-06-22","role":"Machine Learning Engineer","company":"Intuitive Surgical","location":"San Francisco, CA, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":26,"apply_url":"https://jobs.smartrecruiters.com/Intuitive/744000133419509","category":"AI / ML","source":"SmartRecruiters","published_at":"2026-06-22T16:41:00.875Z"},{"date":"2026-06-22","role":"Site Reliability Engineer","company":"StackAV","location":"Pittsburgh, PA or Remote","yoe":"Not specified","h1b_sponsor":false,"alignment":15,"apply_url":"https://job-boards.greenhouse.io/stackav/jobs/5170448007","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-22T11:55:26-04:00"},{"date":"2026-06-22","role":"Machine Learning Engineer","company":"Reddit","location":"New York City, NY","yoe":"Not specified","h1b_sponsor":false,"alignment":41,"apply_url":"https://job-boards.greenhouse.io/reddit/jobs/8014401","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-22T09:53:05-04:00"},{"date":"2026-06-22","role":"Software Engineer","company":"Reddit","location":"San Francisco, CA","yoe":"Not specified","h1b_sponsor":false,"alignment":22,"apply_url":"https://job-boards.greenhouse.io/reddit/jobs/8013591","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-22T09:49:18-04:00"},{"date":"2026-06-22","role":"Machine Learning Engineer","company":"Reddit","location":"San Francisco, CA","yoe":"Not specified","h1b_sponsor":false,"alignment":41,"apply_url":"https://job-boards.greenhouse.io/reddit/jobs/8014436","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-22T09:47:09-04:00"},{"date":"2026-06-22","role":"Data Engineer","company":"PrizePicks","location":"Atlanta, GA preferred, Remote","yoe":"Not specified","h1b_sponsor":false,"alignment":22,"apply_url":"http://prizepicks.com/position?gh_jid=7777284003","category":"Data Science / Analytics","source":"Greenhouse","published_at":"2026-06-22T08:49:03-04:00"},{"date":"2026-06-22","role":"Forward Deployment Engineer - Frontier AI Deployments","company":"Accellor","location":"San Francisco, California, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":19,"apply_url":"https://jobs.workable.com/view/xa7cjZWy3KrLAighNZ43vN/hybrid-forward-deployment-engineer---frontier-ai-deployments-in-san-francisco-at-accellor","category":"AI / ML","source":"Workable Global","published_at":"2026-06-22"},{"date":"2026-06-22","role":"Forward Deployment Engineer - Frontier AI Deployments","company":"Accellor","location":"Mountain View, California, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":19,"apply_url":"https://jobs.workable.com/view/qU1WALePUyLWeSM3SrU9zM/hybrid-forward-deployment-engineer---frontier-ai-deployments-in-mountain-view-at-accellor","category":"AI / ML","source":"Workable Global","published_at":"2026-06-22"},{"date":"2026-06-22","role":"Infrastructure/Backend Engineer","company":"MLabs","location":"New York, New York, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":15,"apply_url":"https://apply.workable.com/j/38B05E705D","category":"Software Engineering","source":"Workable","published_at":"2026-06-22"},{"date":"2026-06-22","role":"Project - Data Engineer","company":"Deloitte","location":"Multiple Locations","yoe":"1","h1b_sponsor":false,"alignment":15,"apply_url":"https://apply.deloitte.com/en_US/careers/JobDetail/Project-Data-Engineer/357376","category":"Data Science / Analytics","source":"Avature","published_at":"2026-06-22"},{"date":"2026-06-22","role":"Backend Engineer (NYC)","company":"MLabs","location":"New York, New York, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://apply.workable.com/j/206E156BC4","category":"Software Engineering","source":"Workable","published_at":"2026-06-22"},{"date":"2026-06-22","role":"Associate AI/ML Software Developer (req-256)","company":"CATHEXIS","location":"Tysons, Virginia, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://jobs.workable.com/view/fioZmnAbKWqJsr4YtQcb1N/associate-ai%2Fml-software-developer-(req-256)-in-tysons-at-cathexis","category":"AI / ML","source":"Workable Global","published_at":"2026-06-22"},{"date":"2026-06-22","role":"Associate AI/ML Software Developer (req-258)","company":"CATHEXIS","location":"Redwood City, California, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://jobs.workable.com/view/65HU1Jh8cm9kmKkLXfDEDj/associate-ai%2Fml-software-developer-(req-258)-in-redwood-city-at-cathexis","category":"AI / ML","source":"Workable Global","published_at":"2026-06-22"},{"date":"2026-06-22","role":"AI/ML Software Developer (req-257)","company":"CATHEXIS","location":"Tysons, Virginia, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://jobs.workable.com/view/i59ZsDc2Du3p2KcX6dcJdv/ai%2Fml-software-developer-(req-257)-in-tysons-at-cathexis","category":"AI / ML","source":"Workable Global","published_at":"2026-06-22"},{"date":"2026-06-22","role":"AI/ML Software Developer (req-259)","company":"CATHEXIS","location":"Redwood City, California, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://jobs.workable.com/view/uTvKkGydXPngs6oKPbbCLo/ai%2Fml-software-developer-(req-259)-in-redwood-city-at-cathexis","category":"AI / ML","source":"Workable Global","published_at":"2026-06-22"},{"date":"2026-06-22","role":"Software Engineer in Security","company":"Flexcompute Inc.","location":"Watertown, Massachusetts, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://jobs.workable.com/view/1Wu9EJ8mkSnr4v6RJPNhrc/software-engineer-in-security-in-watertown-at-flexcompute-inc.","category":"Software Engineering","source":"Workable Global","published_at":"2026-06-22"},{"date":"2026-06-22","role":"Backend Engineer (NYC)","company":"MLabs","location":"New York, New York, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":4,"apply_url":"https://jobs.workable.com/view/6AQjUPZGuvia6buDc3N3AZ/hybrid-backend-engineer-(nyc)-in-new-york-at-mlabs","category":"Software Engineering","source":"Workable Global","published_at":"2026-06-22"},{"date":"2026-06-22","role":"AI Systems Engineer - Forward-Deployed Builder","company":"AI Acquisition","location":"United States","yoe":"Not specified","h1b_sponsor":false,"alignment":4,"apply_url":"https://jobs.workable.com/view/bYBM1XUdBbeG1c8KLjvPbh/remote-ai-systems-engineer---forward-deployed-builder-in-united-states-at-ai-acquisition","category":"AI / ML","source":"Workable Global","published_at":"2026-06-22"},{"date":"2026-06-22","role":"Infrastructure/Backend Engineer","company":"MLabs","location":"New York, New York, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":4,"apply_url":"https://jobs.workable.com/view/srcxQ1aRFQm8rftXK4Qoe5/hybrid-infrastructure%2Fbackend-engineer-in-new-york-at-mlabs","category":"Software Engineering","source":"Workable Global","published_at":"2026-06-22"},{"date":"2026-06-21","role":"Applied AI Engineer, Silicon Engineering","company":"Etched.ai","location":"San Jose","yoe":"Not specified","h1b_sponsor":false,"alignment":30,"apply_url":"https://jobs.ashbyhq.com/Etched/831bfa22-d883-450b-9b10-2a16421525a0","category":"AI / ML","source":"Ashby","published_at":"2026-06-21T22:09:40.425+00:00"},{"date":"2026-06-21","role":"Software Engineer, C++ (Dragon)","company":"SpaceX","location":"Hawthorne, CA","yoe":"2","h1b_sponsor":false,"alignment":7,"apply_url":"https://boards.greenhouse.io/spacex/jobs/8601802002?gh_jid=8601802002","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-21T13:43:00-04:00"},{"date":"2026-06-21","role":"Data Analyst Internship","company":"ConnectPrep","location":"Boston, Massachusetts, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":22,"apply_url":"https://apply.workable.com/j/E4655645B8","category":"Data Science / Analytics","source":"Workable","published_at":"2026-06-21"},{"date":"2026-06-20","role":"Software Engineer, iOS","company":"Mirage","location":"Union Square, New York City","yoe":"2","h1b_sponsor":false,"alignment":15,"apply_url":"https://jobs.ashbyhq.com/mirage/7dca065e-c70d-453d-b0d4-5c75b283d136","category":"Software Engineering","source":"Ashby","published_at":"2026-06-20T14:09:01.153+00:00"},{"date":"2026-06-20","role":"ML Engineer, Agentic Systems","company":"Mirage","location":"Union Square, New York City","yoe":"Not specified","h1b_sponsor":false,"alignment":15,"apply_url":"https://jobs.ashbyhq.com/mirage/dc97e719-f69a-47bb-812e-1ea9e7693662","category":"AI / ML","source":"Ashby","published_at":"2026-06-20T14:08:28.998+00:00"},{"date":"2026-06-20","role":"ML Engineer, Generative Video","company":"Mirage","location":"Union Square, New York City","yoe":"2","h1b_sponsor":false,"alignment":19,"apply_url":"https://jobs.ashbyhq.com/mirage/d8b43e0a-3a1a-462a-a845-6ed888c08b57","category":"AI / ML","source":"Ashby","published_at":"2026-06-20T14:08:01.709+00:00"},{"date":"2026-06-20","role":"Embedded Software Engineer (Wireless)","company":"TP-Link Systems Inc.","location":"Irvine, California, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://jobs.workable.com/view/8mYxUXFkjkWYhsPtH8er5e/embedded-software-engineer-(wireless)-in-irvine-at-tp-link-systems-inc.","category":"Software Engineering","source":"Workable Global","published_at":"2026-06-20"},{"date":"2026-06-20","role":"Embedded Software Engineer (Consumer Home)","company":"TP-Link Systems Inc.","location":"Irvine, California, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":11,"apply_url":"https://jobs.workable.com/view/8vJyEYxzWfr74zHUjRv6DL/embedded-software-engineer-(consumer-home)-in-irvine-at-tp-link-systems-inc.","category":"Software Engineering","source":"Workable Global","published_at":"2026-06-20"},{"date":"2026-06-19","role":"Full Stack Engineer","company":"Mem0","location":"San Francisco Bay Area","yoe":"2","h1b_sponsor":false,"alignment":26,"apply_url":"https://jobs.ashbyhq.com/mem0/6b1ed871-ddb6-4910-a320-eea2c4d3671a","category":"Software Engineering","source":"Ashby","published_at":"2026-06-19T19:15:19.024+00:00"},{"date":"2026-06-19","role":"Backend Engineer","company":"Mem0","location":"San Francisco Bay Area","yoe":"2","h1b_sponsor":false,"alignment":26,"apply_url":"https://jobs.ashbyhq.com/mem0/77259c2d-aaa7-4d6d-a206-75f1a36f997d","category":"Software Engineering","source":"Ashby","published_at":"2026-06-19T18:48:45.064+00:00"},{"date":"2026-06-19","role":"Embedded Software Engineer","company":"ALTEN Technology","location":"Lafayette, CO","yoe":"Not specified","h1b_sponsor":false,"alignment":15,"apply_url":"https://job-boards.greenhouse.io/altentechnologyusa/jobs/5169765007","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-19T14:39:35-04:00"},{"date":"2026-06-19","role":"AI Solutions Engineer (Fixed-Term)","company":"Field AI","location":"Irvine, CA","yoe":"Not specified","h1b_sponsor":false,"alignment":19,"apply_url":"https://jobs.lever.co/field-ai/65561b5c-2348-4b88-9e73-ff9c6265dbf4","category":"AI / ML","source":"Lever","published_at":"1781834822549"},{"date":"2026-06-19","role":"AI Creative Designer, Email","company":"Hightouch","location":"Remote, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":4,"apply_url":"https://job-boards.greenhouse.io/hightouch/jobs/6097447004","category":"AI / ML","source":"Greenhouse","published_at":"2026-06-18T20:41:33-04:00"},{"date":"2026-06-19","role":"Software Engineer, Sensor Platform","company":"Nuro","location":"Mountain View, California (HQ)","yoe":"2","h1b_sponsor":false,"alignment":7,"apply_url":"https://nuro.ai/careersitem?gh_jid=8017598","category":"Software Engineering","source":"Greenhouse","published_at":"2026-06-18T20:13:35-04:00"},{"date":"2026-06-19","role":"Full Stack Engineer (AI Platform)","company":"WorldVia","location":"Atlanta, Georgia, United States","yoe":"Not specified","h1b_sponsor":false,"alignment":15,"apply_url":"https://jobs.workable.com/view/c1ndtYyoKcHrTZ8pfPkfoy/hybrid-full-stack-engineer-(ai-platform)-in-atlanta-at-worldvia","category":"AI / ML","source":"Workable Global","published_at":"2026-06-19"},{"date":"2026-06-19","role":"Data Analyst","company":"Hack The Box","location":"United States","yoe":"Not specified","h1b_sponsor":false,"alignment":15,"apply_url":"https://jobs.workable.com/view/vXH1Ce3ZPXjAcsc33h4pTS/remote-data-analyst-in-united-states-at-hack-the-box","category":"Data Science / Analytics","source":"Workable Global","published_at":"2026-06-19"},{"date":"2026-06-19","role":"Forward Deployed Engineer, (AI) - Acom","company":"Valsoft Corporation","location":"Beirut, Beirut Governorate, Lebanon","yoe":"Not specified","h1b_sponsor":false,"alignment":7,"apply_url":"https://apply.workable.com/j/A58C4FF905","category":"AI / ML","source":"Workable","published_at":"2026-06-19"}]}</script>
+  <script>
+    const payload = JSON.parse(document.getElementById("jobs-data").textContent);
+    const state = {
+      query: "",
+      date: "all",
+      sponsor: "all",
+      role: "all"
+    };
+
+    const jobs = payload.jobs || [];
+    const body = document.getElementById("jobsBody");
+    const emptyState = document.getElementById("emptyState");
+    const resultCount = document.getElementById("resultCount");
+    const sponsorCount = document.getElementById("sponsorCount");
+    const dateFilter = document.getElementById("dateFilter");
+    const roleFilter = document.getElementById("roleFilter");
+
+    document.getElementById("generatedAt").textContent = payload.generated_at;
+    document.getElementById("nextFetch").textContent = payload.next_fetch_in;
+    document.getElementById("domains").textContent = payload.domains;
+    document.getElementById("region").textContent = payload.region;
+    document.getElementById("experience").textContent = payload.experience;
+    document.getElementById("totalJobs").textContent = (payload.stats?.total_jobs || jobs.length).toLocaleString();
+
+    function option(value, label) {
+      const item = document.createElement("option");
+      item.value = value;
+      item.textContent = label;
+      return item;
+    }
+
+    function populateFilters() {
+      const dates = [...new Set(jobs.map((job) => job.date))].filter(Boolean);
+      const roles = [...new Set(jobs.map((job) => job.category))].filter(Boolean).sort();
+      dateFilter.appendChild(option("all", "All dates"));
+      dates.forEach((date) => dateFilter.appendChild(option(date, date)));
+      roleFilter.appendChild(option("all", "All domains"));
+      roles.forEach((role) => roleFilter.appendChild(option(role, role)));
+    }
+
+    function matches(job) {
+      const text = [job.role, job.company, job.location, job.category, job.source].join(" ").toLowerCase();
+      const queryOk = !state.query || text.includes(state.query);
+      const dateOk = state.date === "all" || job.date === state.date;
+      const roleOk = state.role === "all" || job.category === state.role;
+      const sponsorOk =
+        state.sponsor === "all" ||
+        (state.sponsor === "yes" && job.h1b_sponsor) ||
+        (state.sponsor === "no" && !job.h1b_sponsor);
+      return queryOk && dateOk && roleOk && sponsorOk;
+    }
+
+    function render() {
+      const rows = jobs.filter(matches);
+      body.textContent = "";
+      const fragment = document.createDocumentFragment();
+      rows.forEach((job) => {
+        const row = document.createElement("tr");
+        const sponsorClass = job.h1b_sponsor ? "yes" : "no";
+        const sponsorLabel = job.h1b_sponsor ? "✓ Yes" : "× No";
+        row.innerHTML = `
+          <td>${escapeHtml(job.date)}</td>
+          <td><div class="role">${escapeHtml(job.role)}</div><div class="subtle">${escapeHtml(job.category || "")}</div></td>
+          <td>${escapeHtml(job.company)}</td>
+          <td>${escapeHtml(job.location)}</td>
+          <td>${escapeHtml(job.yoe)}</td>
+          <td><span class="pill ${sponsorClass}">${sponsorLabel}</span></td>
+          <td><span class="match">${Number(job.alignment || 0)}%</span></td>
+          <td><a class="apply" href="${escapeHtml(job.apply_url || "#")}" target="_blank" rel="noopener">Apply</a></td>
+        `;
+        fragment.appendChild(row);
+      });
+      body.appendChild(fragment);
+      emptyState.hidden = rows.length > 0;
+      resultCount.textContent = `${rows.length.toLocaleString()} of ${jobs.length.toLocaleString()} jobs shown`;
+      sponsorCount.textContent = `${rows.filter((job) => job.h1b_sponsor).length.toLocaleString()} H-1B sponsor matches`;
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    document.getElementById("search").addEventListener("input", (event) => {
+      state.query = event.target.value.trim().toLowerCase();
+      render();
+    });
+    dateFilter.addEventListener("change", (event) => {
+      state.date = event.target.value;
+      render();
+    });
+    document.getElementById("sponsorFilter").addEventListener("change", (event) => {
+      state.sponsor = event.target.value;
+      render();
+    });
+    roleFilter.addEventListener("change", (event) => {
+      state.role = event.target.value;
+      render();
+    });
+
+    populateFilters();
+    render();
+  </script>
+</body>
+</html>

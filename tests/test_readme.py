@@ -13,7 +13,7 @@ def test_next_fetch_label_counts_down_to_next_three_hour_slot():
 def test_render_metrics_shows_requested_readme_metrics():
     metrics = render_metrics(datetime(2026, 6, 25, 18, 29, tzinfo=timezone.utc))
     assert "Domains" in metrics
-    assert "Data Science, AI/ML, Data Analytics" in metrics
+    assert "Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer" in metrics
     assert "🇺🇸 USA" in metrics
     assert "Next job fetch in" in metrics
     assert "02 hours: 31 minutes" in metrics
@@ -40,7 +40,7 @@ def test_update_readme_refreshes_metrics_and_jobs_sections(tmp_path):
     update_readme([], readme_path, now=datetime(2026, 6, 25, 18, 29, tzinfo=timezone.utc))
 
     content = readme_path.read_text(encoding="utf-8")
-    assert "Data Science, AI/ML, Data Analytics" in content
+    assert "Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer" in content
     assert "02 hours: 31 minutes" in content
     assert "old metrics" not in content
     assert "old jobs" not in content

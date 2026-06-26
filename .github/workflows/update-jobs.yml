@@ -32,11 +32,14 @@ jobs:
       - name: Install dependencies
         run: pip install -e .
 
-      - name: Update README jobs table
+      - name: Update README and website jobs
         run: python -m jobs4me.update_readme
 
-      - name: Commit README updates
+      - name: Commit generated job updates
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update matching jobs"
-          file_pattern: README.md
+          file_pattern: |
+            README.md
+            docs/index.html
+            docs/jobs.json

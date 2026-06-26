@@ -33,7 +33,10 @@ def render_metrics(now: datetime | None = None) -> str:
         [
             '<table align="center">',
             "  <tr>",
-            '    <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics</td>',
+            (
+                '    <td align="center"><strong>Domains</strong><br>'
+                "Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>"
+            ),
             '    <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>',
             f'    <td align="center"><strong>Next job fetch in</strong><br>{next_fetch_label(now)}</td>',
             '    <td align="center"><strong>Experience</strong><br>0-2 years</td>',
