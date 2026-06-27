@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 31 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 09 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,7 +72,7 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-06-27 14:29 UTC_
+_Last updated: 2026-06-27 16:51 UTC_
 
 **Showing 382 roles across 9 posting dates.** H-1B sponsor matches: **11**.
 
