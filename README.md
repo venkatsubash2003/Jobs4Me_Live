@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 09 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 58 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,9 +72,9 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-06-27 16:51 UTC_
+_Last updated: 2026-06-27 20:02 UTC_
 
-**Showing 382 roles across 9 posting dates.** H-1B sponsor matches: **11**.
+**Showing 381 roles across 9 posting dates.** H-1B sponsor matches: **11**.
 
 ### 2026-06-27 · 2 roles · 0 H-1B sponsor matches
 
@@ -353,7 +353,7 @@ _Last updated: 2026-06-27 16:51 UTC_
 | Intern (Economic Development Data Analyst) | Steer | Pittsburgh, Pennsylvania, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/4Dq2aKBjpeQXwfBQxANWNd/intern-(economic-development-data-analyst)-in-pittsburgh-at-steer"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Master Data Analyst | Continental Resources | Oklahoma City, OK | Not specified | ❌ No | 4% | <a href="https://clr.wd5.myworkdayjobs.com/en-US/CLR_Careers/job/Oklahoma-City-OK/Master-Data-Analyst_R02516"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-06-22 · 102 roles · 1 H-1B sponsor match
+### 2026-06-22 · 101 roles · 1 H-1B sponsor match
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -425,7 +425,6 @@ _Last updated: 2026-06-27 16:51 UTC_
 | Entry Level Software Engineer (Burlington, VT) | Cox Automotive | Burlington VT | 0-2 | ❌ No | 15% | <a href="https://cox.wd1.myworkdayjobs.com/en-US/Cox_External_Career_Site_1/job/Burlington-VT/Entry-Level-Software-Engineer--Burlington--VT-_R202679034"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Entry Level Software Engineer (Irvine, CA) | Cox Automotive | Irvine CA | 0-2 | ❌ No | 15% | <a href="https://cox.wd1.myworkdayjobs.com/en-US/Cox_External_Career_Site_1/job/Irvine-CA/Entry-Level-Software-Engineer--Irvine--CA-_R202679078-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Infrastructure/Backend Engineer | MLabs | New York, New York, United States | Not specified | ❌ No | 15% | <a href="https://apply.workable.com/j/38B05E705D"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Project - Data Engineer | Deloitte | Multiple Locations | 1 | ❌ No | 15% | <a href="https://apply.deloitte.com/en_US/careers/JobDetail/Project-Data-Engineer/357376"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Responsible AI Framework Specialist | LexisNexis Risk Solutions | Alpharetta, GA | Not specified | ❌ No | 15% | <a href="https://relx.wd3.myworkdayjobs.com/en-US/RiskSolutions/job/Alpharetta-GA/Data-Discovery-and-Enrichment-Expert-II_R111136-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Site Reliability Engineer | StackAV | Pittsburgh, PA or Remote | Not specified | ❌ No | 15% | <a href="https://job-boards.greenhouse.io/stackav/jobs/5170448007"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Development Engineer | CVS Health | CT - Hartford | Not specified | ❌ No | 15% | <a href="https://cvshealth.wd1.myworkdayjobs.com/en-US/cvs_health_careers/job/CT---Hartford/Software-Development-Engineer_R0942445"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
