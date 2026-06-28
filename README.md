@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 31 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 09 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,17 +72,18 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-06-28 14:29 UTC_
+_Last updated: 2026-06-28 16:51 UTC_
 
-**Showing 382 roles across 10 posting dates.** H-1B sponsor matches: **11**.
+**Showing 383 roles across 10 posting dates.** H-1B sponsor matches: **11**.
 
-### 2026-06-28 · 3 roles · 0 H-1B sponsor matches
+### 2026-06-28 · 4 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
 | ML Engineer, Generative Video | Mirage | Union Square, New York City | 2 | ❌ No | 19% | <a href="https://jobs.ashbyhq.com/mirage/3cdd0d39-f0b4-4255-837f-bcff17288143"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | ML Engineer, Agentic Systems | Mirage | Union Square, New York City | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/mirage/8a526df3-acbc-4ca3-a38d-7333e9f54e4b"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Specialist, Software Engineer (IT Application Development - Test Automation) | Nationwide | Ohio - Columbus, One Nationwide Plaza | Not specified | ❌ No | 11% | <a href="https://nationwide.wd1.myworkdayjobs.com/en-US/Nationwide_Career/job/Ohio---Columbus-One-Nationwide-Plaza/Specialist--Software-Engineer--IT-Application-Development---Test-Automation-_098850"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Software Engineer | Caterpillar Inc. | Chennai, Tamil Nadu | Not specified | ❌ No | 7% | <a href="https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Chennai-Tamil-Nadu/Software-Engineer_R0000376712-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
 ### 2026-06-27 · 4 roles · 0 H-1B sponsor matches
 
