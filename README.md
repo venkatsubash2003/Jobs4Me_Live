@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 58 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 18 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,11 +72,11 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-06-28 20:02 UTC_
+_Last updated: 2026-06-28 22:42 UTC_
 
-**Showing 387 roles across 10 posting dates.** H-1B sponsor matches: **12**.
+**Showing 388 roles across 10 posting dates.** H-1B sponsor matches: **12**.
 
-### 2026-06-28 · 9 roles · 2 H-1B sponsor matches
+### 2026-06-28 · 11 roles · 2 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -86,6 +86,8 @@ _Last updated: 2026-06-28 20:02 UTC_
 | ML Engineer, Generative Video | Mirage | Union Square, New York City | 2 | ❌ No | 19% | <a href="https://jobs.ashbyhq.com/mirage/3cdd0d39-f0b4-4255-837f-bcff17288143"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Aftermarket Insights Sales Data Scientist | Caterpillar Inc. | Peoria, Illinois | 2 | ❌ No | 15% | <a href="https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Peoria-Illinois/Aftermarket-Insights-Sales-Data-Scientist_R0000379553"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | ML Engineer, Agentic Systems | Mirage | Union Square, New York City | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/mirage/8a526df3-acbc-4ca3-a38d-7333e9f54e4b"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Software Engineer, Storage | Cursor | San Francisco | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/cursor/299ce422-0281-4282-aadd-bc22553be0b5"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Software Engineer, Services Platform | Cursor | San Francisco | Not specified | ❌ No | 11% | <a href="https://jobs.ashbyhq.com/cursor/6eef7144-f2cc-48a8-b065-01f04e4c70ff"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Specialist, Software Engineer (IT Application Development - Test Automation) | Nationwide | Ohio - Columbus, One Nationwide Plaza | Not specified | ❌ No | 11% | <a href="https://nationwide.wd1.myworkdayjobs.com/en-US/Nationwide_Career/job/Ohio---Columbus-One-Nationwide-Plaza/Specialist--Software-Engineer--IT-Application-Development---Test-Automation-_098850"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Distinguished AI Engineer | Elevance Health | CA-WALNUT CREEK, 2121 N CALIFORNIA BLVD, 7TH FL | Not specified | ❌ No | 7% | <a href="https://elevancehealth.wd1.myworkdayjobs.com/en-US/ANT/job/CA-WALNUT-CREEK-2121-N-CALIFORNIA-BLVD-7TH-FL/Distinguished-AI-Engineer_JR195741"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer | Caterpillar Inc. | Chennai, Tamil Nadu | Not specified | ❌ No | 7% | <a href="https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Chennai-Tamil-Nadu/Software-Engineer_R0000376712-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -249,7 +251,7 @@ _Last updated: 2026-06-28 20:02 UTC_
 | Business Intelligence & Data Analytics Intern (Undergraduate) | Phamily | New York, NY | Not specified | ❌ No | 4% | <a href="https://job-boards.greenhouse.io/jobsatphamily/jobs/5281446008"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Research Scientist | Parallel Web Systems | San Francisco or Palo Alto | Not specified | ❌ No | 4% | <a href="https://jobs.ashbyhq.com/parallel/5fac39a3-a44d-470b-94ed-15b2239d410f"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-06-24 · 69 roles · 2 H-1B sponsor matches
+### 2026-06-24 · 68 roles · 2 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -289,7 +291,6 @@ _Last updated: 2026-06-28 20:02 UTC_
 | Software Engineer, Storage | DoorDash | San Francisco, CA; Seattle, WA; New York, NY | 2 | ❌ No | 19% | <a href="https://job-boards.greenhouse.io/doordashusa/jobs/8024644"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Solutions Developer | Motorola | Illinois, US Offsite; Washington, US Offsite; Florida, US Offsite; New York, US Offsite; Colorado, US Offsite; New Jersey, US Offsite; Massachusetts, US Offsite; Maryland, US Offsite; Georgia, US Offsite; Tennessee, US Offsite; California Southern, US Offsite | 1 | ❌ No | 15% | <a href="https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Illinois-US-Offsite/AI-Solutions-Developer_R66123-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Applied AI Engineer, Fullstack | Ramp | New York, NY (HQ) | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/ramp/6a7e382f-240a-4952-b9e5-7fe2b3856bc9"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Data Analyst, US Consumer Services | Western Union | Denver - WU HQ; USA GA - Atlanta - Corporate Center V, 5 Concourse Parkway, Suite 2300 | 2 | ❌ No | 15% | <a href="https://westernunion.wd5.myworkdayjobs.com/en-US/WesternUnionJobs/job/Denver---WU-HQ/Data-Analyst--US-Consumer-Services_JR0130344"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Science Experts | Weekday AI | United States | Not specified | ❌ No | 15% | <a href="https://jobs.workable.com/view/uHAWJpuYHeu9GFHewRjN9T/remote-data-science-experts-in-united-states-at-weekday-ai"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Entry Level Software Engineer (Austin, TX) | Cox Automotive | Austin TX | 0-2 | ❌ No | 15% | <a href="https://cox.wd1.myworkdayjobs.com/en-US/Cox_External_Career_Site_1/job/Austin-TX/Entry-Level-Software-Engineer--Austin--TX-_R202679234"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Jr .Net Developer with AI | qode.world | South Carolina, South Carolina, United States | 0-2 | ❌ No | 15% | <a href="https://apply.workable.com/j/F2AB12392E"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
