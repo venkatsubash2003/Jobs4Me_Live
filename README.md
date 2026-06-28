@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 09 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 58 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,17 +72,22 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-06-28 16:51 UTC_
+_Last updated: 2026-06-28 20:02 UTC_
 
-**Showing 383 roles across 10 posting dates.** H-1B sponsor matches: **11**.
+**Showing 387 roles across 10 posting dates.** H-1B sponsor matches: **12**.
 
-### 2026-06-28 · 4 roles · 0 H-1B sponsor matches
+### 2026-06-28 · 9 roles · 2 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
+| Data Scientist - Algorithms, Community Support | Airbnb | Remote - USA | 2 | ✅ Yes | 26% | <a href="https://careers.airbnb.com/positions/8031901?gh_jid=8031901"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Data Scientist - Inference, Community Support | Airbnb | Remote - USA | 2 | ✅ Yes | 22% | <a href="https://careers.airbnb.com/positions/8031907?gh_jid=8031907"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Software Engineer, People Ops and AI Tools | Cloudflare | In-Office | Not specified | ❌ No | 26% | <a href="https://boards.greenhouse.io/cloudflare/jobs/8034796?gh_jid=8034796"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | ML Engineer, Generative Video | Mirage | Union Square, New York City | 2 | ❌ No | 19% | <a href="https://jobs.ashbyhq.com/mirage/3cdd0d39-f0b4-4255-837f-bcff17288143"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Aftermarket Insights Sales Data Scientist | Caterpillar Inc. | Peoria, Illinois | 2 | ❌ No | 15% | <a href="https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Peoria-Illinois/Aftermarket-Insights-Sales-Data-Scientist_R0000379553"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | ML Engineer, Agentic Systems | Mirage | Union Square, New York City | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/mirage/8a526df3-acbc-4ca3-a38d-7333e9f54e4b"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Specialist, Software Engineer (IT Application Development - Test Automation) | Nationwide | Ohio - Columbus, One Nationwide Plaza | Not specified | ❌ No | 11% | <a href="https://nationwide.wd1.myworkdayjobs.com/en-US/Nationwide_Career/job/Ohio---Columbus-One-Nationwide-Plaza/Specialist--Software-Engineer--IT-Application-Development---Test-Automation-_098850"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Distinguished AI Engineer | Elevance Health | CA-WALNUT CREEK, 2121 N CALIFORNIA BLVD, 7TH FL | Not specified | ❌ No | 7% | <a href="https://elevancehealth.wd1.myworkdayjobs.com/en-US/ANT/job/CA-WALNUT-CREEK-2121-N-CALIFORNIA-BLVD-7TH-FL/Distinguished-AI-Engineer_JR195741"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer | Caterpillar Inc. | Chennai, Tamil Nadu | Not specified | ❌ No | 7% | <a href="https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Chennai-Tamil-Nadu/Software-Engineer_R0000376712-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
 ### 2026-06-27 · 4 roles · 0 H-1B sponsor matches
@@ -362,11 +367,10 @@ _Last updated: 2026-06-28 16:51 UTC_
 | Intern (Economic Development Data Analyst) | Steer | Pittsburgh, Pennsylvania, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/4Dq2aKBjpeQXwfBQxANWNd/intern-(economic-development-data-analyst)-in-pittsburgh-at-steer"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Master Data Analyst | Continental Resources | Oklahoma City, OK | Not specified | ❌ No | 4% | <a href="https://clr.wd5.myworkdayjobs.com/en-US/CLR_Careers/job/Oklahoma-City-OK/Master-Data-Analyst_R02516"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-06-22 · 102 roles · 1 H-1B sponsor match
+### 2026-06-22 · 101 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
-| Distinguished AI Engineer | Capital One | Bangalore, In | Not specified | ✅ Yes | 7% | <a href="https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Bangalore-In/Distinguished-AI-Engineer_R242789-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Science Intern | Centerfield | Los Angeles, California | Not specified | ❌ No | 44% | <a href="https://jobs.ashbyhq.com/centerfield/916dcf42-d69a-4f00-875a-f8fe630e0f33"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer (Contract) | Civis Analytics | Chicago, IL; Washington, DC; Remote | 2 | ❌ No | 44% | <a href="https://job-boards.greenhouse.io/civisanalytics/jobs/8021887"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Scientist | CVS Health | RI - Woonsocket | Not specified | ❌ No | 41% | <a href="https://cvshealth.wd1.myworkdayjobs.com/en-US/cvs_health_careers/job/RI---Woonsocket/Data-Scientist_R0942340"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
