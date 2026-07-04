@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 14 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 02 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,9 +72,47 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-07-04 16:46 UTC_
+_Last updated: 2026-07-04 19:58 UTC_
 
-**Showing 553 roles across 15 posting dates.** H-1B sponsor matches: **15**.
+**Showing 585 roles across 16 posting dates.** H-1B sponsor matches: **15**.
+
+### 2026-07-04 · 33 roles · 0 H-1B sponsor matches
+
+| Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
+| --- | --- | --- | ---: | --- | ---: | --- |
+| Office Administrator, AI Data Studio (Part-Time) | HumanSignal | Columbus, Ohio | Not specified | ❌ No | 7% | <a href="https://job-boards.greenhouse.io/humansignal/jobs/6109113004"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Session Moderator, AI Data Studio (Part-Time) | HumanSignal | Columbus, Ohio | Not specified | ❌ No | 7% | <a href="https://job-boards.greenhouse.io/humansignal/jobs/6109114004"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | San Francisco, CA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/e7d2db1a-8084-446c-b9e8-213757c4e4fc"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | San Mateo, CA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/ecb520a7-f333-4a82-b5c7-d184443c7de5"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Mountain View, CA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/6d2b3e3e-b7fc-49d3-bc3f-58a2b8262a7d"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Sunnyvale, CA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/fd393f82-5607-498b-a467-4a0449bad7ed"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Palo Alto, CA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/f0a06415-8a23-4403-a85e-19612cda0e94"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | San Jose, CA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/c2fe9208-578d-45c8-a9a8-965bc0cbb9e6"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Milpitas, CA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/1d784c62-7c37-45c9-b95a-fe135d69622a"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Fremont, CA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/783199d6-d05f-4aa7-8bd9-76c7fff49559"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Austin, TX | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/a24aa4cf-65b5-4453-8a52-bd9b1c5bb2c7"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Cambridge, MA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/61db34b0-78cd-49f2-b98b-3d79aab3c57d"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Watertown, MA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/9e1edc22-1a65-4069-ae32-4a17f47b0d8a"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Boston, MA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/92353a99-e9ed-416a-aaaa-b32aa6f69c3e"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Pittsburgh, PA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/0b9e2f88-bc99-42db-a327-a797a807653b"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Seattle, WA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/3f5d68d0-cd57-4479-84ae-34d20d06afbd"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Nashville, TN | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/4fe0b9e1-6b75-40f4-80ea-c7d3ba382c10"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Columbus, OH | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/502fc237-d79b-4e50-87fe-029960a651b6"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Cincinnati, OH | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/d3af3089-ed97-4114-a134-47c2b503060d"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Indianapolis, IN | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/fe35332e-d011-457d-bb09-e00e3f172860"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Louisville, KY | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/c8821565-4d2c-4418-aafb-edbd68c1570b"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Atlanta, GA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/7b10e879-4680-4f46-999b-6c72082d80b8"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robot Teleoperator (AI & Robotics) | TSMG | Salem, OR | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/4ef1f480-2f21-46df-8d8a-7b08056bae5a"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robotics AI Data Collection Operator | TSMG | Milan | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/42519813-0f7f-4a8c-a274-11b5c22faac0"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robotics AI Data Collection Operator | TSMG | Madrid | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/8373c47e-4ddc-4d53-a402-ae8051a9e1ef"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robotics AI Data Collection Operator | TSMG | Barcelona | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/be858e41-0c83-4bb4-8c58-7670a36e7832"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robotics AI Data Collection Operator | TSMG | Bristol | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/b774cfcd-d186-430b-a573-b5f1a519af24"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robotics AI Data Collection Operator | TSMG | Cambridge | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/7c3f5d3e-64a1-4295-a082-810bed1c4e84"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robotics AI Data Collection Operator | TSMG | Lausanne | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/5042ec3e-341c-4818-86fc-a9bf1ea3bfac"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robotics AI Data Collection Operator | TSMG | Zurich | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/e45bb9e7-5828-46bc-a19b-38a90ad2c2ac"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robotics AI Data Collection Operator | TSMG | Eindhover | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/a3b84bbe-807d-413e-a1d6-0a4f889c6c5d"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robotics AI Data Collection Operator | TSMG | Toulouse | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/6df05daa-1123-46f9-8ea2-44b8c441fa42"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Robotics AI Data Collection Operator | TSMG | Stuttgart | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/12dac40f-b95c-4c7f-850a-1a4b58d47a96"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
 ### 2026-07-03 · 48 roles · 1 H-1B sponsor match
 
@@ -240,8 +278,8 @@ _Last updated: 2026-07-04 16:46 UTC_
 | Software Engineer – Mainframe | Barclays | Pune, Gera Commerzone SEZ | Not specified | ❌ No | 11% | <a href="https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer---Mainframe_JR-0000104527"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer, Frontend | SoFi | Add ALL locations here | Not specified | ❌ No | 11% | <a href="https://sofi.com/careers/job/7791612003?gh_jid=7791612003"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Web Developer, Patient Acquisition Strategies (WFH - OK, TX, AR, KS, MO) | OU Health | Oklahoma City; WFH State of Kansas; WFH State of Arkansas; WFH State of Missouri; WFH State of Texas | Not specified | ❌ No | 11% | <a href="https://oumedicine.wd5.myworkdayjobs.com/en-US/OUHealthCareers/job/Oklahoma-City/Patient-Acquisition-Strategist_R0060707"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Assistant Research Scientist- IMIL | Texas A&M University - College Station | Bryan, TX | Not specified | ❌ No | 7% | <a href="https://tamus.wd1.myworkdayjobs.com/en-US/TAMU_External/job/Bryan-TX/Assistant-Research-Scientist--IMIL_R-092053-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Assistant Research Scientist- IMIL | Texas A&M University System | Bryan, TX | Not specified | ❌ No | 7% | <a href="https://tamus.wd1.myworkdayjobs.com/en-US/System-wide_External/job/Bryan-TX/Assistant-Research-Scientist--IMIL_R-092053"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Assistant Research Scientist- IMIL | Texas A&M University - College Station | Bryan, TX | Not specified | ❌ No | 7% | <a href="https://tamus.wd1.myworkdayjobs.com/en-US/TAMU_External/job/Bryan-TX/Assistant-Research-Scientist--IMIL_R-092053-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Scientist (Research & Evaluation) | AJAIA | Fort Lauderdale, Florida, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/hEUC1wj87kSjmvvZRkNPu5/data-scientist-(research-%26-evaluation)-in-fort-lauderdale-at-ajaia"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Embedded Software Engineer | Caterpillar Inc. | Wuxi, Jiangsu | Not specified | ❌ No | 7% | <a href="https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Wuxi-Jiangsu/Embedded-Software-Engineer_R0000362079"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Embedded Software Engineer | Caterpillar Inc. | Mossville, Illinois | Not specified | ❌ No | 7% | <a href="https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Mossville-Illinois/Embedded-Software-Engineer_R0000380424"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -262,7 +300,7 @@ _Last updated: 2026-07-04 16:46 UTC_
 | Junior Web Application Developer | Idea Entity | San Antonio, Texas, United States | 0-2 | ❌ No | 4% | <a href="https://jobs.workable.com/view/fpT22gH28osG7GmnCZ1xtR/hybrid-junior-web-application-developer-in-san-antonio-at-idea-entity"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Research & Data Analyst | AJAIA | Fort Lauderdale, Florida, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/ivGgk39GqMc6gv3MTeV1VM/research-%26-data-analyst-in-fort-lauderdale-at-ajaia"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-06-30 · 46 roles · 3 H-1B sponsor matches
+### 2026-06-30 · 45 roles · 3 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -311,7 +349,6 @@ _Last updated: 2026-07-04 16:46 UTC_
 | Mobile Software Engineer Hybrid | Cisco | RTP, North Carolina, US | Not specified | ❌ No | 4% | <a href="https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/RTP-North-Carolina-US/Mobile-Software-Engineer-Hybrid_2018217-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Development Engineer in Test (SDET II) | TheIncLab | Tampa, Florida, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/2vQxxdPLHmRz2trj2UF9DL/hybrid-software-development-engineer-in-test-(sdet-ii)-in-tampa-at-theinclab"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Development Engineer in Test (SDET II) | TheIncLab | Nashville, Tennessee, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/3mwfae8fZaHdQHJ1qN3BGH/hybrid-software-development-engineer-in-test-(sdet-ii)-in-nashville-at-theinclab"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Software Development Engineer in Test (SDET II) | TheIncLab | McLean, Virginia, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/tMK4hEcRhX6pbH5FqYfxep/hybrid-software-development-engineer-in-test-(sdet-ii)-in-mclean-at-theinclab"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
 ### 2026-06-29 · 45 roles · 1 H-1B sponsor match
 
