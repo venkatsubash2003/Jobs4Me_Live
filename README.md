@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>02 hours: 28 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 10 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,9 +72,9 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-07-05 09:32 UTC_
+_Last updated: 2026-07-05 11:50 UTC_
 
-**Showing 584 roles across 16 posting dates.** H-1B sponsor matches: **15**.
+**Showing 586 roles across 16 posting dates.** H-1B sponsor matches: **15**.
 
 ### 2026-07-04 · 35 roles · 0 H-1B sponsor matches
 
@@ -302,7 +302,7 @@ _Last updated: 2026-07-05 09:32 UTC_
 | Junior Web Application Developer | Idea Entity | San Antonio, Texas, United States | 0-2 | ❌ No | 4% | <a href="https://jobs.workable.com/view/fpT22gH28osG7GmnCZ1xtR/hybrid-junior-web-application-developer-in-san-antonio-at-idea-entity"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Research & Data Analyst | AJAIA | Fort Lauderdale, Florida, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/ivGgk39GqMc6gv3MTeV1VM/research-%26-data-analyst-in-fort-lauderdale-at-ajaia"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-06-30 · 42 roles · 3 H-1B sponsor matches
+### 2026-06-30 · 44 roles · 3 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -348,6 +348,8 @@ _Last updated: 2026-07-05 09:32 UTC_
 | AI Platform Security Engineer Hybrid | Cisco | RTP North Carolina US | Not specified | ❌ No | 4% | <a href="https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/RTP-North-Carolina-US/AI-Platform-Security-Engineer-Hybrid_2018214-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Mainframe Systems Engineer | Regions | Hoover, AL - Riverchase Operations Center (Birmingham, AL) | Not specified | ❌ No | 4% | <a href="https://regions.wd5.myworkdayjobs.com/en-US/regions_careers/job/Hoover-AL---Riverchase-Operations-Center-Birmingham-AL/Mainframe-Systems-Engineer_R103879"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Mobile Software Engineer Hybrid | Cisco | RTP, North Carolina, US | Not specified | ❌ No | 4% | <a href="https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/RTP-North-Carolina-US/Mobile-Software-Engineer-Hybrid_2018217-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Software Development Engineer in Test (SDET II) | TheIncLab | Tampa, Florida, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/2vQxxdPLHmRz2trj2UF9DL/hybrid-software-development-engineer-in-test-(sdet-ii)-in-tampa-at-theinclab"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Software Development Engineer in Test (SDET II) | TheIncLab | Nashville, Tennessee, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/3mwfae8fZaHdQHJ1qN3BGH/hybrid-software-development-engineer-in-test-(sdet-ii)-in-nashville-at-theinclab"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
 ### 2026-06-29 · 44 roles · 1 H-1B sponsor match
 
