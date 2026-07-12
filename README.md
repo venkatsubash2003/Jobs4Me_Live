@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 19 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 10 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,9 +72,9 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-07-12 16:41 UTC_
+_Last updated: 2026-07-12 19:50 UTC_
 
-**Showing 700 roles across 23 posting dates.** H-1B sponsor matches: **19**.
+**Showing 702 roles across 23 posting dates.** H-1B sponsor matches: **19**.
 
 ### 2026-07-12 · 1 role · 0 H-1B sponsor matches
 
@@ -368,7 +368,7 @@ _Last updated: 2026-07-12 16:41 UTC_
 | Quality Systems Engineer | Astemo | Monroe, Georgia, United States | Not specified | ❌ No | 4% | <a href="https://astemo.wd102.myworkdayjobs.com/en-US/Global_Career_Site/job/Monroe-Georgia-United-States/Quality-Specialist_J0049989"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Relevance Engineer – Enterprise Search & AI North Carolina Hybrid | Cisco | RTP North Carolina US | Not specified | ❌ No | 4% | <a href="https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/RTP-North-Carolina-US/Relevance-Engineer---Enterprise-Search---AI-North-Carolina-Hybrid_2018215-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-07-06 · 32 roles · 0 H-1B sponsor matches
+### 2026-07-06 · 33 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -401,6 +401,7 @@ _Last updated: 2026-07-12 16:41 UTC_
 | Machine Learning Researcher | Jane Street | New York, New York, United States | Not specified | ❌ No | 15% | <a href="https://job-boards.greenhouse.io/janestreet/jobs/8384490002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer, Early Career | Notion | San Francisco, California | 0-2 | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/notion/297b4ece-765f-4eea-b1b8-46057cb6501f"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Assistant Vice President; Software Engineer | Bank of America | Addison | 2 | ❌ No | 11% | <a href="https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/Addison/Assistant-Vice-President--Software-Engineer_26020871-2"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Embedded Software Engineer (MCU / Ethernet Communication/RTOS) r | Caterpillar Inc. | Wuxi, Jiangsu | Not specified | ❌ No | 11% | <a href="https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Wuxi-Jiangsu/XMLNAME--Embedded-Software-Engineer--MCU---Ethernet-Communication-RTOS-----r_R0000380765"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Infrastructure Services Production Specialist | Bank of America | Chandler; Charlotte | Not specified | ❌ No | 7% | <a href="https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/Chandler/AI-Infrastructure-Services-Production-Specialist_26001678-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | DevOps Engineer III | Genuine Parts Company | USA GPC Remote - South Carolina | Not specified | ❌ No | 7% | <a href="https://genpt.wd1.myworkdayjobs.com/en-US/careers/job/USA-GPC-Remote---South-Carolina/DevOps-Engineer-III_R26_0000005456"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Analyst | eSkill | San Antonio, Texas, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/btgyBs1BukFGeVBo59ro53/data-analyst-in-san-antonio-at-eskill"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -523,7 +524,7 @@ _Last updated: 2026-07-12 16:41 UTC_
 | Web Developer | Cape | New York, NY | Not specified | ❌ No | 7% | <a href="https://jobs.ashbyhq.com/cape/9c2ad71e-6529-4272-86fa-83307963f90c"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Clinical Data Analyst | EDETEK | Princeton, New Jersey, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/wu9RWH5818eMHQmaaFPkyc/clinical-data-analyst-in-princeton-at-edetek"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-07-01 · 43 roles · 1 H-1B sponsor match
+### 2026-07-01 · 44 roles · 1 H-1B sponsor match
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -548,6 +549,7 @@ _Last updated: 2026-07-12 16:41 UTC_
 | Python Developer/AI & Analytics Engineer | Caterpillar Inc. | East Peoria, Illinois | Not specified | ❌ No | 15% | <a href="https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/East-Peoria-Illinois/Python-Developer-AI---Analytics-Engineer_R0000374485"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer | Carrier Global | LOC5026: Monterrey Technology Hub | Not specified | ❌ No | 15% | <a href="https://carrier.wd5.myworkdayjobs.com/en-US/jobs/job/LOC5026-Monterrey-Technology-Hub/Software-Engineer_30208147"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer | Toyota | Plano, Texas | 1 | ❌ No | 15% | <a href="https://toyota.wd503.myworkdayjobs.com/en-US/tmna/job/Plano-Texas/Software-Engineer_10319691-2"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Software Engineer I - Mainframe (Cobol) | U.S. Bank | Brookfield, WI; Atlanta, GA; Hopkins, MN; Cincinnati, OH; Irving, TX | Not specified | ❌ No | 15% | <a href="https://usbank.wd1.myworkdayjobs.com/en-US/US_Bank_Careers/job/Brookfield-WI/Software-Engineer-I---Mainframe--Cobol-_2026-0018566"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Systems Engineer 1 | Nissan Global | Canton, Mississippi - United States of America | 2 | ❌ No | 15% | <a href="https://alliance.wd3.myworkdayjobs.com/en-US/nissanjobs/job/Canton-Mississippi---United-States-of-America/Systems-Engineer-1_R00200457-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Analytics Engineer | Recurly | Broomfield, Colorado, United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/m8kHdkefpj267xaHmzAif3/hybrid-analytics-engineer-in-broomfield-at-recurly"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Computer Vision Engineer - Algorithms | Hawk-Eye Innovations | Budapest, Hungary | Not specified | ❌ No | 11% | <a href="https://jobs.ashbyhq.com/hawkeyeinnovations/7b9ecfaf-f6bf-465a-94b5-a00aa4601117"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
