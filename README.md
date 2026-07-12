@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>02 hours: 53 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 53 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,9 +72,9 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-07-12 09:07 UTC_
+_Last updated: 2026-07-12 11:07 UTC_
 
-**Showing 698 roles across 22 posting dates.** H-1B sponsor matches: **19**.
+**Showing 700 roles across 22 posting dates.** H-1B sponsor matches: **19**.
 
 ### 2026-07-11 · 5 roles · 0 H-1B sponsor matches
 
@@ -86,7 +86,7 @@ _Last updated: 2026-07-12 09:07 UTC_
 | Software Development Engineer in Test | SS&C | Boston MA - One Post Office Square; San Francisco, CA | 2 | ❌ No | 22% | <a href="https://ssctech.wd1.myworkdayjobs.com/en-US/ssctechnologies/job/Boston-MA---One-Post-Office-Square/Software-Development-Engineer-in-Test_R43952-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer – Motion Planning | DiDi Global | San Jose, CA | Not specified | ❌ No | 15% | <a href="https://job-boards.greenhouse.io/didi/jobs/8056500"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-07-10 · 71 roles · 3 H-1B sponsor matches
+### 2026-07-10 · 73 roles · 3 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -129,6 +129,8 @@ _Last updated: 2026-07-12 09:07 UTC_
 | Data Engineer | Lowe's | Lowe's Charlotte Technology Hub 3505 | 2 | ❌ No | 15% | <a href="https://lowes.wd5.myworkdayjobs.com/en-US/LWS_External_CS/job/Lowes-Charlotte-Technology-Hub-3505/Data-Engineer_JR-02584796"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Scientist | Fiserv | Alpharetta, Georgia | Not specified | ❌ No | 15% | <a href="https://fiserv.wd5.myworkdayjobs.com/en-US/ext/job/Alpharetta-Georgia/Data-Scientist_R-10394348"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Embedded Flight Software Engineer (Rust) | Umbra | Reston, Virginia, United States | Not specified | ❌ No | 15% | <a href="https://jobs.workable.com/view/3f5N6VUtxo4wbQZLXPUyGZ/embedded-flight-software-engineer-(rust)-in-reston-at-umbra"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Embedded Flight Software Engineer (Rust) | Umbra | Arlington, Virginia, United States | Not specified | ❌ No | 15% | <a href="https://jobs.workable.com/view/7WPZo6K9VKZRPoj8UJttyq/embedded-flight-software-engineer-(rust)-in-arlington-at-umbra"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Embedded Flight Software Engineer (Rust) | Umbra | Santa Barbara, California, United States | Not specified | ❌ No | 15% | <a href="https://jobs.workable.com/view/gJNqCuv9rBqiwuC95h9jpF/embedded-flight-software-engineer-(rust)-in-santa-barbara-at-umbra"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | FX - Software Engineer - React | Barclays | Canary Wharf, 1 Churchill Place | Not specified | ❌ No | 15% | <a href="https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/FX---Software-Engineer---VP_JR-0000119515"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Research Data Scientist - Molecular and Precision Medicine / Medicine | Pennsylvania State University | College of Medicine | 1 | ❌ No | 15% | <a href="https://psu.wd1.myworkdayjobs.com/en-US/PSU_Staff/job/College-of-Medicine/Research-Data-Scientist---Molecular-and-Precision-Medicine---Medicine_REQ_0000077809-2"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Development Engineer III | Expedia Group | Austin Domain 11 - HomeAway | Not specified | ❌ No | 15% | <a href="https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Austin-Domain-11---HomeAway/Software-Development-Engineer-III_R-107484-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
