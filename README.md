@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 20 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 18 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,9 +72,9 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-07-18 16:40 UTC_
+_Last updated: 2026-07-18 19:42 UTC_
 
-**Showing 842 roles across 29 posting dates.** H-1B sponsor matches: **29**.
+**Showing 840 roles across 29 posting dates.** H-1B sponsor matches: **29**.
 
 ### 2026-07-18 · 4 roles · 0 H-1B sponsor matches
 
@@ -85,7 +85,7 @@ _Last updated: 2026-07-18 16:40 UTC_
 | Software Engineer, Simulation Systems | Bot Auto | Houston, TX or San Francisco Bay Area | Not specified | ❌ No | 19% | <a href="https://job-boards.greenhouse.io/botauto/jobs/5363495008"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Specialist Software Engineer, Digital Assistants | Nationwide | Ohio - Columbus, Three Nationwide Plaza | Not specified | ❌ No | 15% | <a href="https://nationwide.wd1.myworkdayjobs.com/en-US/Nationwide_Career/job/Ohio---Columbus-Three-Nationwide-Plaza/Specialist-Software-Engineer--Digital-Assistants_099253"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-07-17 · 61 roles · 2 H-1B sponsor matches
+### 2026-07-17 · 59 roles · 2 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -121,8 +121,6 @@ _Last updated: 2026-07-18 16:40 UTC_
 | Software Engineer | Schweitzer Engineering Laboratories | Idaho - Boise; Washington - Pullman | 2 | ❌ No | 15% | <a href="https://selinc.wd1.myworkdayjobs.com/en-US/SEL/job/Idaho---Boise/Software-Engineer_2026-21329"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | IT Systems Engineer I | Rocket Lab USA | Auckland, NZ | 2 | ❌ No | 11% | <a href="https://job-boards.greenhouse.io/rocketlab/jobs/7790865003"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Development Engineer | Mastercard | O'Fallon, Missouri | Not specified | ❌ No | 11% | <a href="https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/OFallon-Missouri/Software-Development-Engineer_R-284435"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Software Engineer | Innok Robotics | Metairie, Louisiana, United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/u3ZAJALspoDESibyNNXsHP/remote-software-engineer-in-metairie-at-innok-robotics"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Software Engineer | Innok Robotics | Laurel, Maryland, United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/jJ3Q6yHrjUxA4b8vcM54cf/remote-software-engineer-in-laurel-at-innok-robotics"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | 1698 - Software Engineer | Sigma Defense | San Diego, California, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/giwzP6QzjJQa5jhuQUfiru/1698---software-engineer-in-san-diego-at-sigma-defense"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Workflow Engineer | Ultimate Knowledge | Tennessee, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/ryFiepCuzyX4FT4jKbacYi/remote-ai-workflow-engineer-in-tennessee-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Workflow Engineer | Ultimate Knowledge | Florida, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/jweUYdCKX7ncCks56g3XQ5/remote-ai-workflow-engineer-in-florida-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -877,8 +875,8 @@ _Last updated: 2026-07-18 16:40 UTC_
 | Data Scientist, Marketing Analytics | Sonar | Geneva | Not specified | ❌ No | 19% | <a href="https://jobs.lever.co/sonarsource/bc3d70b3-4c46-4bdb-ac61-d067f00bcda5"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Models Deployment Engineer, AI Platform | Cloudflare | Hybrid | Not specified | ❌ No | 19% | <a href="https://boards.greenhouse.io/cloudflare/jobs/8028747?gh_jid=8028747"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer, Diagnostics | Harbinger Motors | Garden Grove, CA | Not specified | ❌ No | 19% | <a href="https://job-boards.greenhouse.io/harbingermotors/jobs/5174694007"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Software Engineer, Memberships I | Twitch | Seattle, WA | 1 | ❌ No | 19% | <a href="https://job-boards.greenhouse.io/twitch/jobs/8610471002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer, Memberships I | Twitch | San Francisco, CA | 1 | ❌ No | 19% | <a href="https://job-boards.greenhouse.io/twitch/jobs/8605153002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Software Engineer, Memberships I | Twitch | Seattle, WA | 1 | ❌ No | 19% | <a href="https://job-boards.greenhouse.io/twitch/jobs/8610471002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Applied Research Scientist | Cartesian | Cambridge, MA | Not specified | ❌ No | 15% | <a href="https://job-boards.greenhouse.io/cartesiansystems/jobs/4299504009"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Machine Learning Scientist | Cartesian | Cambridge, MA | Not specified | ❌ No | 15% | <a href="https://job-boards.greenhouse.io/cartesiansystems/jobs/4299502009"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Machine Learning Scientist II - Whole Trip AI | Expedia Group | Washington - Seattle Campus; Austin Domain 11 - HomeAway | 2 | ❌ No | 15% | <a href="https://expedia.wd108.myworkdayjobs.com/en-US/private/job/Washington---Seattle-Campus/Machine-Learning-Scientist-II---Whole-Trip-AI_R-107023"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
