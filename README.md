@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 04 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 51 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,9 +72,9 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-07-19 08:56 UTC_
+_Last updated: 2026-07-19 11:09 UTC_
 
-**Showing 847 roles across 29 posting dates.** H-1B sponsor matches: **29**.
+**Showing 848 roles across 29 posting dates.** H-1B sponsor matches: **29**.
 
 ### 2026-07-18 · 4 roles · 0 H-1B sponsor matches
 
@@ -209,7 +209,7 @@ _Last updated: 2026-07-19 08:56 UTC_
 | Research Scientist - Molecular Medicine & Therapeutics | Ohio State University | Columbus Campus | Not specified | ❌ No | 4% | <a href="https://osu.wd1.myworkdayjobs.com/en-US/OSUCareers/job/Columbus-Campus/Research-Scientist---Molecular-Medicine---Therapeutics_R154851"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Research Scientist – Bioanalytics | Novartis | Cambridge (USA) | 2 | ❌ No | 4% | <a href="https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Cambridge-USA/Research-Scientist---Bioanalytics_REQ-10082680-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-07-15 · 59 roles · 1 H-1B sponsor match
+### 2026-07-15 · 60 roles · 1 H-1B sponsor match
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -262,6 +262,7 @@ _Last updated: 2026-07-19 08:56 UTC_
 | Platform Engineer | Fidelity Investments | Merrimack, NH; Westlake, TX | Not specified | ❌ No | 11% | <a href="https://fmr.wd1.myworkdayjobs.com/en-US/fidelitycareers/job/Merrimack-NH/Systems-Engineer_2128835-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Positioning and Controls Software Engineer | Caterpillar Inc. | Mossville, Illinois | Not specified | ❌ No | 11% | <a href="https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Mossville-Illinois/Positioning-and-Controls-Software-Engineer_R0000382277"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Site Reliability Engineer (Raptor) | SpaceX | Hawthorne, CA | 2 | ❌ No | 11% | <a href="https://boards.greenhouse.io/spacex/jobs/8633999002?gh_jid=8633999002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Software Engineer in Security | Flexcompute Inc. | Watertown, Massachusetts, United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/1Wu9EJ8mkSnr4v6RJPNhrc/software-engineer-in-security-in-watertown-at-flexcompute-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer, Core Systems & Platform Services | Symbotic | USA Wilmington, MA - HQ | Not specified | ❌ No | 11% | <a href="https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Software-Engineer--Core-Systems---Platform-Services_R7327"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | BTS Associate Software Engineer II - AI | AbbVie | North Chicago, IL, United States | Not specified | ❌ No | 7% | <a href="https://jobs.smartrecruiters.com/AbbVie/3743990014111376"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Healthcare Data Analyst | Dugong Global | New York, New York, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/3HZ9n6up6ecE8TAUjzqzyd/healthcare-data-analyst-in-new-york-at-dugong-global"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
