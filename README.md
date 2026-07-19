@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 04 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 20 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,9 +72,9 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-07-19 13:56 UTC_
+_Last updated: 2026-07-19 16:40 UTC_
 
-**Showing 846 roles across 29 posting dates.** H-1B sponsor matches: **29**.
+**Showing 843 roles across 29 posting dates.** H-1B sponsor matches: **29**.
 
 ### 2026-07-18 · 4 roles · 0 H-1B sponsor matches
 
@@ -85,7 +85,7 @@ _Last updated: 2026-07-19 13:56 UTC_
 | Software Engineer, Simulation Systems | Bot Auto | Houston, TX or San Francisco Bay Area | Not specified | ❌ No | 19% | <a href="https://job-boards.greenhouse.io/botauto/jobs/5363495008"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Specialist Software Engineer, Digital Assistants | Nationwide | Ohio - Columbus, Three Nationwide Plaza | Not specified | ❌ No | 15% | <a href="https://nationwide.wd1.myworkdayjobs.com/en-US/Nationwide_Career/job/Ohio---Columbus-Three-Nationwide-Plaza/Specialist-Software-Engineer--Digital-Assistants_099253"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-07-17 · 57 roles · 2 H-1B sponsor matches
+### 2026-07-17 · 56 roles · 2 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -104,7 +104,6 @@ _Last updated: 2026-07-19 13:56 UTC_
 | Software Engineer, Controls (C++) | Kodiak Robotics | Mountain View, CA | 2 | ❌ No | 22% | <a href="https://job-boards.greenhouse.io/kodiak/jobs/4312761009"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer-Infrastructure Automation | Wells Fargo | ISELIN, NJ; IRVING, TX; CHARLOTTE, NC; MCLEAN, VA | 2 | ❌ No | 22% | <a href="https://wf.wd1.myworkdayjobs.com/en-US/wellsfargojobs/job/ISELIN-NJ/Software-Engineer-Infrastructure-Automation_R-560227"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Deployment Engineer, Messenger Integrations | OpenAI | San Francisco | Not specified | ❌ No | 19% | <a href="https://jobs.ashbyhq.com/openai/3cb8b1c4-b24c-4a5b-be9c-3f47a4161e3c"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Associate Product Software Engineer | Wolters Kluwer | IND-Pune-Smartworks | Not specified | ❌ No | 19% | <a href="https://wk.wd3.myworkdayjobs.com/en-US/External/job/IND-Pune-Smartworks/Associate-Product-Software-Engineer_R0056049-2"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Junior Software Engineer (NodeJS, React) | Diligent Corporation | Budapest, Hungary | 0-2 | ❌ No | 19% | <a href="https://job-boards.greenhouse.io/diligentcorporation/jobs/6115509004"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Machine Learning Infrastructure Engineer | WindBorne Systems | RWC HQ | Not specified | ❌ No | 19% | <a href="https://jobs.ashbyhq.com/windborne-systems/79678539-14fa-4896-a622-31705e9d362e"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Development Engineer [PSET- Access - Eng] | Autodesk | Bengaluru, IND | 1 | ❌ No | 19% | <a href="https://autodesk.wd1.myworkdayjobs.com/en-US/uni/job/Bengaluru-IND/Software-Development-Engineer--PSET--Access---Eng-_26WD99919-2"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -272,7 +271,7 @@ _Last updated: 2026-07-19 13:56 UTC_
 | Data Scientist III, Behavioral Marketing Analytics & Customer Insights | Thermo Fisher Scientific | Carlsbad California USA | Not specified | ❌ No | 4% | <a href="https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers/job/Carlsbad-California-USA/Data-Scientist-III--Behavioral-Marketing-Analytics---Customer-Insights-_R-01359096"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Research Scientist - Epidemiology and Scientific Affairs | Thermo Fisher Scientific | Remote North Carolina USA | Not specified | ❌ No | 4% | <a href="https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers/job/Remote-North-Carolina-USA/Research-Scientist---Epidemiology-and-Scientific-Affairs_R-01354941"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-07-14 · 57 roles · 2 H-1B sponsor matches
+### 2026-07-14 · 56 roles · 2 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -324,7 +323,6 @@ _Last updated: 2026-07-19 13:56 UTC_
 | Low Level Software Engineer (SPU) | Vorticity | Redwood City | Not specified | ❌ No | 11% | <a href="https://jobs.ashbyhq.com/vorticity/9e23038b-3581-4a65-9104-a180f7cef375"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Quantitative Analyst/Developer, Vice President | Barclays | New York, 745 7th Avenue | Not specified | ❌ No | 11% | <a href="https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Quantitative-Analyst-Developer--Vice-President_JR-0000111118-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer | Barclays | Pune, Gera Commerzone SEZ | Not specified | ❌ No | 11% | <a href="https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer_JR-0000117578"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Data Engineer | Systech Federal | New York, New York, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/9NyR2rp8RZwc3QkAiTTEGq/data-engineer-in-new-york-at-systech-federal"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Embedded Software Engineer - Web | Caterpillar Inc. | Mossville, Illinois | Not specified | ❌ No | 7% | <a href="https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Mossville-Illinois/Embedded-Software-Engineer---Web_R0000380463"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Mainframe Systems Engineer - DB2/DBA | Regions | Hoover, AL - Riverchase Operations Center (Birmingham, AL) | Not specified | ❌ No | 7% | <a href="https://regions.wd5.myworkdayjobs.com/en-US/regions_careers/job/Hoover-AL---Riverchase-Operations-Center-Birmingham-AL/Mainframe-Systems-Engineer_R103879"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Systems Engineer IV - Test | Voyager Technologies | Reno, NV or Folsom, CA | Not specified | ❌ No | 7% | <a href="https://job-boards.greenhouse.io/voyagertechnologiesinc/jobs/4312842009"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -698,7 +696,7 @@ _Last updated: 2026-07-19 13:56 UTC_
 | Robotics AI Data Collection Operator (Robot Trainer) | TSMG | San Mateo, CA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/0c06f414-170f-4f96-ba5d-f029cd51d9b0"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Robotics AI Data Collection Operator (Robot Trainer) | TSMG | San Francisco, CA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/96d404bf-6aa9-4854-8adb-fd0e6d1c5a29"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-07-02 · 28 roles · 0 H-1B sponsor matches
+### 2026-07-02 · 27 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -717,7 +715,6 @@ _Last updated: 2026-07-19 13:56 UTC_
 | AI Engineer | Pereview Software | Dallas, Texas, United States | Not specified | ❌ No | 15% | <a href="https://jobs.workable.com/view/5nrPq2ipU8DJVTNtdKyiWX/ai-engineer-in-dallas-at-pereview-software"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Associate AI Data Strategist | TWG Global | Santa Monica, California, United States | 2 | ❌ No | 15% | <a href="https://apply.workable.com/j/ADBFF1AEE0"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Part-Time Student Worker – Software Development Engineer in Test | Zoox | Foster City, CA | Not specified | ❌ No | 15% | <a href="https://jobs.lever.co/zoox/019b636a-23c9-4366-90fd-5a95ad9e5049"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Product Software Engineer-Backend (Java) | Wolters Kluwer | PRT - Porto | Not specified | ❌ No | 15% | <a href="https://wk.wd3.myworkdayjobs.com/en-US/External/job/PRT---Porto/Product-Software-Engineer-Backend--Java-_R0058621"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Business Intelligence Developer | IS International Services | Houston, Texas, United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/vcDUuYsnfYPPXF62BuoiNR/hybrid-business-intelligence-developer-in-houston-at-is-international-services"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Engineer | Farfetch | Porto | 2 | ❌ No | 11% | <a href="https://jobs.lever.co/farfetch/f2aafe8f-4fb6-43b0-b9b5-00d174977989"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Optics Research Scientist | KLA Corporation | Milpitas, CA | Not specified | ❌ No | 11% | <a href="https://kla.wd1.myworkdayjobs.com/en-US/search/job/Milpitas-CA/Optics-Research-Scientist_2637457"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
