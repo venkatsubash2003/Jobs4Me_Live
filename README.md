@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 36 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 54 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,15 +72,19 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-07-26 11:24 UTC_
+_Last updated: 2026-07-26 14:06 UTC_
 
-**Showing 1024 roles across 36 posting dates.** H-1B sponsor matches: **41**.
+**Showing 1027 roles across 36 posting dates.** H-1B sponsor matches: **41**.
 
-### 2026-07-26 · 3 roles · 0 H-1B sponsor matches
+### 2026-07-26 · 7 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
 | Associate Software Engineer | Sony | Basingstoke | Not specified | ❌ No | 15% | <a href="https://sonyglobal.wd1.myworkdayjobs.com/en-US/SonyGlobalCareers/job/Basingstoke/Associate-Software-Engineer_JR-119414-2"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Data Engineer (Azure & Snowflake) - Remote | Mindex | Pennsylvania, United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/cWUjpQYyDTVSt4vn2t5ace/data-engineer-(azure-%26-snowflake)---remote-in-pennsylvania-at-mindex"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Data Engineer (Azure & Snowflake) - Remote | Mindex | Michigan, United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/xiXwWfMkRie5xaggWbn6JQ/data-engineer-(azure-%26-snowflake)---remote-in-michigan-at-mindex"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Data Engineer (Azure & Snowflake) - Remote | Mindex | Ohio, United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/vEBFTMNTMb8prCc4FLoT23/data-engineer-(azure-%26-snowflake)---remote-in-ohio-at-mindex"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Data Engineer (Azure & Snowflake) - Remote | Mindex | Rochester, New York, United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/eKKqYakup7Axvpv2ccPeaP/data-engineer-(azure-%26-snowflake)---remote-in-rochester-at-mindex"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | C# / Angular Associate Application Developer (Local / Hybrid) | Vanderbilt Health | Nashville, TN | 1 | ❌ No | 7% | <a href="https://vumc.wd1.myworkdayjobs.com/en-US/vumccareers/job/Nashville-TN/C----Angular-Associate-Application-Developer--Local---Hybrid-_R-63031-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer Full Stack | Lowe's | Bengaluru | 2 | ❌ No | 7% | <a href="https://lowes.wd5.myworkdayjobs.com/en-US/LWS_External_CS/job/Bengaluru/Software-Engineer-Full-Stack_JR-02561638"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
@@ -409,8 +413,8 @@ _Last updated: 2026-07-26 11:24 UTC_
 | Software Engineer | Western Digital | San Jose, CA, United States | 2 | ❌ No | 26% | <a href="https://jobs.smartrecruiters.com/WesternDigital/744000138717897"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer | Q-CTRL | San Francisco | Not specified | ❌ No | 26% | <a href="https://jobs.lever.co/q-ctrl/fd766aab-fbc4-440d-8075-ecf58a6b49fe"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer, Backend | Mirage | Union Square, New York City | 2 | ❌ No | 26% | <a href="https://jobs.ashbyhq.com/mirage/7e7c850b-c632-4063-97b3-5d1db05409d6"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Forward Deployed Engineer (Generative AI) | Tiger Analytics Inc. | New York, New York, United States | Not specified | ❌ No | 22% | <a href="https://jobs.workable.com/view/8r9hfQsGCf37yKPLz11Uof/remote-forward-deployed-engineer-(generative-ai)-in-new-york-at-tiger-analytics-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Forward Deployed Engineer (Generative AI) | Tiger Analytics Inc. | Chicago, Illinois, United States | Not specified | ❌ No | 22% | <a href="https://jobs.workable.com/view/cJu3T9sn7xdiv8ZLjY78bY/remote-forward-deployed-engineer-(generative-ai)-in-chicago-at-tiger-analytics-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Forward Deployed Engineer (Generative AI) | Tiger Analytics Inc. | New York, New York, United States | Not specified | ❌ No | 22% | <a href="https://jobs.workable.com/view/8r9hfQsGCf37yKPLz11Uof/remote-forward-deployed-engineer-(generative-ai)-in-new-york-at-tiger-analytics-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Part-Time Student Worker - Data Analyst | Zoox | Foster City, CA | Not specified | ❌ No | 22% | <a href="https://jobs.lever.co/zoox/5e03b357-0cc1-4194-9488-14f85044f4f9"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Postdoctoral Research Associate, Translational AI Center (TrAC) | Iowa State University | Ames, IA | Not specified | ❌ No | 22% | <a href="https://isu.wd1.myworkdayjobs.com/en-US/IowaStateJobs/job/Ames-IA/Postdoctoral-Research-Associate--Translational-AI-Center--TrAC-_R19630"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Development Engineer II - Full-Stack - Front-End Focus | Expedia Group | Washington - Seattle Campus | 2 | ❌ No | 22% | <a href="https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Washington---Seattle-Campus/Software-Development-Engineer-II---Full-Stack---Front-End-Focus_R-105638-2"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -495,12 +499,12 @@ _Last updated: 2026-07-26 11:24 UTC_
 | Site Reliability Engineer II | Illumio | HQ - Sunnyvale (Office) | 2 | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/illumio/c03fae33-a169-429e-81f0-15b9bcc1df56"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer | AHEAD | United States | Not specified | ❌ No | 15% | <a href="https://jobs.lever.co/thinkahead/b044c4f0-4509-425f-8581-58070ded2379"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | IT Systems Engineer I | Rocket Lab USA | Auckland, NZ | 2 | ❌ No | 11% | <a href="https://job-boards.greenhouse.io/rocketlab/jobs/7790865003"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| AI Workflow Engineer | Ultimate Knowledge | Virginia, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/k1rnz3FJtMZnSyQQ6HW5es/remote-ai-workflow-engineer-in-virginia-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| AI Workflow Engineer | Ultimate Knowledge | Georgia, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/6qWq8JtymNDSWnG43ZhymY/remote-ai-workflow-engineer-in-georgia-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Workflow Engineer | Ultimate Knowledge | Tennessee, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/ryFiepCuzyX4FT4jKbacYi/remote-ai-workflow-engineer-in-tennessee-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Workflow Engineer | Ultimate Knowledge | Florida, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/jweUYdCKX7ncCks56g3XQ5/remote-ai-workflow-engineer-in-florida-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Workflow Engineer | Ultimate Knowledge | Texas, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/j9coN9SXR58Erk1ZbpgMnb/remote-ai-workflow-engineer-in-texas-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Workflow Engineer | Ultimate Knowledge | Maryland, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/fszfzcNFrSCXDhi3d8e2Xv/remote-ai-workflow-engineer-in-maryland-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| AI Workflow Engineer | Ultimate Knowledge | Virginia, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/k1rnz3FJtMZnSyQQ6HW5es/remote-ai-workflow-engineer-in-virginia-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| AI Workflow Engineer | Ultimate Knowledge | Georgia, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/6qWq8JtymNDSWnG43ZhymY/remote-ai-workflow-engineer-in-georgia-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Workflow Engineer | Ultimate Knowledge | United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/2bXeBP3EK4XsGzUkdsZMdq/remote-ai-workflow-engineer-in-united-states-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Analyst (Mid-Level) (0045) | OCT Consulting, LLC | Arlington, Virginia, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/nxMD3DzVf4RNwhbUtZhoUu/data-analyst-(mid-level)-(0045)-in-arlington-at-oct-consulting%2C-llc"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Analytics Developer | TechOp Solutions International | Washington, District of Columbia, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/ghNofUcMqBJyBcG9okJfBK/hybrid-data-analytics-developer-in-washington-at-techop-solutions-international"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -1225,7 +1229,7 @@ _Last updated: 2026-07-26 11:24 UTC_
 | AI Adoption Engineer | Cursor | Remote | Not specified | ❌ No | 4% | <a href="https://jobs.ashbyhq.com/cursor/ecc15f50-5d5b-4f79-a14c-e424b0c1bec6"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Founding Account Executive - Roboto AI | Unusual | Seattle, Washington | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/unusual/6db358ab-f0d5-4ff9-8585-c071e16ea37c"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-06-22 · 21 roles · 0 H-1B sponsor matches
+### 2026-06-22 · 20 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -1248,7 +1252,6 @@ _Last updated: 2026-07-26 11:24 UTC_
 | Software Development Engineer in Test II (SDET Contractor) | Sony Interactive Entertainment | United States, San Mateo, CA | Not specified | ❌ No | 7% | <a href="https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6099174004"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Development Engineer in Test II (SDET Contractor) | Sony Interactive Entertainment | United States, Los Angeles, CA | Not specified | ❌ No | 7% | <a href="https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6020548004"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer, C++ (Simulations) | SpaceX | Hawthorne, CA | 2 | ❌ No | 7% | <a href="https://boards.greenhouse.io/spacex/jobs/8603609002?gh_jid=8603609002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| AI Systems Engineer - Forward-Deployed Builder | AI Acquisition | United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/bYBM1XUdBbeG1c8KLjvPbh/remote-ai-systems-engineer---forward-deployed-builder-in-united-states-at-ai-acquisition"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Backend Engineer (NYC) | MLabs | New York, New York, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/6AQjUPZGuvia6buDc3N3AZ/hybrid-backend-engineer-(nyc)-in-new-york-at-mlabs"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
 ### 2026-06-21 · 4 roles · 0 H-1B sponsor matches
