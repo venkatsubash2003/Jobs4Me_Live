@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 42 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 33 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,9 +72,9 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-08-08 10:18 UTC_
+_Last updated: 2026-08-08 13:27 UTC_
 
-**Showing 1252 roles across 48 posting dates.** H-1B sponsor matches: **52**.
+**Showing 1251 roles across 48 posting dates.** H-1B sponsor matches: **52**.
 
 ### 2026-08-08 · 13 roles · 0 H-1B sponsor matches
 
@@ -478,7 +478,7 @@ _Last updated: 2026-08-08 10:18 UTC_
 | Cloud Engineer | SS&C | Kansas City, MO | Not specified | ❌ No | 19% | <a href="https://ssctech.wd1.myworkdayjobs.com/en-US/ssctechnologies/job/Kansas-City-MO/Cloud-Engineer_R40402"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer, Mission Autonomy | Mach Industries | Huntington Beach, CA | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/mach/04d2867a-eb38-4bbc-a6fd-8f2ce7b9a045"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-07-31 · 48 roles · 1 H-1B sponsor match
+### 2026-07-31 · 47 roles · 1 H-1B sponsor match
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -518,7 +518,6 @@ _Last updated: 2026-08-08 10:18 UTC_
 | Software Engineer, Infrastructure | Flexcompute Inc. | Watertown, Massachusetts, United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/49P4x5VsYiZM7VyJqi85nD/software-engineer%2C-infrastructure-in-watertown-at-flexcompute-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Systems Engineer II | Becton Dickinson | USA CA - Irvine Laguna Canyon | 2 | ❌ No | 11% | <a href="https://bdx.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREER_SITE_USA/job/USA-CA---Irvine-Laguna-Canyon/Systems-Engineer-II_R-551143-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Product Engineer (AI-Native Builder) | Diligent Corporation | Budapest, Hungary | Not specified | ❌ No | 7% | <a href="https://job-boards.greenhouse.io/diligentcorporation/jobs/6131825004"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| AI Operations Engineering Technical Leader | Cisco | Milpitas, California, US | Not specified | ❌ No | 4% | <a href="https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/Milpitas-California-US/AI-Operations-Engineering-Technical-Leader_2020998"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Bilingual Mandarin R&D Trainee - Full-Stack Engineer (Backend） | CWILL | Illinois, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/8Q7DD5du1no6pGiGPkAcrB/remote-bilingual-mandarin-r%26d-trainee---full-stack-engineer-(backend%EF%BC%89-in-illinois-at-cwill"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Bilingual Mandarin R&D Trainee - Full-Stack Engineer (Backend） | CWILL | Texas, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/hr6z5ebCBN5iqLyqTbjUnX/remote-bilingual-mandarin-r%26d-trainee---full-stack-engineer-(backend%EF%BC%89-in-texas-at-cwill"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Bilingual Mandarin R&D Trainee - Full-Stack Engineer (Backend） | CWILL | New Jersey, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/sh2RdY13XyBeB1UFk1PcyK/remote-bilingual-mandarin-r%26d-trainee---full-stack-engineer-(backend%EF%BC%89-in-new-jersey-at-cwill"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
