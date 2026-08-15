@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 55 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>02 hours: 03 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,9 +72,9 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-08-15 19:05 UTC_
+_Last updated: 2026-08-15 21:57 UTC_
 
-**Showing 1376 roles across 55 posting dates.** H-1B sponsor matches: **53**.
+**Showing 1375 roles across 55 posting dates.** H-1B sponsor matches: **53**.
 
 ### 2026-08-15 · 2 roles · 0 H-1B sponsor matches
 
@@ -83,7 +83,7 @@ _Last updated: 2026-08-15 19:05 UTC_
 | Systems Engineer 3, Yale School of Management | Yale University | Edward P Evans Hall | Not specified | ❌ No | 11% | <a href="https://yale.wd1.myworkdayjobs.com/en-US/terminated_layoff_external_career_site/job/Edward-P-Evans-Hall/Systems-Engineer-3--Yale-School-of-Management_137664WD-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Infrastructure Engineer Intern | Dedalus Labs | San Francisco | Not specified | ❌ No | 4% | <a href="https://jobs.ashbyhq.com/dedalus-labs/fab1accf-2b21-453b-869f-a08759fa605c"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-08-14 · 70 roles · 4 H-1B sponsor matches
+### 2026-08-14 · 69 roles · 4 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -103,7 +103,6 @@ _Last updated: 2026-08-15 19:05 UTC_
 | AI Software Engineer | Unum | Carlow, Carlow, IRE | 2 | ❌ No | 30% | <a href="https://unum.wd1.myworkdayjobs.com/en-US/external/job/Carlow-Carlow-IRE/Gen-AI-Software-Engineer_835598"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Full Stack Engineer | Barclays | Glasgow Campus; Knutsford, Radbroke Hall | Not specified | ❌ No | 30% | <a href="https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Glasgow-Campus/Site-Reliability-Engineer--SRE-_JR-0000102279-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Development Engineer II | Expedia Group | Washington - Seattle Campus | 1 | ❌ No | 30% | <a href="https://expedia.wd108.myworkdayjobs.com/en-US/search/job/Washington---Seattle-Campus/Software-Development-Engineer-II_R-108814"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Software Engineer, (Full Stack) Product | Clay | New York | Not specified | ❌ No | 30% | <a href="https://jobs.ashbyhq.com/claylabs/4b20eb92-c27c-46fb-8d5b-ead32765a7d8"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Full Stack Engineer (Application Software) | SpaceX | Cape Canaveral, FL | 2 | ❌ No | 26% | <a href="https://boards.greenhouse.io/spacex/jobs/8710146002?gh_jid=8710146002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Measurement Data Scientist | AppLovin | Palo Alto, CA | Not specified | ❌ No | 26% | <a href="https://boards.greenhouse.io/applovin/jobs/4705264006?gh_jid=4705264006"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer - Applied AI | Cogent Security | San Francisco, CA | Not specified | ❌ No | 26% | <a href="https://jobs.ashbyhq.com/cogent-security/8762ddb1-fad6-40e0-90a9-c239d1cbdb17"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -791,8 +790,8 @@ _Last updated: 2026-08-15 19:05 UTC_
 | Application Software Engineer, Applied AI | SpaceX | Redmond, WA | 2 | ❌ No | 30% | <a href="https://boards.greenhouse.io/spacex/jobs/8658744002?gh_jid=8658744002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Application Software Engineer, Applied AI | SpaceX | Cape Canaveral, FL | 2 | ❌ No | 30% | <a href="https://boards.greenhouse.io/spacex/jobs/8658743002?gh_jid=8658743002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Application Software Engineer, Applied AI | SpaceX | Vandenberg, CA | 2 | ❌ No | 30% | <a href="https://boards.greenhouse.io/spacex/jobs/8658742002?gh_jid=8658742002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Application Software Engineer, Applied AI | SpaceX | Starbase, TX | 2 | ❌ No | 30% | <a href="https://boards.greenhouse.io/spacex/jobs/8658738002?gh_jid=8658738002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Application Software Engineer, Applied AI | SpaceX | McGregor, TX | 2 | ❌ No | 30% | <a href="https://boards.greenhouse.io/spacex/jobs/8658740002?gh_jid=8658740002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Application Software Engineer, Applied AI | SpaceX | Starbase, TX | 2 | ❌ No | 30% | <a href="https://boards.greenhouse.io/spacex/jobs/8658738002?gh_jid=8658738002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Application Software Engineer, Applied AI | SpaceX | Bastrop, TX | 2 | ❌ No | 30% | <a href="https://boards.greenhouse.io/spacex/jobs/8658737002?gh_jid=8658737002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Application Software Engineer, Applied AI | SpaceX | Hawthorne, CA | 2 | ❌ No | 30% | <a href="https://boards.greenhouse.io/spacex/jobs/8658628002?gh_jid=8658628002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer - CV Tooling | Augmodo | United States | Not specified | ❌ No | 30% | <a href="https://jobs.ashbyhq.com/augmodo/47b48f32-7c36-4963-b7ec-786c920ccba1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -1141,8 +1140,8 @@ _Last updated: 2026-08-15 19:05 UTC_
 | Software Engineer - Platform Infrastructure (Rust, C++) | xAI | Palo Alto, California | Not specified | ❌ No | 15% | <a href="https://job-boards.greenhouse.io/xai/jobs/5191142007"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Supply Chain Data Analyst / Data Scientist | KPI Solutions | United States | Not specified | ❌ No | 15% | <a href="https://jobs.workable.com/view/u9F3wUdKLrHxQEiamaF66A/remote-supply-chain-data-analyst-%2F-data-scientist-in-united-states-at-kpi-solutions"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Supply Chain Data Analyst / Data Scientist | KPI Solutions | Atlanta, Georgia, United States | Not specified | ❌ No | 15% | <a href="https://jobs.workable.com/view/9Dq5qbr4a8tWCqnXCuxDAV/remote-supply-chain-data-analyst-%2F-data-scientist-in-atlanta-at-kpi-solutions"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Software Engineer Kubernetes | Northstrat | Columbia, Maryland, United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/fPZh7STuUWeHM9HPK7LiGt/hybrid-software-engineer-kubernetes-in-columbia-at-northstrat"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer Kubernetes | Northstrat | San Antonio, Texas, United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/8fp7PbztzE3SKLFvKriVK5/hybrid-software-engineer-kubernetes-in-san-antonio-at-northstrat"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Software Engineer Kubernetes | Northstrat | Columbia, Maryland, United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/fPZh7STuUWeHM9HPK7LiGt/hybrid-software-engineer-kubernetes-in-columbia-at-northstrat"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Wireless Software Engineer (Starlink) | SpaceX | Palo Alto, CA | 2 | ❌ No | 11% | <a href="https://boards.greenhouse.io/spacex/jobs/8637814002?gh_jid=8637814002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Wireless Software Engineer (Starlink) | SpaceX | Redmond, WA | 2 | ❌ No | 11% | <a href="https://boards.greenhouse.io/spacex/jobs/8637826002?gh_jid=8637826002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Inference Engineer | Fuse Energy | United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/d8L9Rw7VMr8fCNDwZqPaQ6/remote-ai-inference-engineer-in-united-states-at-fuse-energy"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
