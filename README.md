@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 43 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 54 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,14 +72,15 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-08-22 13:17 UTC_
+_Last updated: 2026-08-22 16:06 UTC_
 
-**Showing 1447 roles across 60 posting dates.** H-1B sponsor matches: **57**.
+**Showing 1450 roles across 60 posting dates.** H-1B sponsor matches: **57**.
 
-### 2026-08-22 · 7 roles · 0 H-1B sponsor matches
+### 2026-08-22 · 9 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
+| Embedded Systems Software Engineer | REGENT | North Kingstown, Rhode Island, USA | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/regent/f8d421ad-93ae-4b99-873e-65892f0f083e"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Infrastructure Engineer | Greptile | San Francisco | 1 | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/greptile/6be58456-a668-4f66-9a08-394dd9eb4842"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Research Scientist - Humanoid Robotics | Applied Intuition | Sunnyvale | 1 | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/applied/4cd7cf1d-717c-4887-93b4-520a40a906b1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Research Scientist, Photonic Materials Discovery | Lila Sciences | Cambridge, MA USA | Not specified | ❌ No | 15% | <a href="https://job-boards.greenhouse.io/lilasciences/jobs/4377093009"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -87,6 +88,7 @@ _Last updated: 2026-08-22 13:17 UTC_
 | Frontend Engineer | Greptile | San Francisco | 1 | ❌ No | 7% | <a href="https://jobs.ashbyhq.com/greptile/ce412761-a605-4540-9fb5-624c67ba2b02"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Jr. Data Analyst | Data Insight Partners | Las Vegas, Nevada, United States | 0-2 | ❌ No | 7% | <a href="https://jobs.workable.com/view/3Xyd7PN6QbevAHDAfGsQi5/remote-jr.-data-analyst-in-las-vegas-at-data-insight-partners"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Platform Engineer | Hyperbound | San Francisco | Not specified | ❌ No | 7% | <a href="https://jobs.ashbyhq.com/hyperbound/9179fa2e-8193-4bd8-a789-bdddbdceb95a"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| AI Creative Engineer (AI Video Ads) | eJam | United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/qvbyaTFQFC6DrLCuqqv1pN/remote-ai-creative-engineer-(ai-video-ads)-in-united-states-at-ejam"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
 ### 2026-08-21 · 68 roles · 4 H-1B sponsor matches
 
@@ -215,7 +217,7 @@ _Last updated: 2026-08-22 13:17 UTC_
 | Power Electronics / Electrical Systems Engineer | Lucid Bots | Charlotte, NC | Not specified | ❌ No | 4% | <a href="https://job-boards.greenhouse.io/lucidbots/jobs/5397270008"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer | Cisco | RTP, North Carolina, US | Not specified | ❌ No | 4% | <a href="https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/RTP-North-Carolina-US/Software-Engineer_2021976"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-08-19 · 72 roles · 3 H-1B sponsor matches
+### 2026-08-19 · 73 roles · 3 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -276,9 +278,9 @@ _Last updated: 2026-08-22 13:17 UTC_
 | 1710 - Software Engineer II | Sigma Defense | Huntsville, Alabama, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/34DP7TbPG8k164qzmqhqwL/1710---software-engineer-ii-in-huntsville-at-sigma-defense"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Workflow Engineer | Ultimate Knowledge | Columbia, Maryland, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/cHDet2PjcxLJsLzzDK6TnP/hybrid-ai-workflow-engineer-in-columbia-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Workflow Engineer | Ultimate Knowledge | Atlanta, Georgia, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/4Tnw5HXBwxq9wEhoet2FTr/hybrid-ai-workflow-engineer-in-atlanta-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| AI Workflow Engineer | Ultimate Knowledge | Nashville, Tennessee, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/6fKe58QTkUw7hX85FRRnv8/hybrid-ai-workflow-engineer-in-nashville-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Workflow Engineer | Ultimate Knowledge | Dallas, Texas, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/urrY2RFvf5Zrxmbr1nQUJ1/hybrid-ai-workflow-engineer-in-dallas-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Workflow Engineer | Ultimate Knowledge | Chesapeake, Virginia, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/qN8t7djtU6S37nMKzRWnFw/hybrid-ai-workflow-engineer-in-chesapeake-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| AI Workflow Engineer | Ultimate Knowledge | Nashville, Tennessee, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/6fKe58QTkUw7hX85FRRnv8/hybrid-ai-workflow-engineer-in-nashville-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Workflow Engineer | Ultimate Knowledge | Tampa, Florida, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/2bXeBP3EK4XsGzUkdsZMdq/hybrid-ai-workflow-engineer-in-tampa-at-ultimate-knowledge"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Analyst III | Katmai | Orlando, Florida, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/pCgAb1kCoKeYctJNerLEeV/remote-data-analyst-iii-in-orlando-at-katmai"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Distinguished AI Engineer | Elevance Health | IN INDIANAPOLIS 220 VIRGINIA AVE | Not specified | ❌ No | 7% | <a href="https://elevancehealth.wd1.myworkdayjobs.com/en-US/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Distinguished-AI-Engineer_JR202107"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -290,6 +292,7 @@ _Last updated: 2026-08-22 13:17 UTC_
 | Research Scientist I | Iowa State University | Ames, IA | Not specified | ❌ No | 4% | <a href="https://isu.wd1.myworkdayjobs.com/en-US/IowaStateJobs/job/Ames-IA/Research-Scientist-I_R19787"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Research Scientist- Robotics AI | Bosch | Sunnyvale, CA, United States | Not specified | ❌ No | 4% | <a href="https://jobs.smartrecruiters.com/BoschGroup/744000144402069"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer | AbbVie | North Chicago, IL, United States | Not specified | ❌ No | 4% | <a href="https://jobs.smartrecruiters.com/AbbVie/3743990014689396"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Systems Engineer | Salient Motion | Torrance, CA | 2 | ❌ No | 4% | <a href="https://job-boards.greenhouse.io/salientmotion/jobs/5396333008"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Web Developer & Digital Analytics Specialist | Datamark, Inc. | El Paso, Texas, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/aPiTahJfHgkzuTYfXVkLDe/remote-web-developer-%26-digital-analytics-specialist-in-el-paso-at-datamark%2C-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
 ### 2026-08-18 · 57 roles · 2 H-1B sponsor matches
