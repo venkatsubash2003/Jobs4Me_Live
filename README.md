@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 59 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>02 hours: 07 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,9 +72,9 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-08-29 13:01 UTC_
+_Last updated: 2026-08-29 18:53 UTC_
 
-**Showing 1515 roles across 67 posting dates.** H-1B sponsor matches: **53**.
+**Showing 1514 roles across 67 posting dates.** H-1B sponsor matches: **53**.
 
 ### 2026-08-29 · 1 role · 0 H-1B sponsor matches
 
@@ -222,7 +222,7 @@ _Last updated: 2026-08-29 13:01 UTC_
 | Factory Infrastructure Engineer | Freeform | Los Angeles, CA (On-site) | 2 | ❌ No | 4% | <a href="https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7979541003"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Research Scientist, Immunology | Novartis | Basel (City) | Not specified | ❌ No | 4% | <a href="https://novartis.wd3.myworkdayjobs.com/en-US/Novartis_Careers/job/Basel-City/Research-Scientist--Immunology_REQ-10085415-2"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-08-26 · 61 roles · 2 H-1B sponsor matches
+### 2026-08-26 · 60 roles · 2 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -284,7 +284,6 @@ _Last updated: 2026-08-29 13:01 UTC_
 | Data Engineer (Snowflake) | Prominence Advisors | United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/mpc6WQqRaXJ6sAzJVTy4To/remote-data-engineer-(snowflake)-in-united-states-at-prominence-advisors"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Scientist- Hardware Quality (Hybrid) | Cisco | San Jose, California, US | Not specified | ❌ No | 4% | <a href="https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Data-Scientist--Hardware-Quality--Hybrid-_2005431"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Marketing Intern (AI-Native) | Kognitos | San Jose - HQ | Not specified | ❌ No | 4% | <a href="https://jobs.ashbyhq.com/Kognitos/f36e4854-46c4-4a56-81db-597afb82bce8"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Software Engineer - Security Content | Cisco | San Jose, California, US | Not specified | ❌ No | 4% | <a href="https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Software-Engineer---Security-Content_2020620"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer Backend/Platform Systems II (Full Time) – United States | Cisco | San Jose California US | Not specified | ❌ No | 4% | <a href="https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Software-Engineer-Backend-Platform-Systems-II--Full-Time----United-States_2000135"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Special Investigations Unit Data Analyst | Delta Dental | Okemos, MI | Not specified | ❌ No | 4% | <a href="https://rhsc.wd5.myworkdayjobs.com/en-US/delta_dental_of_michigan/job/Okemos-MI/Professional-Review-Data-Analyst_JR101400"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
@@ -1148,7 +1147,6 @@ _Last updated: 2026-08-29 13:01 UTC_
 | Software Engineer III - Python - GenAI Tech | Bank of America | New York | Not specified | ❌ No | 11% | <a href="https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/New-York/Software-Engineer-III---Python---GenAI-Tech_26003969"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Systems Engineer | VAST | Long Beach, California, United States | 2 | ❌ No | 11% | <a href="https://boards.greenhouse.io/vast/jobs/4701302006?gh_jid=4701302006"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Systems Security Software Engineer | Blueprint Technologies | Redmond, WA | Not specified | ❌ No | 11% | <a href="https://job-boards.greenhouse.io/bpcs/jobs/8095595"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| AI Engineer | Leidos | San Diego, CA | Not specified | ❌ No | 7% | <a href="https://leidos.wd5.myworkdayjobs.com/en-US/External/job/San-Diego-CA/AI-Engineer_R-00184074"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Distinguished Machine Learning Engineer, Customer Intelligence and Recommendation | Geico | Palo Alto, CA | Not specified | ❌ No | 7% | <a href="https://geico.wd1.myworkdayjobs.com/en-US/External/job/Palo-Alto-CA/Distinguished-Machine-Learning-Engineer--Customer-Intelligence-and-Recommendation_R0064336"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Full-Stack Engineer, Human Agent Tooling | Chime Financial | San Francisco, CA, USA | 1 | ❌ No | 7% | <a href="https://boards.greenhouse.io/chime/jobs/8606649002?gh_jid=8606649002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Mid-Level AI Product / Creative-Tools Engineer | eJam | Santa Ana, California, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/15TcLyD5AkbDCceLDZQ1jx/mid-level-ai-product-%2F-creative-tools-engineer-in-santa-ana-at-ejam"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -1156,6 +1154,7 @@ _Last updated: 2026-08-29 13:01 UTC_
 | Recruiting Intern - AI & Automation | Eulerity | New York, NY | Not specified | ❌ No | 7% | <a href="https://job-boards.greenhouse.io/eulerity/jobs/4701376006"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Systems Engineer, Spectrum | Cloudflare | Hybrid | Not specified | ❌ No | 7% | <a href="https://boards.greenhouse.io/cloudflare/jobs/8094826?gh_jid=8094826"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Fellow | Humana | Louisville, KY | Not specified | ❌ No | 4% | <a href="https://humana.wd5.myworkdayjobs.com/en-US/humana_external_career_site/job/Louisville-KY/AI-Fellow_R-420252"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Data Scientist | Leidos | 3325 Fort George G. Meade MD | Not specified | ❌ No | 4% | <a href="https://leidos.wd5.myworkdayjobs.com/en-US/External/job/3325-Fort-George-G-Meade-MD/Data-Scientist_R-00177051"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Scientist | Bank of America | New York | Not specified | ❌ No | 4% | <a href="https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/New-York/Data-Scientist_23022413"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Scientist II | Bank of America | New York | Not specified | ❌ No | 4% | <a href="https://ghr.wd1.myworkdayjobs.com/en-US/us-emplsv/job/New-York/Data-Scientist-II_26020552-2"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Scientist III, Behavioral Marketing Analytics & Customer Insights | Thermo Fisher Scientific | Carlsbad California USA | Not specified | ❌ No | 4% | <a href="https://thermofisher.wd5.myworkdayjobs.com/en-US/ThermoFisherCareers/job/Carlsbad-California-USA/Data-Scientist-III--Behavioral-Marketing-Analytics---Customer-Insights-_R-01359096"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
