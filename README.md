@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 57 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>02 hours: 15 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,9 +72,17 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-09-06 11:03 UTC_
+_Last updated: 2026-09-06 15:45 UTC_
 
-**Showing 1615 roles across 75 posting dates.** H-1B sponsor matches: **65**.
+**Showing 1618 roles across 76 posting dates.** H-1B sponsor matches: **65**.
+
+### 2026-09-06 · 3 roles · 0 H-1B sponsor matches
+
+| Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
+| --- | --- | --- | ---: | --- | ---: | --- |
+| Embodied AI Robotics Engineer | Caterpillar Inc. | San Francisco, California | Not specified | ❌ No | 41% | <a href="https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/San-Francisco-California/Autonomy-Engineer_R0000392518"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Software Engineer (CPD) - Winter Intern (Pune) | Rubrik | Pune | Not specified | ❌ No | 15% | <a href="https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Software Engineer - Winter Intern | Rubrik | Bangalore | Not specified | ❌ No | 15% | <a href="https://www.rubrik.com/company/careers/departments/job.8166523?gh_jid=8166523"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
 ### 2026-09-05 · 9 roles · 0 H-1B sponsor matches
 
