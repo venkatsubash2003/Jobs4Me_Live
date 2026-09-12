@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>02 hours: 12 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 05 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,14 +72,16 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-09-12 15:48 UTC_
+_Last updated: 2026-09-12 20:55 UTC_
 
-**Showing 1774 roles across 81 posting dates.** H-1B sponsor matches: **63**.
+**Showing 1777 roles across 81 posting dates.** H-1B sponsor matches: **64**.
 
-### 2026-09-12 · 4 roles · 0 H-1B sponsor matches
+### 2026-09-12 · 6 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
+| Jr. AI Developer - Korean Bilingual MUST | SBT Global | Plano, TX, United States | 0-2 | ❌ No | 48% | <a href="https://jobs.smartrecruiters.com/SBTGlobalInc/3743990015225516"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Associate Value Engineer (AI-Driven Data Science & Analytics) - Orbit Program | Celonis | Raleigh, US, North Carolina | 1 | ❌ No | 22% | <a href="https://job-boards.greenhouse.io/celonis/jobs/7885897003?gh_jid=7885897003"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Platform Engineer | Worth AI | Orlando, Florida, United States | Not specified | ❌ No | 19% | <a href="https://jobs.workable.com/view/7Bv1XdC2EEgij27XFV6zkH/hybrid-data-platform-engineer-in-orlando-at-worth-ai"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI/ML Research Intern | AfterQuery | San Francisco | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/afterquery/00cd591f-6894-4259-83b6-36c999351dde"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Research Engineer, Computer Vision & VLMs | Palona AI | New York, New York, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/6P5Jr6B2ZsmbAQQM6yVVw1/ai-research-engineer%2C-computer-vision-%26-vlms-in-new-york-at-palona-ai"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -823,8 +825,8 @@ _Last updated: 2026-09-12 15:48 UTC_
 | Associate Data Scientist (College Grad 2027) | Solace Health | Redwood City, CA | Not specified | ❌ No | 48% | <a href="https://jobs.ashbyhq.com/solace/77ca492c-4142-4931-beeb-e85d9d0ac443"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Scientist, Specialist | Vanguard | Malvern, PA | Not specified | ❌ No | 37% | <a href="https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Malvern-PA/Data-Scientist--Specialist_180395-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI/ML Engineer Intern | Analog Devices | US, MA, Wilmington | Not specified | ❌ No | 37% | <a href="https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/US-MA-Wilmington/AI-ML-Engineer-Intern_R265579"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Data Scientist (Looker/AI/BI) | Northramp LLC | Reston, Virginia, United States | Not specified | ❌ No | 33% | <a href="https://jobs.workable.com/view/ooiD6q5tprT2zgA5piNBgb/hybrid-data-scientist-(looker%2Fai%2Fbi)-in-reston-at-northramp-llc"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Scientist (Looker/AI/BI) | Northramp LLC | Bethesda, Maryland, United States | Not specified | ❌ No | 33% | <a href="https://jobs.workable.com/view/iYs4wh6LsQumyq3srna9xY/hybrid-data-scientist-(looker%2Fai%2Fbi)-in-bethesda-at-northramp-llc"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Data Scientist (Looker/AI/BI) | Northramp LLC | Reston, Virginia, United States | Not specified | ❌ No | 33% | <a href="https://jobs.workable.com/view/ooiD6q5tprT2zgA5piNBgb/hybrid-data-scientist-(looker%2Fai%2Fbi)-in-reston-at-northramp-llc"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Scientist (Looker/AI/BI) | Northramp LLC | Washington, District of Columbia, United States | Not specified | ❌ No | 33% | <a href="https://jobs.workable.com/view/gvwy4FqHR6sVxyqDoZ3956/hybrid-data-scientist-(looker%2Fai%2Fbi)-in-washington-at-northramp-llc"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Assistant/Associate Professor of Artificial Intelligence and Machine Learning in Veterinary Population Health | Ohio State University | Columbus Campus | Not specified | ❌ No | 30% | <a href="https://osu.wd1.myworkdayjobs.com/en-US/OSUCareers/job/Columbus-Campus/Assistant-Associate-Professor-of-Artificial-Intelligence-and-Machine-Learning-in-Veterinary-Population-Health_R157662-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Engineer (BigQuery) | Northramp LLC | Bethesda, Maryland, United States | Not specified | ❌ No | 22% | <a href="https://jobs.workable.com/view/js1QnxRvrnvaDnTEcfCu1f/hybrid-data-engineer-(bigquery)-in-bethesda-at-northramp-llc"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -928,10 +930,10 @@ _Last updated: 2026-09-12 15:48 UTC_
 | Software Engineer | Hewlett Packard Enterprise | Westford, Massachusetts, United States of America | 2 | ❌ No | 26% | <a href="https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Westford-Massachusetts-United-States-of-America/Software-Engineer_1208691-2"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer | Zoom | Seattle (WA) | 2 | ❌ No | 26% | <a href="https://zoom.wd5.myworkdayjobs.com/en-US/Zoom/job/Seattle-WA/Software-Engineer_R19581"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer | Hewlett Packard Enterprise | Westford, Massachusetts, United States of America | 2 | ❌ No | 26% | <a href="https://hpe.wd5.myworkdayjobs.com/en-US/acjobsite/job/Westford-Massachusetts-United-States-of-America/Software-Engineer_1208691"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Forward Deployed Engineer (Generative AI) | Tiger Analytics Inc. | New York, New York, United States | Not specified | ❌ No | 22% | <a href="https://jobs.workable.com/view/uGk7db6UMPxv7NgUbVqxUK/remote-forward-deployed-engineer-(generative-ai)-in-new-york-at-tiger-analytics-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Forward Deployed Engineer (Generative AI) | Tiger Analytics Inc. | Chicago, Illinois, United States | Not specified | ❌ No | 22% | <a href="https://jobs.workable.com/view/e7GGPmrPyzhdQXJhVGvaiE/remote-forward-deployed-engineer-(generative-ai)-in-chicago-at-tiger-analytics-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Forward Deployed Engineer (Generative AI) | Tiger Analytics Inc. | Dallas, Texas, United States | Not specified | ❌ No | 22% | <a href="https://jobs.workable.com/view/ckYTh5LnFp4uLx2PJHHfjS/remote-forward-deployed-engineer-(generative-ai)-in-dallas-at-tiger-analytics-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Forward Deployed Engineer (Generative AI) | Tiger Analytics Inc. | Austin, Texas, United States | Not specified | ❌ No | 22% | <a href="https://jobs.workable.com/view/idV9WPsubD9CxCoCMEBNzz/remote-forward-deployed-engineer-(generative-ai)-in-austin-at-tiger-analytics-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Forward Deployed Engineer (Generative AI) | Tiger Analytics Inc. | New York, New York, United States | Not specified | ❌ No | 22% | <a href="https://jobs.workable.com/view/uGk7db6UMPxv7NgUbVqxUK/remote-forward-deployed-engineer-(generative-ai)-in-new-york-at-tiger-analytics-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer - Intern | Realm | Remote | Not specified | ❌ No | 22% | <a href="https://jobs.ashbyhq.com/realmalliance/a8a2f78e-1c28-4b52-a77a-c2b2ad9b7a8a"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer Intern (AI-Native) — Fall 2026 | Kognitos | San Jose - HQ | Not specified | ❌ No | 22% | <a href="https://jobs.ashbyhq.com/Kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Backend Engineer, Agent Tools | TRM Labs | United States | Not specified | ❌ No | 19% | <a href="https://jobs.ashbyhq.com/trm-labs/1eff4d33-7cf1-4682-a548-dcc4abd913f3"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -1263,10 +1265,11 @@ _Last updated: 2026-09-12 15:48 UTC_
 | Backend Engineer | Mintlify | San Francisco | Not specified | ❌ No | 4% | <a href="https://jobs.ashbyhq.com/mintlify/4da2f7a2-3d5a-4652-bf01-aed59f4cb72b"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | New College Grad - AI Innovation Research Engineer | Micron Technology | San Jose, CA | Not specified | ❌ No | 4% | <a href="https://micron.wd1.myworkdayjobs.com/en-US/External/job/San-Jose-CA/New-College-Grad---AI-Innovation-Research-Engineer_JR108594"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-08-13 · 43 roles · 0 H-1B sponsor matches
+### 2026-08-13 · 44 roles · 1 H-1B sponsor match
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
+| Distinguished AI Engineer - Agentic AI Platform (Remote Eligible) | Capital One | San Francisco CA | Not specified | ✅ Yes | 7% | <a href="https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/San-Francisco--CA/Distinguished-AI-Engineer--Agentic-AI-Platform-_R244764-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | ML/AI Engineer (Full Time; Multiple Openings) | RingCentral | Belmont, California | Not specified | ❌ No | 56% | <a href="https://ringcentral.wd1.myworkdayjobs.com/en-US/RingCentral_Careers/job/Belmont-California/ML-AI-Engineer--Full-Time--Multiple-Openings-_R078414"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer II (AI/ML) | Bank of America | Plano; Charlotte | 1 | ❌ No | 41% | <a href="https://ghr.wd1.myworkdayjobs.com/en-US/Lateral-US/job/Plano/Software-Engineer-II--AI-ML-_26026987"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Applied Scientist II | Garner Health | New York City, New York | 2 | ❌ No | 37% | <a href="https://job-boards.greenhouse.io/garnerhealth/jobs/6141361004"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
