@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 41 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>02 hours: 59 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,15 +72,15 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-09-13 16:19 UTC_
+_Last updated: 2026-09-13 21:01 UTC_
 
-**Showing 1781 roles across 82 posting dates.** H-1B sponsor matches: **64**.
+**Showing 1780 roles across 82 posting dates.** H-1B sponsor matches: **64**.
 
 ### 2026-09-13 · 4 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
-| Data Analytics - Analyst | Sanofi | Hyderabad | Not specified | ❌ No | 22% | <a href="https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Hyderabad/Data-Analytics---Analyst_R2868845"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Jr. AI Developer - Korean Bilingual MUST | SBT Global | Plano, TX, United States | 0-2 | ❌ No | 48% | <a href="https://jobs.smartrecruiters.com/SBTGlobalInc/3743990015227606"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Infrastructure Engineer | Simple AI | San Francisco | Not specified | ❌ No | 22% | <a href="https://jobs.ashbyhq.com/simple-ai/1dbaca6f-92cd-4ad9-ac3f-8fe6dce7e20c"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Avionics Systems Engineer (Falcon & Dragon) | SpaceX | Hawthorne, CA | 1 | ❌ No | 15% | <a href="https://boards.greenhouse.io/spacex/jobs/8805284002?gh_jid=8805284002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Frontend Web Application Developer - Remote | KoboToolbox | United States | 1 | ❌ No | 4% | <a href="https://jobs.workable.com/view/bw3ZxKXYifKna9vk5AgFBn/frontend-web-application-developer---remote-in-united-states-at-kobotoolbox"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -731,7 +731,7 @@ _Last updated: 2026-09-13 16:19 UTC_
 | HPC Systems Engineer | KLA Corporation | Milpitas, CA | Not specified | ❌ No | 4% | <a href="https://kla.wd1.myworkdayjobs.com/en-US/search/job/Milpitas-CA/AI-Platform-Engineer_2638542"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | R&D Embedded Systems Software Engineer | Agilent Technologies | US-DE-Wilmington | Not specified | ❌ No | 4% | <a href="https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Careers/job/US-DE-Wilmington/R-D-Embedded-Systems-Software-Engineer_4039102"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-08-31 · 66 roles · 10 H-1B sponsor matches
+### 2026-08-31 · 65 roles · 10 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -769,7 +769,6 @@ _Last updated: 2026-09-13 16:19 UTC_
 | (SUMMER) Data Scientist Intern - PhD | Integra FEC | Austin, Texas | Not specified | ❌ No | 19% | <a href="https://job-boards.greenhouse.io/integra/jobs/5406094008"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | 2027 Summer Internship - Data Science & Analytics | The Home Depot | STORE SUPPORT CENTER, ATLANTA - 9090 | Not specified | ❌ No | 19% | <a href="https://homedepot.wd5.myworkdayjobs.com/en-US/careerdepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---Data-Science---Analytics_Req191968"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | 2027 Summer Internship - PhD Data Science | The Home Depot | STORE SUPPORT CENTER, ATLANTA - 9090 | Not specified | ❌ No | 19% | <a href="https://homedepot.wd5.myworkdayjobs.com/en-US/careerdepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---PhD-Data-Science_Req191948"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| AI/ML Engineering Intern | talentpluto | United States | Not specified | ❌ No | 19% | <a href="https://jobs.workable.com/view/a9yUgjwzit28B6SRYNmY8e/remote-ai%2Fml-engineering-intern-in-united-states-at-talentpluto"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Scientist | Avalore, LLC | Arlington, Virginia, United States | Not specified | ❌ No | 19% | <a href="https://jobs.workable.com/view/aASfqSuFhyKuesrmMpYY28/data-scientist-in-arlington-at-avalore%2C-llc"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Full Stack Software Engineer | Mariana Minerals | San Francisco HQ | 1.5 | ❌ No | 19% | <a href="https://jobs.ashbyhq.com/marianaminerals/eebc7048-02a3-42ba-80b7-04b8a997e50a"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Mission Software Engineer - Undersea Reconnaissance & Strike | Anduril | Washington, District of Columbia, United States | Not specified | ❌ No | 19% | <a href="https://boards.greenhouse.io/andurilindustries/jobs/5226473007?gh_jid=5226473007"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
