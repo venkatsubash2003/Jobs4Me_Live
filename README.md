@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>02 hours: 49 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 49 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,9 +72,9 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-09-27 12:11 UTC_
+_Last updated: 2026-09-27 17:11 UTC_
 
-**Showing 2031 roles across 93 posting dates.** H-1B sponsor matches: **123**.
+**Showing 2030 roles across 93 posting dates.** H-1B sponsor matches: **123**.
 
 ### 2026-09-26 · 6 roles · 0 H-1B sponsor matches
 
@@ -642,8 +642,8 @@ _Last updated: 2026-09-27 12:11 UTC_
 | 4572 Software Development Engineer III | Innovaccer Analytics | United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/iy1yC8rbxBf51Rxb27PqnV/remote-4572-software-development-engineer-iii-in-united-states-at-innovaccer-analytics"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Credit Risk Review Systems & Data Analyst | S&T Bank | Main Office; Plum; Lancaster Building; Downingtown | Not specified | ❌ No | 7% | <a href="https://stbancorp.wd5.myworkdayjobs.com/en-US/ST_Bank_Careers/job/Main-Office/Credit-Risk-Review-Systems---Data-Analyst_R-1641"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Systems Engineer, Email Service | Cloudflare | Hybrid | Not specified | ❌ No | 7% | <a href="https://boards.greenhouse.io/cloudflare/jobs/8207509?gh_jid=8207509"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| AI Prototyping Engineer | Brady Martz | Sioux Falls, South Dakota, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/pv5LCR8QoZnJCA8RncMNaR/remote-ai-prototyping-engineer-in-sioux-falls-at-brady-martz"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Prototyping Engineer | Brady Martz | Fargo, North Dakota, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/6orfymY9Em5CCCxP5tTSRb/remote-ai-prototyping-engineer-in-fargo-at-brady-martz"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| AI Prototyping Engineer | Brady Martz | Sioux Falls, South Dakota, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/pv5LCR8QoZnJCA8RncMNaR/remote-ai-prototyping-engineer-in-sioux-falls-at-brady-martz"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Prototyping Engineer | Brady Martz | St. Louis, Missouri, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/ong72dsF1SnwR1NFqo1Gk7/remote-ai-prototyping-engineer-in-st.-louis-at-brady-martz"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AVP, Penetration Tester (LLM) | LPL Financial Holdings | Austin TX | Not specified | ❌ No | 4% | <a href="https://lplfinancial.wd1.myworkdayjobs.com/en-US/External/job/Austin-TX/AVP--Penetration-Tester--LLM-_R-053105"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Site Reliability Engineer | Centrica | Aalborg | Not specified | ❌ No | 4% | <a href="https://centrica.wd3.myworkdayjobs.com/en-US/Centrica/job/Aalborg/Site-Reliability-Engineer_R0086940"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -1745,8 +1745,8 @@ _Last updated: 2026-09-27 12:11 UTC_
 | Forward Deployment Engineer - Frontier AI Deployments | Accellor | San Francisco, California, United States | Not specified | ❌ No | 19% | <a href="https://jobs.workable.com/view/xa7cjZWy3KrLAighNZ43vN/hybrid-forward-deployment-engineer---frontier-ai-deployments-in-san-francisco-at-accellor"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Physics AI Scientist III | Applied Materials | Santa Clara,CA | Not specified | ❌ No | 19% | <a href="https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/Physics-AI-Scientist-III--IV_R2626136"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Consulting Pre-Sales Systems Engineer, Service Provider | Pure Storage | Seattle, Washington | Not specified | ❌ No | 15% | <a href="https://job-boards.greenhouse.io/purestorage/jobs/8123071"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Assistant Research Scientist, Joint Microscopy Laboratory | Texas A&M University System | Bryan, TX | Not specified | ❌ No | 11% | <a href="https://tamus.wd1.myworkdayjobs.com/en-US/System-wide_External/job/Bryan-TX/Assistant-Research-Scientist--Joint-Microscopy-Laboratory_R-096040"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Assistant Research Scientist, Joint Microscopy Laboratory | Texas A&M University - College Station | Bryan, TX | Not specified | ❌ No | 11% | <a href="https://tamus.wd1.myworkdayjobs.com/en-US/TAMU_External/job/Bryan-TX/Assistant-Research-Scientist--Joint-Microscopy-Laboratory_R-096040-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Assistant Research Scientist, Joint Microscopy Laboratory | Texas A&M University System | Bryan, TX | Not specified | ❌ No | 11% | <a href="https://tamus.wd1.myworkdayjobs.com/en-US/System-wide_External/job/Bryan-TX/Assistant-Research-Scientist--Joint-Microscopy-Laboratory_R-096040"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Site Reliability Engineer, Data Center - Memphis | xAI | Southaven, MS; Memphis, TN | 2 | ❌ No | 11% | <a href="https://job-boards.greenhouse.io/xai/jobs/5211587007"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Infrastructure Engineer (Query Engine) | zaimler | San Mateo, CA | Not specified | ❌ No | 7% | <a href="https://jobs.lever.co/zaimler/28868c70-2d24-4446-9d9f-fa89f0649b02"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Optical Test Engineer, AI Satellites (Starmind) | SpaceX | Bastrop, TX | 2 | ❌ No | 7% | <a href="https://boards.greenhouse.io/spacex/jobs/8706543002?gh_jid=8706543002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -1780,7 +1780,7 @@ _Last updated: 2026-09-27 12:11 UTC_
 | Platform Engineer | impact.com | Cape Town | 2 | ❌ No | 4% | <a href="https://job-boards.greenhouse.io/impact/jobs/8547183002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Technical Sourcer, AI | Perplexity | San Francisco | Not specified | ❌ No | 4% | <a href="https://jobs.ashbyhq.com/perplexity/3d7ef710-b1f6-4a80-af57-946f9bccd35b"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-08-11 · 26 roles · 0 H-1B sponsor matches
+### 2026-08-11 · 25 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -1788,7 +1788,6 @@ _Last updated: 2026-09-27 12:11 UTC_
 | AI Software Engineer, Product | Palona AI | New York, New York, United States | Not specified | ❌ No | 30% | <a href="https://jobs.workable.com/view/h19Dfc8UBkMGwqCjE2wfMo/ai-software-engineer%2C-product-in-new-york-at-palona-ai"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Software Engineer, Product | Palona AI | Los Altos, California, United States | Not specified | ❌ No | 30% | <a href="https://jobs.workable.com/view/aNaqPi5rGouqLKFKWC2VHg/ai-software-engineer%2C-product-in-los-altos-at-palona-ai"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Infrastructure Engineer | Palona AI | New York, New York, United States | Not specified | ❌ No | 26% | <a href="https://jobs.workable.com/view/15dTbk41tjEoUJ6NthfKdb/ai-infrastructure-engineer-in-new-york-at-palona-ai"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| AI Infrastructure Engineer | Palona AI | Los Altos, California, United States | Not specified | ❌ No | 26% | <a href="https://jobs.workable.com/view/3Z3Av9SQbtQwcfGJ9gCA8p/ai-infrastructure-engineer-in-los-altos-at-palona-ai"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Application Software Engineer | SpaceX | Redmond, WA | 2 | ❌ No | 26% | <a href="https://boards.greenhouse.io/spacex/jobs/8696154002?gh_jid=8696154002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Full Stack Software Engineer, MES (Manufacturing Execution System) | SpaceX | Bastrop, TX | 2 | ❌ No | 26% | <a href="https://boards.greenhouse.io/spacex/jobs/8696897002?gh_jid=8696897002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer II | Valon | New York | 1 | ❌ No | 26% | <a href="https://jobs.ashbyhq.com/Valon/2de94485-130f-4f93-abe7-c21d70401b0b"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -2145,8 +2144,8 @@ _Last updated: 2026-09-27 12:11 UTC_
 | Helix AI Engineer, XR | Figure | San Jose, CA | Not specified | ❌ No | 11% | <a href="https://job-boards.greenhouse.io/figureai/jobs/4699095006"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Mid Level Front End Engineer | Cedar | Remote - USA | Not specified | ❌ No | 11% | <a href="https://jobs.ashbyhq.com/cedar/22a41449-5095-4936-8061-bf5821b6059e"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer II, Synthesis | Cadence Design Systems | SAN JOSE | Not specified | ❌ No | 11% | <a href="https://cadence.wd1.myworkdayjobs.com/en-US/Univ_Careers/job/SAN-JOSE/Software-Engineer-II--Synthesis_R55632"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Assistant Research Scientist | Texas A&M University System | College Station, TX | Not specified | ❌ No | 7% | <a href="https://tamus.wd1.myworkdayjobs.com/en-US/System-wide_External/job/College-Station-TX/Assistant-Research-Scientist_R-094923-2"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Assistant Research Scientist | Texas A&M University - College Station | College Station, TX | Not specified | ❌ No | 7% | <a href="https://tamus.wd1.myworkdayjobs.com/en-US/TAMU_External/job/College-Station-TX/Assistant-Research-Scientist_R-094923"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Assistant Research Scientist | Texas A&M University System | College Station, TX | Not specified | ❌ No | 7% | <a href="https://tamus.wd1.myworkdayjobs.com/en-US/System-wide_External/job/College-Station-TX/Assistant-Research-Scientist_R-094923-2"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Materials Engineer, AI Satellites (Starmind) | SpaceX | Bastrop, TX | Not specified | ❌ No | 7% | <a href="https://boards.greenhouse.io/spacex/jobs/8645074002?gh_jid=8645074002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Process Automation Software Engineer | Rockwell Automation | Milwaukee, Wisconsin, United States | Not specified | ❌ No | 7% | <a href="https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Process-Automation-Software-Engineer_R26-4268-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Transformation Owner, CRO | GitLab | Remote, United States | Not specified | ❌ No | 4% | <a href="https://job-boards.greenhouse.io/gitlab/jobs/8638232002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
