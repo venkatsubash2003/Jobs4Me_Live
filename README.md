@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 53 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 14 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,15 +72,16 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-10-10 10:07 UTC_
+_Last updated: 2026-10-10 17:46 UTC_
 
-**Showing 2114 roles across 106 posting dates.** H-1B sponsor matches: **98**.
+**Showing 2116 roles across 106 posting dates.** H-1B sponsor matches: **98**.
 
-### 2026-10-10 · 1 role · 0 H-1B sponsor matches
+### 2026-10-10 · 2 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
 | Student Web Developer & Content Specialist | Arizona State University | Tempe, AZ | Not specified | ❌ No | 15% | <a href="https://asuep.wd5.myworkdayjobs.com/en-US/ASUEP/job/Tempe-AZ/Student-Web-Developer---Content-Specialist_R1546"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Infrastructure Engineer | Tailscale | Remote (United States) | Not specified | ❌ No | 11% | <a href="https://job-boards.greenhouse.io/tailscale/jobs/4733404005"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
 ### 2026-10-09 · 57 roles · 4 H-1B sponsor matches
 
@@ -1261,7 +1262,7 @@ _Last updated: 2026-10-10 10:07 UTC_
 | AI Research Engineer, Computer Vision & VLMs | Palona AI | New York, New York, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/6P5Jr6B2ZsmbAQQM6yVVw1/ai-research-engineer%2C-computer-vision-%26-vlms-in-new-york-at-palona-ai"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Research Engineer, Computer Vision & VLMs | Palona AI | Los Altos, California, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/jvoipNmFg5NioM7RkEKzej/ai-research-engineer%2C-computer-vision-%26-vlms-in-los-altos-at-palona-ai"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-09-11 · 45 roles · 5 H-1B sponsor matches
+### 2026-09-11 · 46 roles · 5 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -1289,6 +1290,7 @@ _Last updated: 2026-10-10 10:07 UTC_
 | BI Data Analyst | Genuine Parts Company | Birmingham, AL, USA | Not specified | ❌ No | 15% | <a href="https://genpt.wd1.myworkdayjobs.com/en-US/careers/job/Birmingham-AL-USA/BI-Data-Analyst_R26_0000026974"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Engineer, Ground Network Engineering (Gateway) | SpaceX | Redmond, WA | Not specified | ❌ No | 15% | <a href="https://boards.greenhouse.io/spacex/jobs/8784022002?gh_jid=8784022002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Full Stack Engineer | Barclays | Pune, Gera Commerzone SEZ | Not specified | ❌ No | 15% | <a href="https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Engineer_JR-0000122762"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Full Stack Engineer | Barclays | Pune, Gera Commerzone SEZ | Not specified | ❌ No | 15% | <a href="https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Engineer_JR-0000122758"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Operations Data Analyst | Octopus Energy | Ascoli Piceno (IT) | Not specified | ❌ No | 15% | <a href="https://jobs.lever.co/octoenergy/d9c0ba51-5090-45d3-995c-f90d7140cdd2"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Product Data Analyst II | Checkr | San Francisco, California, United States | 2 | ❌ No | 15% | <a href="https://job-boards.greenhouse.io/checkr/jobs/8188741"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Research Engineer, AI for Chip Design | OpenAI | San Francisco | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/openai/bd2b8228-bb0f-42e0-94bd-c853cdd56140"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
