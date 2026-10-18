@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 53 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 52 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,9 +72,9 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-10-18 11:07 UTC_
+_Last updated: 2026-10-18 16:08 UTC_
 
-**Showing 2203 roles across 112 posting dates.** H-1B sponsor matches: **114**.
+**Showing 2202 roles across 112 posting dates.** H-1B sponsor matches: **114**.
 
 ### 2026-10-18 · 3 roles · 0 H-1B sponsor matches
 
@@ -322,7 +322,7 @@ _Last updated: 2026-10-18 11:07 UTC_
 | Infrastructure Engineer | Lowe's | Mooresville, NC (SSC) 1999 | 2 | ❌ No | 4% | <a href="https://lowes.wd5.myworkdayjobs.com/en-US/LWS_External_CS/job/Mooresville-NC-SSC-1999/Infrastructure-Engineer_JR-02662621"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Research Scientist | Icon | US, Cambridge, MA | Not specified | ❌ No | 4% | <a href="https://icon.wd3.myworkdayjobs.com/en-US/broadbean_external/job/US-Cambridge-MA/Research-Scientist_JR156297"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-10-13 · 69 roles · 4 H-1B sponsor matches
+### 2026-10-13 · 67 roles · 4 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -338,8 +338,6 @@ _Last updated: 2026-10-18 11:07 UTC_
 | Junior Developer (AI Engineering) | Xsolla | Vladivostok | 0-2 | ❌ No | 30% | <a href="https://jobs.lever.co/xsolla/d370a7d6-0923-441a-8af3-f5526d3d061c"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Machine Learning Engineering Intern, Summer 2027 | Wing | Palo Alto, California | Not specified | ❌ No | 30% | <a href="https://wing.com/careers/8872479002?gh_jid=8872479002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Computer Vision/Machine Learning Intern | KLA | Milpitas, CA | Not specified | ❌ No | 26% | <a href="https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Data Science & Quantitative AI Evaluation Specialist | Gramian Consulting Group | United States | Not specified | ❌ No | 26% | <a href="https://jobs.workable.com/view/fMeATfqGHcVAMLhAUHc8y5/remote-data-science-%26-quantitative-ai-evaluation-specialist-in-united-states-at-gramian-consulting-group"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Data Science & Quantitative AI Evaluation Specialist | Gramian Consulting Group | United States | Not specified | ❌ No | 26% | <a href="https://jobs.workable.com/view/cCP9thHCqFToJvgvUt4sfh/remote-data-science-%26-quantitative-ai-evaluation-specialist-in-united-states-at-gramian-consulting-group"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | DevOps Engineer | Minitab | State College, Pennsylvania, United States | Not specified | ❌ No | 22% | <a href="https://job-boards.greenhouse.io/minitab/jobs/8030958003"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Embedded Software Engineer Intern - Summer 2027 | Skydio | San Mateo, California, United States | Not specified | ❌ No | 22% | <a href="https://jobs.ashbyhq.com/skydio/8994767e-fd53-4ca2-b0ef-fe0923c1e260"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | R&D Researcher – AI and Machine Learning | General Motors | Warren, Michigan, United States of America | Not specified | ❌ No | 22% | <a href="https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Warren-Michigan-United-States-of-America/R-D-Researcher---AI-and-Machine-Learning_JR-202621474"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -772,9 +770,9 @@ _Last updated: 2026-10-18 11:07 UTC_
 | AI Red Teamer (Remote) | Handshake | Remote (USA) | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/handshake/7788a34b-f112-467a-ba9a-b8245f8fccfb"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Applied AI Systems Tenure-line Faculty | Pennsylvania State University | Penn State University Park | Not specified | ❌ No | 15% | <a href="https://psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-University-Park/Applied-AI-Systems-Tenure-line-Faculty_REQ_0000083026-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Associate Business Intelligence Analyst - Quality | Schweitzer Engineering Laboratories | Washington - Pullman | Not specified | ❌ No | 15% | <a href="https://selinc.wd1.myworkdayjobs.com/en-US/SEL/job/Washington---Pullman/Associate-Business-Intelligence-Analyst---Quality_2026-23371-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Forward Deployed Engineer (FDE) - GenAI / Agentic AI | Tiger Analytics Inc. | Bellevue, Washington, United States | Not specified | ❌ No | 15% | <a href="https://jobs.workable.com/view/4vYJfnRYLgR3kv8gv5s8SZ/forward-deployed-engineer-(fde)---genai-%2F-agentic-ai-in-bellevue-at-tiger-analytics-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Forward Deployed Engineer (FDE) - GenAI / Agentic AI | Tiger Analytics Inc. | Atlanta, Georgia, United States | Not specified | ❌ No | 15% | <a href="https://jobs.workable.com/view/64PVRK2xD7CFZqciTCe3Et/forward-deployed-engineer-(fde)---genai-%2F-agentic-ai-in-atlanta-at-tiger-analytics-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Forward Deployed Engineer (FDE) - GenAI / Agentic AI | Tiger Analytics Inc. | Chicago, Illinois, United States | Not specified | ❌ No | 15% | <a href="https://jobs.workable.com/view/jp3vGn3BadKKv8ftXY2Kxy/forward-deployed-engineer-(fde)---genai-%2F-agentic-ai-in-chicago-at-tiger-analytics-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Forward Deployed Engineer (FDE) - GenAI / Agentic AI | Tiger Analytics Inc. | Bellevue, Washington, United States | Not specified | ❌ No | 15% | <a href="https://jobs.workable.com/view/4vYJfnRYLgR3kv8gv5s8SZ/forward-deployed-engineer-(fde)---genai-%2F-agentic-ai-in-bellevue-at-tiger-analytics-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Forward Deployed Engineer (FDE) - GenAI / Agentic AI | Tiger Analytics Inc. | Dallas, Texas, United States | Not specified | ❌ No | 15% | <a href="https://jobs.workable.com/view/tvWXQ7gX6cUW4gtG1vGvkM/forward-deployed-engineer-(fde)---genai-%2F-agentic-ai-in-dallas-at-tiger-analytics-inc."><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Programmer Analyst - (entry-level data analyst/data scientist) Marketing Analytics | Datalab USA | Germantown, MD | 0-2 | ❌ No | 15% | <a href="https://jobs.lever.co/datalabusa/4bc04d86-bef3-40c8-a410-b0d0c41a683d"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Distinguished Machine Learning Engineer, AISWP (Hybrid) | Cisco | San Jose, California, US | Not specified | ❌ No | 11% | <a href="https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Distinguished-Machine-Learning-Engineer--AISWP---Hybrid-_2021423"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -2693,12 +2691,13 @@ _Last updated: 2026-10-18 11:07 UTC_
 | Robotics AI Data Collection Operator | TSMG | Toulouse | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/6df05daa-1123-46f9-8ea2-44b8c441fa42"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Robotics AI Data Collection Operator | TSMG | Stuttgart | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/12dac40f-b95c-4c7f-850a-1a4b58d47a96"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-07-03 · 23 roles · 0 H-1B sponsor matches
+### 2026-07-03 · 24 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
 | Data Analyst | RAPP | Mauritius - RAPP | Not specified | ❌ No | 7% | <a href="https://job-boards.greenhouse.io/rapp/jobs/8045023"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Engineer in Residence, AI Market Intelligence & Pricing | AI Fund | Mountain View, CA | Not specified | ❌ No | 7% | <a href="https://jobs.lever.co/AIFund/a95a55a3-06ca-4e15-8c72-8d9e8255a9d6"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Financial Documentation Expert (AI Training) | Weekday AI | United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/wxA6KorHittCXb2FgP8oM8/remote-financial-documentation-expert-(ai-training)-in-united-states-at-weekday-ai"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Robotics AI Data Collection Operator (Robot Trainer) | TSMG | Salem, OR | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/31652aa2-cbd6-4a9e-be8b-266a5f2e2ee1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Robotics AI Data Collection Operator (Robot Trainer) | TSMG | Atlanta, GA | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/9fa8b576-8b84-4248-acff-3cbccf4b1283"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Robotics AI Data Collection Operator (Robot Trainer) | TSMG | Louisville, KY | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/903ebf74-87e1-49b9-a08f-50cef8673960"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
