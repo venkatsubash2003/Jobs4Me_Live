@@ -13,7 +13,7 @@
   <tr>
     <td align="center"><strong>Domains</strong><br>Data Science, AI/ML, Data Analytics, Software Engineering, ML Engineer</td>
     <td align="center"><strong>Region</strong><br>🇺🇸 USA</td>
-    <td align="center"><strong>Next job fetch in</strong><br>00 hours: 38 minutes</td>
+    <td align="center"><strong>Next job fetch in</strong><br>01 hours: 39 minutes</td>
     <td align="center"><strong>Experience</strong><br>0-2 years</td>
   </tr>
 </table>
@@ -72,15 +72,18 @@ To use the PDF resume parser, place your resume at `resume/resume.pdf`. The work
 ## Latest Matches
 
 <!-- JOBS:START -->
-_Last updated: 2026-11-21 11:22 UTC_
+_Last updated: 2026-11-21 19:21 UTC_
 
-**Showing 2407 roles across 142 posting dates.** H-1B sponsor matches: **120**.
+**Showing 2403 roles across 142 posting dates.** H-1B sponsor matches: **120**.
 
-### 2026-11-21 · 6 roles · 0 H-1B sponsor matches
+### 2026-11-21 · 9 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
 | Software Engineer, Data Infrastructure (C++) | Bot Auto | Houston, TX | Not specified | ❌ No | 26% | <a href="https://job-boards.greenhouse.io/botauto/jobs/5491569008"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Creative AI Engineer | Harvey | San Francisco | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/harvey/e46d48b8-57c7-401c-be33-f56774dc072d"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Creative AI Engineer | Harvey | New York | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/harvey/a42047fc-fbd1-4e14-bf10-15207ae2d060"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Electrical Systems Engineer (Falcon & Dragon) | SpaceX | Hawthorne, CA | 1 | ❌ No | 15% | <a href="https://boards.greenhouse.io/spacex/jobs/8957866002?gh_jid=8957866002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer I, Backend (Streaming Infra) | Affirm | Remote US | Not specified | ❌ No | 15% | <a href="https://job-boards.greenhouse.io/affirm/jobs/8201469003"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Systems Engineer | Waymo | PERM - N/A | 2 | ❌ No | 15% | <a href="https://careers.withwaymo.com/jobs?gh_jid=8407651"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Distributed Systems Engineer - Network Services | Cloudflare | Hybrid | Not specified | ❌ No | 11% | <a href="https://boards.greenhouse.io/cloudflare/jobs/8401112?gh_jid=8401112"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -469,11 +472,10 @@ _Last updated: 2026-11-21 11:22 UTC_
 | Spacecraft Systems Engineer, Flight Safety | Varda Space | El Segundo, California, United States | Not specified | ❌ No | 4% | <a href="https://job-boards.greenhouse.io/vardaspace/jobs/8206181003"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Technical Content Developer, Data Science | Accenture | New York One Manhattan West Corp | Not specified | ❌ No | 4% | <a href="https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/New-York-One-Manhattan-West-Corp/Technical-Content-Developer--Data-Science-_R00357083"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-11-15 · 9 roles · 0 H-1B sponsor matches
+### 2026-11-15 · 8 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
-| Software Engineer- Performance Engineering | Caterpillar Inc. | Chennai, Tamil Nadu; Bangalore, Karnataka | Not specified | ❌ No | 22% | <a href="https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Chennai-Tamil-Nadu/Software-Engineer--Performance-Engineering_R0000376755"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer, Product | Netic | San Francisco | Not specified | ❌ No | 19% | <a href="https://jobs.ashbyhq.com/netic/2ae2cae2-03cb-4bc7-986a-a93de10f46df"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer, Infrastructure | Netic | San Francisco | 2 | ❌ No | 11% | <a href="https://jobs.ashbyhq.com/netic/178a50d3-f3e8-4031-829f-ce6d6f3ed245"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Analyst | DLN Consulting Group | Oklahoma City, Oklahoma, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/wbwTsHrAb3kq1KsussuVPJ/hybrid-data-analyst-in-oklahoma-city-at-dln-consulting-group"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -493,7 +495,7 @@ _Last updated: 2026-11-21 11:22 UTC_
 | Software Engineer, 3D Rendering | Mirage | Union Square, New York City | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/mirage/e1da4a65-5b18-4a9b-873e-5b261a350104"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer, iOS | Mirage | Union Square, New York City | 2 | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/mirage/d9805fdf-950e-45ec-b9be-be18f1cb6b5e"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-11-13 · 48 roles · 2 H-1B sponsor matches
+### 2026-11-13 · 47 roles · 2 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -530,7 +532,6 @@ _Last updated: 2026-11-21 11:22 UTC_
 | Machine Learning & Data Engineer, Vehicle Modeling | 42dot | Sunnyvale, United States | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/42dot/d118c92f-1378-404a-a98f-058948606d28"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Research Scientist, Open Benchmarks Red Team | Snorkel AI | New York City, NY (Hybrid); San Francisco, CA (Hybrid); United States (Remote) | Not specified | ❌ No | 15% | <a href="https://job-boards.greenhouse.io/snorkelai/jobs/6260926004"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data Engineer - Remote | Mindex | Rochester, New York, United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/nP3ccbM6TjSNBCuEAgkFmL/data-engineer---remote-in-rochester-at-mindex"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Product Owner - AI | Barclays | Bengaluru, Maruthi Onyx - TESCO TSA; Pune, Gera Commerzone SEZ | Not specified | ❌ No | 11% | <a href="https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Bengaluru-Maruthi-Onyx---TESCO-TSA/Vice-President---AI-Engineer_JR-0000102510"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer | GovDash | New York | Not specified | ❌ No | 11% | <a href="https://jobs.ashbyhq.com/govdash/911b41b3-c74a-44db-88ea-96cafb957466"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer I, Payments | Twitch | San Francisco, CA | 1 | ❌ No | 11% | <a href="https://job-boards.greenhouse.io/twitch/jobs/8943553002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Engineer - US Remote | Maneva | Atlanta, Georgia, United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/pVjFWmE7dnt4T8LoxNiLpv/ai-engineer---us-remote-in-atlanta-at-maneva"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -1310,7 +1311,7 @@ _Last updated: 2026-11-21 11:22 UTC_
 | Systems, Integration and Software Engineer Intern | Leidos | Atlantic City, NJ | Not specified | ❌ No | 4% | <a href="https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Atlantic-City-NJ/Systems--Integration-and-Software-Engineer-Intern_R-00194152"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Tenure-line Faculty Positions in Artificial Intelligence | Pennsylvania State University | Penn State University Park | Not specified | ❌ No | 4% | <a href="https://psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-University-Park/Tenure-line-Faculty-Positions-in-Artificial-Intelligence-_REQ_0000083172-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-10-21 · 41 roles · 0 H-1B sponsor matches
+### 2026-10-21 · 40 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -1319,7 +1320,6 @@ _Last updated: 2026-11-21 11:22 UTC_
 | Applied AI Engineer | Bandwidth | Raleigh, NC | Not specified | ❌ No | 26% | <a href="https://job-boards.greenhouse.io/bandwidth/jobs/8285488"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Engineer | SandboxAQ | United States | Not specified | ❌ No | 22% | <a href="https://jobs.ashbyhq.com/sandboxaq/3b34aecf-e980-44f2-ab4b-b884a29297ca"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Clinical Data Scientist | Xenon7 | Chicago, Illinois, United States | Not specified | ❌ No | 22% | <a href="https://jobs.workable.com/view/5fafDZ8TKzYtoufERkwNvb/hybrid-clinical-data-scientist-in-chicago-at-xenon7"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Clinical Data Scientist | Xenon7 | Ohio City, Ohio, United States | Not specified | ❌ No | 22% | <a href="https://jobs.workable.com/view/dUJ1iY7DMn6bMf8kjnJzfv/hybrid-clinical-data-scientist-in-ohio-city-at-xenon7"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Clinical Data Scientist | Xenon7 | Indianapolis, Indiana, United States | Not specified | ❌ No | 22% | <a href="https://jobs.workable.com/view/c2QEmyNmcUkbP6FYxUHbXh/hybrid-clinical-data-scientist-in-indianapolis-at-xenon7"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Full Stack Software Engineer - Software Engineer III | Deloitte | Des Moines, Iowa, United States | 2 | ❌ No | 22% | <a href="https://apply.deloitte.com/en_US/careers/JobDetail/Full-Stack-Software-Engineer-Software-Engineer-III/372539"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Developer Experience Engineer | PlanetScale | Remote US | Not specified | ❌ No | 19% | <a href="https://job-boards.greenhouse.io/planetscale/jobs/4463390009"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -1382,11 +1382,11 @@ _Last updated: 2026-11-21 11:22 UTC_
 | Data & AI Forward Deployed Engineer | RevStar | New York, New York, United States | Not specified | ❌ No | 19% | <a href="https://jobs.workable.com/view/bxvVkFgci4uHvrPSLk9FR4/remote-data-%26-ai-forward-deployed-engineer-in-new-york-at-revstar"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data & AI Forward Deployed Engineer | RevStar | Illinois, United States | Not specified | ❌ No | 19% | <a href="https://jobs.workable.com/view/ncdwmmxHRjCVwF27vdxnzK/remote-data-%26-ai-forward-deployed-engineer-in-illinois-at-revstar"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data & AI Forward Deployed Engineer | RevStar | South Carolina, United States | Not specified | ❌ No | 19% | <a href="https://jobs.workable.com/view/7VhyhwNSeV7JeQ7BiQFYhh/remote-data-%26-ai-forward-deployed-engineer-in-south-carolina-at-revstar"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Data & AI Forward Deployed Engineer | RevStar | Idaho, United States | Not specified | ❌ No | 19% | <a href="https://jobs.workable.com/view/uydPbJo3P2S1Rm4T2B7ogh/remote-data-%26-ai-forward-deployed-engineer-in-idaho-at-revstar"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data & AI Forward Deployed Engineer | RevStar | Georgia, United States | Not specified | ❌ No | 19% | <a href="https://jobs.workable.com/view/kaUe24KEcCHM8S8rzodj2C/remote-data-%26-ai-forward-deployed-engineer-in-georgia-at-revstar"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data & AI Forward Deployed Engineer | RevStar | Arizona, United States | Not specified | ❌ No | 19% | <a href="https://jobs.workable.com/view/oAXekpLkyuLgqCtL6ErR4u/remote-data-%26-ai-forward-deployed-engineer-in-arizona-at-revstar"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data & AI Forward Deployed Engineer | RevStar | Florida, United States | Not specified | ❌ No | 19% | <a href="https://jobs.workable.com/view/5SL7YYZAhmJoTCiagXbhxF/remote-data-%26-ai-forward-deployed-engineer-in-florida-at-revstar"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Data & AI Forward Deployed Engineer | RevStar | Texas, United States | Not specified | ❌ No | 19% | <a href="https://jobs.workable.com/view/aZAai8rnRt7Kjq4Xn6Qr3h/remote-data-%26-ai-forward-deployed-engineer-in-texas-at-revstar"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Data & AI Forward Deployed Engineer | RevStar | Idaho, United States | Not specified | ❌ No | 19% | <a href="https://jobs.workable.com/view/uydPbJo3P2S1Rm4T2B7ogh/remote-data-%26-ai-forward-deployed-engineer-in-idaho-at-revstar"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Full-Stack Engineer, Angular, Java, Node.js, AWS | Vanguard | Malvern, PA | Not specified | ❌ No | 19% | <a href="https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Malvern-PA/Full-Stack-Engineer--Angular--Java--Nodejs--AWS_182787-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Machine Learning Engineer | Chooch | Pleasanton, California, United States | Not specified | ❌ No | 19% | <a href="https://jobs.workable.com/view/jquUJNZpGVHaYngfouAexD/hybrid-machine-learning-engineer-in-pleasanton-at-chooch"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Mobile Software Engineer Intern - Summer 2027 | Skydio | San Mateo, California, United States | Not specified | ❌ No | 19% | <a href="https://jobs.ashbyhq.com/skydio/8a237302-3fe8-4403-b32b-7690f333ba52"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -1706,7 +1706,7 @@ _Last updated: 2026-11-21 11:22 UTC_
 | AI Research Engineer/Scientist - Human Data - Robotics | Flexion Robotics | San Francisco, California, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/cot9vnUkDGy9h9TeMpyBDQ/ai-research-engineer%2Fscientist---human-data---robotics-in-san-francisco-at-flexion-robotics"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Application Engineer - AI Data Centers, US (m/f/x) | Skeleton Technologies | Houston, Texas, United States | Not specified | ❌ No | 4% | <a href="https://jobs.workable.com/view/wDVadE8brvsgr6cxYJTpGM/remote-application-engineer---ai-data-centers%2C-us-(m%2Ff%2Fx)-in-houston-at-skeleton-technologies"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-10-07 · 20 roles · 2 H-1B sponsor matches
+### 2026-10-07 · 19 roles · 2 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -1723,7 +1723,6 @@ _Last updated: 2026-11-21 11:22 UTC_
 | Digital Products & AI Strategy Intern - Summer 2027 - Franklin, TN | Nissan Global | Franklin, Tennessee - United States of America | Not specified | ❌ No | 19% | <a href="https://alliance.wd3.myworkdayjobs.com/en-US/nissanjobs/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Software Intern - Cloud, Infrastructure & Data Centre Deployment (USA) | Tenstorrent | Austin, Texas, United States; Santa Clara, California, United States | Not specified | ❌ No | 15% | <a href="https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256686007"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Applied Scientist | Zillow | Remote-USA | 2 | ❌ No | 15% | <a href="https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Applied-Scientist_P751481-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Cloud Platform Engineer | Sonar | Geneva | 2 | ❌ No | 15% | <a href="https://jobs.lever.co/sonarsource/cea00267-a79c-486b-8e6d-e67b89917101"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | LLM Inference Systems Engineer | Hippocratic AI | Menlo Park, CA | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/Hippocratic%20AI/5f6ec723-fb80-4144-b1c1-3b63ea04f8a9"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Development Engineer | Micron Technology | Boise, ID - Main Site | Not specified | ❌ No | 15% | <a href="https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Software-Development-Engineer_JR114339"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Analytics Engineer | Shepherd | San Francisco | Not specified | ❌ No | 11% | <a href="https://jobs.ashbyhq.com/shepherd/2ee4ffbf-a5fd-4f6b-99bd-a06eb0efc4ce"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -1788,7 +1787,7 @@ _Last updated: 2026-11-21 11:22 UTC_
 | --- | --- | --- | ---: | --- | ---: | --- |
 | Research Engineer - 6G AI-Enabled Systems and Testbeds | Interdigital | Conshohocken, PA | Not specified | ❌ No | 37% | <a href="https://interdigital.wd5.myworkdayjobs.com/en-US/InterDigital_Career/job/Conshohocken-PA/Research-Engineer---6G-AI-Enabled-Systems-and-Testbeds_REQ26-1144"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-10-02 · 14 roles · 0 H-1B sponsor matches
+### 2026-10-02 · 13 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -1796,7 +1795,6 @@ _Last updated: 2026-11-21 11:22 UTC_
 | Full Stack Software Engineer - Software Engineer II | Deloitte | Des Moines, Iowa, United States | 2 | ❌ No | 22% | <a href="https://apply.deloitte.com/en_US/careers/JobDetail/Full-Stack-Software-Engineer-Software-Engineer-II/369605"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | 2027 Co-op Data Analytics & Digital Tools (IOPS) | Regeneron Pharmaceuticals | RENSSELAER | Not specified | ❌ No | 19% | <a href="https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/RENSSELAER/XMLNAME-2027-Co-op-Data-Analytics---Digital-Tools--IOPS-_R50983-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Analytics Engineer | SupplyHouse.com | Remote, Remote, United States | 2 | ❌ No | 19% | <a href="https://boards.greenhouse.io/supplyhouse/jobs/6199457004?gh_jid=6199457004"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Core Software Engineer | E-Space | Santa Clara, CA | Not specified | ❌ No | 19% | <a href="https://jobs.lever.co/espace/5f7afa91-398e-4a30-ac9f-b6f6e04d02fa"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer, Embedded | Apex | Los Angeles | 2 | ❌ No | 19% | <a href="https://jobs.ashbyhq.com/apex-technology-inc/3fcb723d-da79-4b36-847b-541d613b19d5"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer, Growth | Numeral | New York | 2 | ❌ No | 19% | <a href="https://jobs.ashbyhq.com/numeral/4019093f-a90b-476a-82af-c8a2bcf289d1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | SVP, Technology Risk & AI Governance | LPL Financial Holdings | Fort Mill/Charlotte; New York; Arlington VA | Not specified | ❌ No | 19% | <a href="https://lplfinancial.wd1.myworkdayjobs.com/en-US/External/job/Fort-MillCharlotte/SVP--Technology-Risk---AI-Governance_R-054145"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -2230,7 +2228,7 @@ _Last updated: 2026-11-21 11:22 UTC_
 | Software Engineer, Engine Infrastructure | Roblox | San Mateo, CA, United States | Not specified | ❌ No | 15% | <a href="https://careers.roblox.com/jobs/8171506?gh_jid=8171506"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Embedded Software Engineer | Lexington Medical | Bedford, MA | Not specified | ❌ No | 7% | <a href="https://job-boards.greenhouse.io/lexingtonmedical/jobs/5419363008"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-09-08 · 15 roles · 0 H-1B sponsor matches
+### 2026-09-08 · 14 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -2248,7 +2246,6 @@ _Last updated: 2026-11-21 11:22 UTC_
 | Software Engineer- Money Movement | Coinbase | Remote - USA | 2 | ❌ No | 22% | <a href="https://www.coinbase.com/careers/positions/8177946?gh_jid=8177946"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | UNPAID VOLUNTEER - Technology Officer - Internet of Things (IoT) & Data Engineer | Digital Technology Institute for Development (DTID) | United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/qmZSkLfnvEt1Kw28zkejXX/remote-unpaid-volunteer---technology-officer---internet-of-things-(iot)-%26-data-engineer-in-united-states-at-digital-technology-institute-for-development-(dtid)"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Physical Security Systems Engineer | SFMOMA | San Francisco, CA | Not specified | ❌ No | 7% | <a href="https://jobs.lever.co/sfmoma/fe978c5a-1bcd-4650-9617-c6506ca26e6d"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Platform Engineer | Zopa | Manchester | Not specified | ❌ No | 7% | <a href="https://jobs.lever.co/zopa/a87c80d9-4a4d-4238-80e2-d3eebcb74c5a"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
 ### 2026-09-07 · 1 role · 0 H-1B sponsor matches
 
@@ -2554,8 +2551,8 @@ _Last updated: 2026-11-21 11:22 UTC_
 | New Grad 2027 - Platform Engineer | LPL Financial Holdings | Fort Mill/Charlotte; Austin, TX | 0-2 | ❌ No | 26% | <a href="https://lplfinancial.wd1.myworkdayjobs.com/en-US/university/job/Fort-MillCharlotte/New-Grad---2027---Platform-Engineering_R-052500-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer | SpaceX | Starbase, TX | 2 | ❌ No | 26% | <a href="https://boards.greenhouse.io/spacex/jobs/8726545002?gh_jid=8726545002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Robotics Control Software Engineer | Xaira Therapeutics | South San Francisco, California, United States | Not specified | ❌ No | 22% | <a href="https://job-boards.greenhouse.io/xairatherapeutics/jobs/5212689007"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Security Software Engineer (Starlink) | SpaceX | Bastrop, TX | 2 | ❌ No | 15% | <a href="https://boards.greenhouse.io/spacex/jobs/8719865002?gh_jid=8719865002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Security Software Engineer (Starlink) | SpaceX | Hawthorne, CA | 2 | ❌ No | 15% | <a href="https://boards.greenhouse.io/spacex/jobs/8719860002?gh_jid=8719860002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Security Software Engineer (Starlink) | SpaceX | Bastrop, TX | 2 | ❌ No | 15% | <a href="https://boards.greenhouse.io/spacex/jobs/8719865002?gh_jid=8719865002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Security Software Engineer (Starlink) | SpaceX | Redmond, WA | 2 | ❌ No | 15% | <a href="https://boards.greenhouse.io/spacex/jobs/8719854002?gh_jid=8719854002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer, Plugin Developer Platform | OpenAI | San Francisco | Not specified | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/openai/71838fdf-4476-490c-81b6-4bf0746f6774"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Front End Engineer, Marketing | Anthropic | San Francisco, CA \| New York City, NY | Not specified | ❌ No | 11% | <a href="https://job-boards.greenhouse.io/anthropic/jobs/5386971008"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -2778,8 +2775,8 @@ _Last updated: 2026-11-21 11:22 UTC_
 | Application Software Engineer, Applied AI | SpaceX | Vandenberg, CA | 2 | ❌ No | 30% | <a href="https://boards.greenhouse.io/spacex/jobs/8658742002?gh_jid=8658742002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Application Software Engineer, Applied AI | SpaceX | Starbase, TX | 2 | ❌ No | 30% | <a href="https://boards.greenhouse.io/spacex/jobs/8658738002?gh_jid=8658738002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Application Software Engineer, Applied AI | SpaceX | McGregor, TX | 2 | ❌ No | 30% | <a href="https://boards.greenhouse.io/spacex/jobs/8658740002?gh_jid=8658740002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Application Software Engineer, Applied AI | SpaceX | Hawthorne, CA | 2 | ❌ No | 30% | <a href="https://boards.greenhouse.io/spacex/jobs/8658628002?gh_jid=8658628002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Application Software Engineer, Applied AI | SpaceX | Bastrop, TX | 2 | ❌ No | 30% | <a href="https://boards.greenhouse.io/spacex/jobs/8658737002?gh_jid=8658737002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Application Software Engineer, Applied AI | SpaceX | Hawthorne, CA | 2 | ❌ No | 30% | <a href="https://boards.greenhouse.io/spacex/jobs/8658628002?gh_jid=8658628002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Engineer | LiteLLM | San Francisco | 2 | ❌ No | 19% | <a href="https://jobs.ashbyhq.com/litellm/6e025e39-6f8a-46bd-91f7-8784d1f5076b"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | IT Systems Engineer II | Sierra Space | Louisville, CO | 2 | ❌ No | 11% | <a href="https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/IT-Systems-Engineer-II_R25974-1"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Systems Engineer | VAST | Long Beach, California, United States | 2 | ❌ No | 11% | <a href="https://boards.greenhouse.io/vast/jobs/4701302006?gh_jid=4701302006"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -2923,14 +2920,13 @@ _Last updated: 2026-11-21 11:22 UTC_
 | AI Text Validation Specialist (Czech language) | TSMG | Remote in Czech Republic | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/b7994b19-2f2c-48b8-80ff-f6b83f91c684"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | AI Text Validation Specialist (Hungarian language) | TSMG | Remote in Hungary | Not specified | ❌ No | 4% | <a href="https://jobs.lever.co/tsmg/36445b51-f38e-4de1-b72e-999c6cf6f019"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-07-16 · 4 roles · 0 H-1B sponsor matches
+### 2026-07-16 · 3 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
 | Software Engineer, Test Infrastructure (C/C++) | SpaceX | Hawthorne, CA | 2 | ❌ No | 26% | <a href="https://boards.greenhouse.io/spacex/jobs/8637049002?gh_jid=8637049002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Fullstack Engineer, UI Tools | Kodiak Robotics | Mountain View, CA | 2 | ❌ No | 22% | <a href="https://job-boards.greenhouse.io/kodiak/jobs/4320932009"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Research Scientist, Life Sciences (Computational) | Anthropic | San Francisco, CA | Not specified | ❌ No | 19% | <a href="https://job-boards.greenhouse.io/anthropic/jobs/5357739008"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Software Engineer | ApolloTech MSI | PICATINNY ARS, New Jersey, United States | Not specified | ❌ No | 11% | <a href="https://jobs.workable.com/view/5vbQW6ufFyqDAv1EiS6GMM/software-engineer-in-picatinny-ars-at-apollotech-msi"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
 ### 2026-07-15 · 5 roles · 0 H-1B sponsor matches
 
@@ -2983,7 +2979,7 @@ _Last updated: 2026-11-21 11:22 UTC_
 | RF Software Engineer (Starlink) | SpaceX | Bastrop, TX | 1 | ❌ No | 11% | <a href="https://boards.greenhouse.io/spacex/jobs/8624761002?gh_jid=8624761002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Frontend Software Engineer | Weekday AI | United States | Not specified | ❌ No | 7% | <a href="https://jobs.workable.com/view/8nP8Zswk3C2vrTpK1H139r/remote-frontend-software-engineer-in-united-states-at-weekday-ai"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-07-09 · 9 roles · 0 H-1B sponsor matches
+### 2026-07-09 · 8 roles · 0 H-1B sponsor matches
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
@@ -2991,7 +2987,6 @@ _Last updated: 2026-11-21 11:22 UTC_
 | Data Engineer (Starlink) | SpaceX | Hawthorne, CA | 1 | ❌ No | 26% | <a href="https://boards.greenhouse.io/spacex/jobs/8626500002?gh_jid=8626500002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer, ChatGPT Shopping | OpenAI | San Francisco | Not specified | ❌ No | 26% | <a href="https://jobs.ashbyhq.com/openai/ca54cd23-2bcc-4327-bcb6-46d81ed414a8"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Systems Engineer, Data Intelligence & Analytics Team | Cloudflare | In-Office | Not specified | ❌ No | 22% | <a href="https://boards.greenhouse.io/cloudflare/jobs/8050813?gh_jid=8050813"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
-| Cloud Platform Engineer | Sonar | Austin, Texas | 1 | ❌ No | 15% | <a href="https://jobs.lever.co/sonarsource/2af7d7de-0c0d-4178-a538-8989e24f37c8"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Finance & AI Automation Intern | Faraday Future | El Segundo, California, United States | Not specified | ❌ No | 15% | <a href="https://job-boards.greenhouse.io/faradayfuture/jobs/7799326003"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Robotics Software Engineer, Motion Planning | Path Robotics | Columbus, Ohio | 2 | ❌ No | 15% | <a href="https://boards.greenhouse.io/pathrobotics/jobs/8627330002?gh_jid=8627330002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Power Systems Engineer (Starship Avionics) | SpaceX | Hawthorne, CA | 1 | ❌ No | 4% | <a href="https://boards.greenhouse.io/spacex/jobs/8627410002?gh_jid=8627410002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
@@ -3117,11 +3112,12 @@ _Last updated: 2026-11-21 11:22 UTC_
 | Site Reliability Engineer — HPC & Automation (Silicon Engineering) | SpaceX | Redmond, WA | 2 | ❌ No | 19% | <a href="https://boards.greenhouse.io/spacex/jobs/8614963002?gh_jid=8614963002"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer III | Bank of America | Bromley | Not specified | ❌ No | 11% | <a href="https://ghr.wd1.myworkdayjobs.com/en-US/lateral-emea/job/Bromley/Software-Engineer-III_26016372"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
-### 2026-06-30 · 2 roles · 1 H-1B sponsor match
+### 2026-06-30 · 3 roles · 1 H-1B sponsor match
 
 | Role | Company | Location | YOE | H1b Sponsorship | Percentage of alignment | Apply link |
 | --- | --- | --- | ---: | --- | ---: | --- |
 | Forward Deployed Software Engineer, Internship - Commercial | Palantir | Chicago, IL | Not specified | ✅ Yes | 22% | <a href="https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
+| Data Analyst - Digital & E-commerce (experimentation, ML, Math/Stats) | Target | 1000 Nicollet Mall, Minneapolis,MN 55403-2542 | 1 | ❌ No | 26% | <a href="https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Data-Analyst---ECommerce-Product-Analytics--experimentation--ML--Math-Stats-_R0000442291"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 | Software Engineer | Curri | United States | 2 | ❌ No | 15% | <a href="https://jobs.ashbyhq.com/curri/25fff41f-da1c-4b34-9120-0d91c251a111"><img alt="Apply" src="https://img.shields.io/badge/Apply-Open-2563eb?style=flat-square"></a> |
 
 ### 2026-06-29 · 4 roles · 1 H-1B sponsor match
